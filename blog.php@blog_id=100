@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SHEFIT</title>
+	<link rel="stylesheet" type="text/css" href="css/slick.css@9043">
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css@4598">
+	<link rel="stylesheet" type="text/css" href="css/style_main.css@6335">
+	<body>
+	<div class="container">
+		<header id="header" class="header">
+	<div class="top_header container">
+		<table width="100%" cellspacing="0" cellpadding="0">
+			<tr>
+				<td>
+					<a href="index.html">
+						<span class="home_icon">
+							<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.3103 1.77586C11.6966 1.40805 12.3034 1.40805 12.6897 1.77586L20.6897 9.39491L23.1897 11.7759C23.5896 12.1567 23.605 12.7897 23.2241 13.1897C22.8433 13.5896 22.2103 13.605 21.8103 13.2241L21 12.4524V20C21 21.1046 20.1046 22 19 22H14H10H5C3.89543 22 3 21.1046 3 20V12.4524L2.18966 13.2241C1.78972 13.605 1.15675 13.5896 0.775862 13.1897C0.394976 12.7897 0.410414 12.1567 0.810345 11.7759L3.31034 9.39491L11.3103 1.77586ZM5 10.5476V20H9V15C9 13.3431 10.3431 12 12 12C13.6569 12 15 13.3431 15 15V20H19V10.5476L12 3.88095L5 10.5476ZM13 20V15C13 14.4477 12.5523 14 12 14C11.4477 14 11 14.4477 11 15V20H13Z" fill="#9b5e6e"/></svg>
+						</span> 
+						Home
+					</a>
+				</td>
+				<td style="text-align: right;">
+					<a href="quiz">
+						<span class="home_icon">
+							<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 14V7C20 5.34315 18.6569 4 17 4H7C5.34315 4 4 5.34315 4 7V17C4 18.6569 5.34315 20 7 20H13.5M20 14L13.5 20M20 14H15.5C14.3954 14 13.5 14.8954 13.5 16V20" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 8H16" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 12H12" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+						</span>
+						Body Quiz
+					</a>
+					<span class="ngancach">|</span> 
+												<a href="login">
+								<span class="home_icon">
+									<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M13 3C13 2.44772 12.5523 2 12 2C11.4477 2 11 2.44772 11 3V12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12V3ZM8.6092 5.8744C9.09211 5.60643 9.26636 4.99771 8.99839 4.5148C8.73042 4.03188 8.12171 3.85763 7.63879 4.1256C4.87453 5.65948 3 8.61014 3 12C3 16.9706 7.02944 21 12 21C16.9706 21 21 16.9706 21 12C21 8.66747 19.1882 5.75928 16.5007 4.20465C16.0227 3.92811 15.4109 4.09147 15.1344 4.56953C14.8579 5.04759 15.0212 5.65932 15.4993 5.93586C17.5942 7.14771 19 9.41027 19 12C19 15.866 15.866 19 12 19C8.13401 19 5 15.866 5 12C5 9.3658 6.45462 7.06997 8.6092 5.8744Z" fill="#9b5e6e"/></svg>
+								</span>
+								Đăng nhập
+							</a>
+									</td>
+
+			</tr>
+		</table>
+	</div>
+	<div class="main_header">
+		<ul class="clearfix">
+			<li><a href="khoahoc">Khóa học</a></li>
+			<li><a href="thucdon">Thực đơn</a></li>
+			<li><a href="huanluyenvien">Giáo viên</a></li>
+			<li><a href="sanpham">Dụng cụ</a></li>
+			<li><a href="thucpham">Thực phẩm</a></li>
+			<li><a href="blog">Blog</a></li>
+		</ul>
+	</div>
+</header>
+		<div class="box01">
+														<nav aria-label="breadcrumb" class="breadcrumb">
+							  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							   		&#10070;
+							      <a itemprop="item" href="index.html">
+							        <span itemprop="name">Trang chủ</span>
+							      </a>
+							      <meta itemprop="position" content="1" />
+							    </li>
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							      <a itemprop="item" href="blog.php">
+							        <span itemprop="name">Blog</span>
+							      </a>
+							      <meta itemprop="position" content="2" />
+							    </li>
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							      <a itemprop="item" href="blog.php">
+							        <span itemprop="name">THIẾU MÁU THIẾU SẮT NÊN ĂN NGHỆ? LIỆU CÓ ĐÚNG NHƯ LỜI ĐỒN</span>
+							      </a>
+							      <meta itemprop="position" content="3" />
+							    </li>
+							  </ol>
+							</nav>
+							<h1 class="tit_01">THIẾU MÁU THIẾU SẮT NÊN ĂN NGHỆ? LIỆU CÓ ĐÚNG NHƯ LỜI ĐỒN</h1>
+							<div class="blog_meta">
+								<table width="100%" cellpadding="0" cellspacing="0">
+									<tr>
+										<td>
+											<svg width="10%" height="10%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 14C8.13401 14 5 17.134 5 21H19C19 17.134 15.866 14 12 14Z" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Phạm Nguyễn Quỳnh Anh</td>
+										<td class="txt_right">
+											<svg width="10%" height="10%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 10V7C20 5.89543 19.1046 5 18 5H6C4.89543 5 4 5.89543 4 7V10M20 10V19C20 20.1046 19.1046 21 18 21H6C4.89543 21 4 20.1046 4 19V10M20 10H4M8 3V7M16 3V7" stroke="#666666" stroke-width="2" stroke-linecap="round"/><rect x="6" y="12" width="3" height="3" rx="0.5" fill="#666666"/><rect x="10.5" y="12" width="3" height="3" rx="0.5" fill="#666666"/><rect x="15" y="12" width="3" height="3" rx="0.5" fill="#666666"/></svg>
+											2023-11-15										</td>
+									</tr>
+								</table>
+							</div><br>
+							<div class="slide_blog">
+																			<div><img src="img/upload/20241016223544.jpeg"></div>
+																	</div>
+							<div class="blog_noidung">Nghệ là một loại gia vị phổ biến, rất thường xuất hiện trong nền ẩm thực của Châu Á, và nổi tiếng là thành phần quan trọng của món cà ri. Vị đắng và ấm của nghệ không chỉ làm tăng hương vị của các món ăn mà còn được sử dụng để tạo màu cho chúng.
+<div>Ngoài vai trò trong nấu ăn, củ nghệ cũng được sử dụng trong lĩnh vực y học và thảo dược. <i>Chất màu vàng trong nghệ gọi là curcumin, mà nó được sử dụng để làm màu thực phẩm và sản phẩm làm đẹp</i>. Bên cạnh đó có nhiều ý kiến cho rằng ăn nghệ có thể cải thiện được tình trạng thiếu máu thiếu sắt. Bài viết dưới đây sẽ cho bạn câu trả lời chính xác việc thiếu máu thiếu sắt có nên sử dụng nghệ hay không. 
+</div><div><br></div><div><b>Thiếu máu thiếu sắt có nên ăn nghệ không?<br></b></div><div>Củ nghệ được biết đến là một chất chống viêm và chống ung thư hiệu quả. Tuy nhiên, củ nghệ cũng có một khía cạnh cần được xem xét cẩn thận khi sử dụng, đặc biệt đối với những người có vấn đề liên quan đến sắt.
+</div><div>Một số nghiên cứu trên động vật, chẳng hạn như thí nghiệm trên chuột, đã cho thấy các hợp chất hoá học trong củ nghệ có thể tạo phức hợp với sắt trong ruột và gây ra tình trạng thiếu sắt. Cụ thể, hoạt chất curcumin trong củ nghệ có khả năng tạo phức hợp với sắt ferric (Fe3+), ức chế sự hấp thụ sắt từ 20% đến 90% ở con người. Curcumin cũng ức chế sự tổng hợp của hepcidin, một peptit quan trọng có liên quan đến cân bằng sắt trong cơ thể. Thiếu sắt có thể dẫn đến tình trạng thiếu máu nghiêm trọng, điều này đặc biệt quan trọng đối với những người đã có tiền sử thiếu máu hoặc rối loạn liên quan đến sắt. Tuy nhiên, nó cũng cần lưu ý rằng khả năng ức chế sự hấp thụ sắt ở ruột của củ nghệ có thể có lợi cho những người gặp phải tình trạng sắt quá nhiều, chẳng hạn như trong trường hợp bệnh huyết sắc tố hoặc bệnh thiếu máu tán huyết hoặc tan máu bẩm sinh. Vì vậy,<i> những người có biểu hiện thiếu máu do thiếu sắt không nên sử dụng nghệ trong chế độ ăn của mình hoặc hãy tham khảo ý kiến của bác sĩ hoặc chuyên gia dinh dưỡng trước khi bắt đầu sử dụng bất kỳ loại bổ sung từ củ nghệ.
+</i></div><div><br></div><div><b>Tại sao thiếu máu lại không nên sử dụng nghệ<br></b></div><div>Thiếu máu, còn được gọi là bệnh thiếu máu (anemia), là tình trạng trong đó cơ thể có lượng hồng cầu hoặc hemoglobin (chất trong hồng cầu giúp vận chuyển oxy) dưới mức bình thường. Nguyên nhân của thiếu máu có thể là do nhiều yếu tố, bao gồm sự thiếu hụt dưỡng chất, sự mất máu do chấn thương hoặc ký sinh trùng, và các bệnh lý khác.
+</div><div>Một số người cho rằng nghệ (turmeric) có thể giúp trong việc điều trị hoặc ngăn ngừa thiếu máu do khả năng chất curcumin có trong nghệ có tính chất kháng viêm và chống ô nhiễm. Tuy nhiên, nguyên nhân chính là do nghệ có thể ảnh hưởng đến chức năng cụ thể trong máu. Nghệ chứa một hợp chất gọi là curcumin, có khả năng làm giảm đông máu bằng cách tác động lên các yếu tố trong máu để ngăn chúng kết dính lại với nhau. Điều này có thể giúp ngăn chặn sự hình thành cục máu hoặc tạo thành huyết khối, điều này có thể làm giảm nguy cơ các bệnh liên quan đến đông máu, như bệnh tim và đột quỵ.
+</div><div>Do vậy, nếu bạn đã có tình trạng thiếu máu hoặc đang sử dụng thuốc ức chế đông máu, sử dụng nghệ nên được thực hiện dưới sự giám sát của bác sĩ. 
+</div><div><br></div><div><b>Tác dụng phụ và an toàn khi sử dụng nghệ<br></b></div><div>Nghệ được coi là an toàn khi sử dụng bằng đường uống trong khoảng thời gian ngắn. Việc sử dụng các sản phẩm từ nghệ cung cấp đến 8 gam chất curcumin mỗi ngày cũng được xem xét an toàn khi sử dụng tối đa trong 2 tháng. Thực tế, nghệ hiếm khi gây ra các tác dụng phụ quá nghiêm trọng đối với sức khỏe. Tuy nhiên, một số người có thể trải qua những tác dụng phụ nhẹ như buồn nôn, đau bụng, tiêu chảy và chóng mặt, thường khi sử dụng nghệ ở liều cao.
+</div><div>Ngoài việc uống, nghệ cũng an toàn khi sử dụng dưới dạng kem để bôi lên da. Nó cũng có thể không gây ra tác dụng phụ khi được thoa lên vùng da bên trong miệng hoặc khi thoa vào trực tràng, và thậm chí, loại củ nghệ này cũng có thể làm thuốc xổ.
+</div><div>Tuy nhiên, cần lưu ý một số cảnh báo đặc biệt khi sử dụng nghệ:
+</div><div><b>- Đối với phụ nữ mang thai và cho con bú: </b>Nghệ là thực phẩm an toàn tuyệt đối khi sử dụng bằng đường uống với một số loại thực phẩm trong thời kỳ mang thai và cho con bú. Tuy nhiên, cần thận trọng khi kết hợp nghệ với một số loại thuốc trong thai kỳ, vì nó có thể gây nguy hiểm cho cả mẹ và bé.
+</div><div><b>- Các vấn đề liên quan đến túi mật: </b>Nghệ có thể làm trầm trọng hơn các vấn đề về túi mật. Do đó, bạn nên tránh sử dụng nghệ nếu mắc bệnh sỏi thận hoặc tắc nghẽn ống mật.
+</div><div><b>- Tình trạng chảy máu:</b> Sử dụng nghệ có thể làm chậm quá trình đông máu, làm tăng nguy cơ chảy máu và bầm tím ở những người có rối loạn chảy máu.
+</div><div><b>- Cơ thể trở nên nhạy cảm với hormone:</b> Curcumin trong nghệ có thể hoạt động như hormone estrogen, làm cơ thể trở nên nhạy cảm với hormone hơn. Ngoài ra, nghệ cũng có thể ảnh hưởng đến sự tác động của estrogen ở một số tế bào ung thư nhạy cảm với hormone, chẳng hạn như ung thư vú, ung thư tử cung, u xơ tử cung, lạc nội mạc tử cung và ung thư buồng trứng. Do đó, nếu bạn mắc một loại bệnh lý nhất định, hãy tham khảo ý kiến bác sĩ trước khi sử dụng nghệ.
+</div><div><b>- Ảnh hưởng đến khả năng sinh sản:</b> Sử dụng nghệ có thể làm giảm hormone testosterone và sự di chuyển của tinh trùng ở nam giới, ảnh hưởng đến khả năng sinh sản. Do đó, nếu bạn đang cố gắng sinh con, nên thận trọng khi sử dụng nghệ.
+</div><div><b>- Thiếu sắt:</b> Nghệ có thể làm trở ngại quá trình hấp thụ sắt trong cơ thể. Điều này có thể ảnh hưởng đến những người bị thiếu sắt, vì vậy cần thận trọng khi sử dụng nghệ, đặc biệt nếu bạn mắc bệnh thiếu sắt.
+</div><div><br></div><div><i>Tài liệu tham khảo<br></i></div><div>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6414192/#:~:text=Turmeric%20supplementation%20is%20increasingly%20common,such%20as%20sickle%20cell%20disease.
+</div><div>https://www.healthline.com/health/osteoarthritis/turmeric-and-anti-inflammatory-herbs#clove
+</div><div><br></div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>	
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div></div>
+											</div>
+	</div>
+	<div id="timhieuthem">
+		<div class="content"></div>
+		<a class="close_timhieuthem">&#215;</a>
+	</div>
+	<div id="play_youtube"></div>
+	<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/jquery.simplePagination.min.js"></script>
+<script src="js/pdf.min.js"></script>
+<br>
+<footer class="container" id="footer">
+	<div class="top_footer clearfix">
+		<a href="index.html"><img src="img/logo_footer.png" alt="" width="100%"></a>
+	</div>
+	<div class="box01">
+		<h2 class="tit_07">FITNESS FOR WOMAN</h2>
+		<div class="txt_01">Start-up giúp cho chị em phái yếu có vóc dáng đẹp & sức khỏe dẻo dai một cách tiện lợi & tiết kiệm.</div><br><br>
+		<h3 class="tit_08">CÔNG TY TNHH SHEFIT</h2>
+		<table class="list_footer">
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Văn phòng</td>
+				<td width="1">:</td>
+				<td>Khu The Sun Avenue, An Phú, Q2, TPHCM</td>
+			</tr>
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Hotline</td>
+				<td width="1">:</td>
+				<td><a href="tel:0906934821">0906934821</a></td>
+			</tr>
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Email</td>
+				<td width="1">:</td>
+				<td><a href="mailto:info@shefit.vn">info@shefit.vn</a></td>
+			</tr>
+		</table><br>
+		<table class="list_footer">
+			<tr>
+				<td width="40"><a href="https://zalo.me/0906934821" target="_blank"><img src="img/zalo_icon.png" alt=""></a></td>
+				<td width="5">&nbsp;</td>
+				<td width="40"><a href="https://www.facebook.com/shefitvn" target="_blank"><img src="img/facebook_icon.png" alt=""></a></td>
+				<td width="5">&nbsp;</td>
+				<td width="40"><a href="https://www.youtube.com/@GluteLab-LoNanDang-zl7td" target="_blank"><img src="img/youtube_icon.png" alt=""></a></td>
+			</tr>
+		</table><br>
+		<div class="copyright">
+			<a href="index.html">&copy; Ngôi Nhà Đầu Bếp 2024</a>
+		</div><br>
+	</div>
+</footer>
+
+	<script>
+		$(document).ready(function() {
+			$(document).on( "click", ".frame_youtube", function(e) {
+				$(this).addClass('active');
+				var youtube_id = $(this).attr('youtube_id');
+                $(this).html('<iframe src="https://www.youtube.com/embed/' + youtube_id + '?autoplay=1&rel=0&showinfo=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>');
+			});
+
+            initializeSlider();
+            function initializeSlider() {
+                $('.slide_blog').slick({
+					infinite: true,
+					slidesToShow: 1,
+					autoplay: true,
+					slidesToScroll: 1,
+					pauseOnHover: true,
+					dots: true,
+					arrows: true,
+					autoplay: true
+                });
+            }
+		});
+	</script>
+</body>
+</html>

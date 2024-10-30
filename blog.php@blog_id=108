@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SHEFIT</title>
+	<link rel="stylesheet" type="text/css" href="css/slick.css@1477">
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css@8217">
+	<link rel="stylesheet" type="text/css" href="css/style_main.css@6709">
+	<body>
+	<div class="container">
+		<header id="header" class="header">
+	<div class="top_header container">
+		<table width="100%" cellspacing="0" cellpadding="0">
+			<tr>
+				<td>
+					<a href="index.html">
+						<span class="home_icon">
+							<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.3103 1.77586C11.6966 1.40805 12.3034 1.40805 12.6897 1.77586L20.6897 9.39491L23.1897 11.7759C23.5896 12.1567 23.605 12.7897 23.2241 13.1897C22.8433 13.5896 22.2103 13.605 21.8103 13.2241L21 12.4524V20C21 21.1046 20.1046 22 19 22H14H10H5C3.89543 22 3 21.1046 3 20V12.4524L2.18966 13.2241C1.78972 13.605 1.15675 13.5896 0.775862 13.1897C0.394976 12.7897 0.410414 12.1567 0.810345 11.7759L3.31034 9.39491L11.3103 1.77586ZM5 10.5476V20H9V15C9 13.3431 10.3431 12 12 12C13.6569 12 15 13.3431 15 15V20H19V10.5476L12 3.88095L5 10.5476ZM13 20V15C13 14.4477 12.5523 14 12 14C11.4477 14 11 14.4477 11 15V20H13Z" fill="#9b5e6e"/></svg>
+						</span> 
+						Home
+					</a>
+				</td>
+				<td style="text-align: right;">
+					<a href="quiz">
+						<span class="home_icon">
+							<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 14V7C20 5.34315 18.6569 4 17 4H7C5.34315 4 4 5.34315 4 7V17C4 18.6569 5.34315 20 7 20H13.5M20 14L13.5 20M20 14H15.5C14.3954 14 13.5 14.8954 13.5 16V20" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 8H16" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 12H12" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+						</span>
+						Body Quiz
+					</a>
+					<span class="ngancach">|</span> 
+												<a href="login">
+								<span class="home_icon">
+									<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M13 3C13 2.44772 12.5523 2 12 2C11.4477 2 11 2.44772 11 3V12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12V3ZM8.6092 5.8744C9.09211 5.60643 9.26636 4.99771 8.99839 4.5148C8.73042 4.03188 8.12171 3.85763 7.63879 4.1256C4.87453 5.65948 3 8.61014 3 12C3 16.9706 7.02944 21 12 21C16.9706 21 21 16.9706 21 12C21 8.66747 19.1882 5.75928 16.5007 4.20465C16.0227 3.92811 15.4109 4.09147 15.1344 4.56953C14.8579 5.04759 15.0212 5.65932 15.4993 5.93586C17.5942 7.14771 19 9.41027 19 12C19 15.866 15.866 19 12 19C8.13401 19 5 15.866 5 12C5 9.3658 6.45462 7.06997 8.6092 5.8744Z" fill="#9b5e6e"/></svg>
+								</span>
+								Đăng nhập
+							</a>
+									</td>
+
+			</tr>
+		</table>
+	</div>
+	<div class="main_header">
+		<ul class="clearfix">
+			<li><a href="khoahoc">Khóa học</a></li>
+			<li><a href="thucdon">Thực đơn</a></li>
+			<li><a href="huanluyenvien">Giáo viên</a></li>
+			<li><a href="sanpham">Dụng cụ</a></li>
+			<li><a href="thucpham">Thực phẩm</a></li>
+			<li><a href="blog">Blog</a></li>
+		</ul>
+	</div>
+</header>
+		<div class="box01">
+														<nav aria-label="breadcrumb" class="breadcrumb">
+							  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							   		&#10070;
+							      <a itemprop="item" href="index.html">
+							        <span itemprop="name">Trang chủ</span>
+							      </a>
+							      <meta itemprop="position" content="1" />
+							    </li>
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							      <a itemprop="item" href="blog.php">
+							        <span itemprop="name">Blog</span>
+							      </a>
+							      <meta itemprop="position" content="2" />
+							    </li>
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							      <a itemprop="item" href="blog.php">
+							        <span itemprop="name">PROTEIN ẢNH HƯỞNG ĐẾN VIỆC TẬP LUYỆN NHƯ THẾ NÀO?</span>
+							      </a>
+							      <meta itemprop="position" content="3" />
+							    </li>
+							  </ol>
+							</nav>
+							<h1 class="tit_01">PROTEIN ẢNH HƯỞNG ĐẾN VIỆC TẬP LUYỆN NHƯ THẾ NÀO?</h1>
+							<div class="blog_meta">
+								<table width="100%" cellpadding="0" cellspacing="0">
+									<tr>
+										<td>
+											<svg width="10%" height="10%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 14C8.13401 14 5 17.134 5 21H19C19 17.134 15.866 14 12 14Z" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Trương Thuỷ Thuỳ Giang</td>
+										<td class="txt_right">
+											<svg width="10%" height="10%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 10V7C20 5.89543 19.1046 5 18 5H6C4.89543 5 4 5.89543 4 7V10M20 10V19C20 20.1046 19.1046 21 18 21H6C4.89543 21 4 20.1046 4 19V10M20 10H4M8 3V7M16 3V7" stroke="#666666" stroke-width="2" stroke-linecap="round"/><rect x="6" y="12" width="3" height="3" rx="0.5" fill="#666666"/><rect x="10.5" y="12" width="3" height="3" rx="0.5" fill="#666666"/><rect x="15" y="12" width="3" height="3" rx="0.5" fill="#666666"/></svg>
+											2023-11-21										</td>
+									</tr>
+								</table>
+							</div><br>
+							<div class="slide_blog">
+																			<div><img src="img/upload/20241026214842.png"></div>
+																	</div>
+							<div class="blog_noidung">Protein (đạm) là một trong những chất dinh dưỡng đa lượng hiện diện khắp nơi trong cơ thể, chúng tham gia và đóng vai trò quan trọng trong hoạt động sống và trao đổi chất của tế bào. Tuy nhiên, thực trạng dinh dưỡng ở Việt Nam cho thấy rằng phần lớn chúng ta nạp không đủ lượng đạm để đảm bảo cơ thể vận hành suôn sẻ. Việc đảm bảo tiêu thụ đầy đủ và đa dạng lượng protein là vô cùng quan trọng đối với sức khỏe của chúng ta. Không những vậy, việc nạp đủ hay thiếu protein còn ảnh hưởng đến việc luyện tập. Vậy Protein ảnh hưởng như thế nào đến cơ thể khi luyện tập? Hãy cùng tìm hiểu nhé!<div><br><div></div><div><b>1. Vai trò của protein trong cơ thể 
+</b></div><div>Trong các loại dưỡng chất đa lượng, protein là chất dinh dưỡng đa lượng có vai trò chính liên quan đến cấu trúc và chức năng của các tế bào, hình thành các cấu trúc cơ thể và phục vụ nhiều chức năng cần thiết của cơ thể. Mặc dù protein vẫn có thể được chuyển hóa thành năng lượng nhưng điều này chỉ xảy ra khi có nhiều protein trong chế độ ăn và/hoặc khi cơ thể đã sử dụng hết glycogen dự trữ (từ carbohydrate). Protein và axit amin là:&nbsp;</div><div>1. Thành phần của hầu hết mọi tế bào trên cơ thể (cơ sở cơ, da, móng,...);</div><div>2. Hình thành các enzyme và chất vận động tế bào (chất vận chuyển thần kinh);&nbsp;</div><div>3. Làm tín hiệu tế bào;&nbsp;</div><div>4. Đóng vai trò trong quá trình duy trì sự cân bằng chất lỏng;&nbsp;</div><div>5. Cân bằng độ pH;&nbsp;</div><div>6. Sản xuất hormone và chất dẫn truyền thần kinh;&nbsp;</div><div>7. Là thành phần chính trong hệ thống miễn dịch - Bạch cầu.
+</div><div><br></div><div>Protein được phân ra làm 2 loại:&nbsp;</div><div>- Protein hoàn chỉnh là nguồn protein chứa toàn bộ những EAAs (Essential Amino Acids) với hàm lượng tối ưu nhất định. Đa phần từ nguồn gốc động vật (thịt, cá, trứng, sữa bò,...)
+</div><div>- Protein không hoàn chỉnh, thường có nguồn gốc thực vật, vẫn chứa đầy đủ các loại acid amin, kể cả 9 loại thiết yếu. Tuy nhiên, lượng phân bố của các loại acid amin thiết yếu ở protein không hoàn chỉnh thường không được tối ưu như protein động vật (ngoại trừ đậu nành). Do đó, khi ăn các loại protein có nguồn gốc từ thực vật, chúng ta cần phải kết hợp đa dạng nhiều loại khác nhau để có thể bổ sung đầy đủ các loại axit amin cần thiết.
+</div><div><br></div><div><b>2. Tại sao việc bổ sung protein đầy đủ lại quan trọng?<br></b></div><div>Từ các vai trò chính của protein đối với cơ thể, ta đã có thể hiểu được tại sao việc nạp đầy đủ protein cho cơ thể lại quan trọng đến vậy. Bên cạnh đó, đã có rất nhiều nghiên cứu khoa học chỉ rõ những vai trò trọng yếu của protein và sự quan trọng của việc nạp đầy đủ protein trong quá trình tập luyện thể thao như:
+</div><div><br></div><div><b>- Hỗ trợ tăng cường phát triển phục hồi cơ bắp và tăng cường sức mạnh cơ bắp:</b> Trong quá trình tập luyện thể thao, đặc biệt là các môn thể thao kháng lực), các tế bào cơ không ngừng bị phá vỡ và tổn thương. Sau đó, protein sẽ tham gia vào vai trò tái tạo lại các tế bào cơ, và tăng sự phì đại cơ (hypertrophy) qua đó giúp cơ bắp của chúng ta được phục hồi và phát triển. Quá trình phát triển và phục hồi cơ bắp này cũng góp phần làm cho các sợi cơ của chúng ta trở nên dẻo dai và săn chắc hơn, qua đó giúp góp phần tăng cường sức mạnh cơ bắp. Quá trình tái tạo lại tế bào cơ chính là quá trình tổng hợp protein trong cơ bắp (Muscle protein synthesis). Quá trình này sẽ tối ưu hoá hơn khi chúng ta có một lượng Leucine (một axit amin thiết yếu) trong cơ thể bằng cách nạp đủ protein. 
+</div><div><br></div><div><b>- Tạo cảm giác no lâu:</b> Việc nạp đầy đủ protein cũng sẽ giúp chúng ta có cảm giác no lâu hơn, qua đó tránh cảm giác thiếu hụt năng lượng khi luyện tập. Do thời gian tiêu hóa của protein trong dạ dày kéo dài lâu hơn so với những dưỡng chất đa lượng khác. 
+</div><div><br></div><div><b>- Thúc đẩy cơ chế chuyển hóa, tăng tiêu thụ năng lượng (TDEE) và giúp đốt mỡ tốt hơn:</b> Vì nhiệt lượng cần để tiêu hoá Protein cao hơn so với carbohydrate và fat, nên việc  nạp đầy đủ protein giúp thúc đẩy cơ chế chuyển hoá, tăng sự tiêu thụ năng lượng và qua đó đẩy nhanh sự đốt mỡ của cơ thể. 
+</div><div><br></div><div><b>- Giúp duy trì/ hạn chế giảm cơ trong quá trình giảm mỡ:</b> Trong quá trình giảm cân, chúng ta thường có xu hướng ăn thâm hụt một lượng năng lượng nhất định, kèm theo đó là một kế hoạch vận động, tập luyện thể thao. Nếu không bổ sung đầy đủ protein, lượng cơ bắp của chúng ta sẽ bị phá vỡ và mất/teo đi vì không có đủ nguyên liệu để tái cấu trúc các tế bào cơ.
+</div><div><br></div><div><b>- Cung cấp năng lượng từ axit amin khi lượng glycogen bị cạn kiệt:</b> Trong những trường hợp tập luyện với tần suất cao và thời gian kéo dài, lượng năng lượng tức thời từ glucose và năng lượng dự trữ từ glycogen trong gan và cơ sẽ được sử dụng cạn kiệt. Lúc này, cơ thể sẽ phân giải protein trong cơ thành những axit amin và biến chúng thành năng lượng để sử dụng duy trì năng suất của các hoạt động thể thao.
+</div><div><br></div><div><b>3. Cách bổ sung protein để tối đa hoá hiệu quả tập luyện
+</b></div><div>Vậy làm thế nào để bổ sung protein cho đúng để tối ưu hoá hiệu quả tập luyện? 
+</div><div>Tổng nhu cầu protein hằng ngày phụ thuộc phần lớn vào kích thước cơ thể, mức độ hoạt động và mục tiêu hình thể và sức khỏe. Khuyến nghị tổng lượng protein hằng ngày: gam protein/kg trọng lượng/ngày là sát với nhu cầu mỗi cá nhân nhất. Có rất nhiều bằng chứng chỉ ra rằng những người tham gia tập luyện cường độ cao cần nhiều protein trong chế độ ăn hơn so với những người ít vận động. Lượng protein khuyến nghị cho những người tập luyện thể thao giao động trong khoảng 1,4-2 g/kg/ngày. Đối với hầu hết mọi người, mức tiêu thụ protein này có thể đạt được từ chế độ ăn uống thường xuyên và đa dạng. 
+</div><div>Theo Hiệp hội Dinh dưỡng Thể thao Quốc tế, việc tiêu thụ 20-40 gam protein chất lượng cao, 3-4h/lần, có lợi cho quá trình tổng hợp protein cơ (MPS). Do đó, bạn nên chia nhỏ lượng protein trong các bữa ăn sẽ tối ưu quá trình MPS này hơn là việc bạn ăn dồn một lượng lớn protein vào một bữa duy nhất. 
+</div><div><br></div><div><b>Tóm lại
+</b></div><div>Qua bài viết này, chúng ta hiểu được tầm quan trọng của việc nạp đầy đủ protein sẽ mang lại nhiều lợi ích cho việc tập luyện thể thao và phục hồi cơ thể. Việc ăn không đủ protein sẽ mang lại ảnh hưởng không tốt đến việc luyện tập thể thao. Vậy nên để đảm bảo hiệu suất thể thao và tăng khả năng phục hồi của cơ thể, hãy đảm bảo một chế độ ăn protein phù hợp với thể trạng bạn nhé!
+</div><div><br></div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div></div></div>
+											</div>
+	</div>
+	<div id="timhieuthem">
+		<div class="content"></div>
+		<a class="close_timhieuthem">&#215;</a>
+	</div>
+	<div id="play_youtube"></div>
+	<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/jquery.simplePagination.min.js"></script>
+<script src="js/pdf.min.js"></script>
+<br>
+<footer class="container" id="footer">
+	<div class="top_footer clearfix">
+		<a href="index.html"><img src="img/logo_footer.png" alt="" width="100%"></a>
+	</div>
+	<div class="box01">
+		<h2 class="tit_07">FITNESS FOR WOMAN</h2>
+		<div class="txt_01">Start-up giúp cho chị em phái yếu có vóc dáng đẹp & sức khỏe dẻo dai một cách tiện lợi & tiết kiệm.</div><br><br>
+		<h3 class="tit_08">CÔNG TY TNHH SHEFIT</h2>
+		<table class="list_footer">
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Văn phòng</td>
+				<td width="1">:</td>
+				<td>Khu The Sun Avenue, An Phú, Q2, TPHCM</td>
+			</tr>
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Hotline</td>
+				<td width="1">:</td>
+				<td><a href="tel:0906934821">0906934821</a></td>
+			</tr>
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Email</td>
+				<td width="1">:</td>
+				<td><a href="mailto:info@shefit.vn">info@shefit.vn</a></td>
+			</tr>
+		</table><br>
+		<table class="list_footer">
+			<tr>
+				<td width="40"><a href="https://zalo.me/0906934821" target="_blank"><img src="img/zalo_icon.png" alt=""></a></td>
+				<td width="5">&nbsp;</td>
+				<td width="40"><a href="https://www.facebook.com/shefitvn" target="_blank"><img src="img/facebook_icon.png" alt=""></a></td>
+				<td width="5">&nbsp;</td>
+				<td width="40"><a href="https://www.youtube.com/@GluteLab-LoNanDang-zl7td" target="_blank"><img src="img/youtube_icon.png" alt=""></a></td>
+			</tr>
+		</table><br>
+		<div class="copyright">
+			<a href="index.html">&copy; Ngôi Nhà Đầu Bếp 2024</a>
+		</div><br>
+	</div>
+</footer>
+
+	<script>
+		$(document).ready(function() {
+			$(document).on( "click", ".frame_youtube", function(e) {
+				$(this).addClass('active');
+				var youtube_id = $(this).attr('youtube_id');
+                $(this).html('<iframe src="https://www.youtube.com/embed/' + youtube_id + '?autoplay=1&rel=0&showinfo=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>');
+			});
+
+            initializeSlider();
+            function initializeSlider() {
+                $('.slide_blog').slick({
+					infinite: true,
+					slidesToShow: 1,
+					autoplay: true,
+					slidesToScroll: 1,
+					pauseOnHover: true,
+					dots: true,
+					arrows: true,
+					autoplay: true
+                });
+            }
+		});
+	</script>
+</body>
+</html>

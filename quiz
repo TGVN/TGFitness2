@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SHEFIT</title>
+	<link rel="stylesheet" type="text/css" href="css/slick.css@6906">
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css@3312">
+	<link rel="stylesheet" type="text/css" href="css/style_main.css@4155">
+	<body>
+<div class="container">
+	<header id="header" class="header">
+	<div class="top_header container">
+		<table width="100%" cellspacing="0" cellpadding="0">
+			<tr>
+				<td>
+					<a href="index.html">
+						<span class="home_icon">
+							<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.3103 1.77586C11.6966 1.40805 12.3034 1.40805 12.6897 1.77586L20.6897 9.39491L23.1897 11.7759C23.5896 12.1567 23.605 12.7897 23.2241 13.1897C22.8433 13.5896 22.2103 13.605 21.8103 13.2241L21 12.4524V20C21 21.1046 20.1046 22 19 22H14H10H5C3.89543 22 3 21.1046 3 20V12.4524L2.18966 13.2241C1.78972 13.605 1.15675 13.5896 0.775862 13.1897C0.394976 12.7897 0.410414 12.1567 0.810345 11.7759L3.31034 9.39491L11.3103 1.77586ZM5 10.5476V20H9V15C9 13.3431 10.3431 12 12 12C13.6569 12 15 13.3431 15 15V20H19V10.5476L12 3.88095L5 10.5476ZM13 20V15C13 14.4477 12.5523 14 12 14C11.4477 14 11 14.4477 11 15V20H13Z" fill="#9b5e6e"/></svg>
+						</span> 
+						Home
+					</a>
+				</td>
+				<td style="text-align: right;">
+					<a href="quiz">
+						<span class="home_icon">
+							<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 14V7C20 5.34315 18.6569 4 17 4H7C5.34315 4 4 5.34315 4 7V17C4 18.6569 5.34315 20 7 20H13.5M20 14L13.5 20M20 14H15.5C14.3954 14 13.5 14.8954 13.5 16V20" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 8H16" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 12H12" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+						</span>
+						Body Quiz
+					</a>
+					<span class="ngancach">|</span> 
+												<a href="login">
+								<span class="home_icon">
+									<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M13 3C13 2.44772 12.5523 2 12 2C11.4477 2 11 2.44772 11 3V12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12V3ZM8.6092 5.8744C9.09211 5.60643 9.26636 4.99771 8.99839 4.5148C8.73042 4.03188 8.12171 3.85763 7.63879 4.1256C4.87453 5.65948 3 8.61014 3 12C3 16.9706 7.02944 21 12 21C16.9706 21 21 16.9706 21 12C21 8.66747 19.1882 5.75928 16.5007 4.20465C16.0227 3.92811 15.4109 4.09147 15.1344 4.56953C14.8579 5.04759 15.0212 5.65932 15.4993 5.93586C17.5942 7.14771 19 9.41027 19 12C19 15.866 15.866 19 12 19C8.13401 19 5 15.866 5 12C5 9.3658 6.45462 7.06997 8.6092 5.8744Z" fill="#9b5e6e"/></svg>
+								</span>
+								Đăng nhập
+							</a>
+									</td>
+
+			</tr>
+		</table>
+	</div>
+	<div class="main_header">
+		<ul class="clearfix">
+			<li><a href="khoahoc">Khóa học</a></li>
+			<li><a href="thucdon">Thực đơn</a></li>
+			<li><a href="huanluyenvien">Giáo viên</a></li>
+			<li><a href="sanpham">Dụng cụ</a></li>
+			<li><a href="thucpham">Thực phẩm</a></li>
+			<li><a href="blog">Blog</a></li>
+		</ul>
+	</div>
+</header>
+	<div class="ptop_body"></div>
+		<div class="box01">
+		<h1 class="tit_01">Body Quiz</h1><br>
+		<div class="box_quiz" id="box_quiz">
+			<div id="hoten">
+				Họ tên<br>
+									<input type="text" name="hoten" placeholder="Nguyễn Ngọc A">
+							</div><br>
+			<div id="dienthoai">
+				Số điện thoại / Zalo<br>
+									<input type="text" name="dienthoai" placeholder="0987654321">
+							</div><br>
+			<div id="chieucao">
+				Chiều cao<br>
+				<div class="range-slider">
+					<input class="range-slider__range" type="range" value="160" min="100" max="180" name="chieucao">
+					<span class="range-slider__value range_chieucao">0</span>
+				</div>
+			</div><br>
+			<div id="tuoi">
+				Tuổi<br>
+				<div class="range-slider">
+					<input class="range-slider__range" type="range" value="25" min="16" max="66" name="tuoi">
+					<span class="range-slider__value range_tuoi">0</span>
+				</div>
+			</div><br>
+			<div id="cannang_hientai">
+				Cân Nặng Hiện Tại<br>
+				<div class="range-slider">
+					<input class="range-slider__range" type="range" value="40" min="35" max="100" name="cannang_hientai">
+					<span class="range-slider__value range_cannang_hientai">0</span>
+				</div>				
+			</div><br>
+			<div id="cannang_mongmuon">
+				Cân Nặng Kì Vọng<br>
+				<div class="range-slider">
+					<input class="range-slider__range" type="range" value="40" min="35" max="100" name="cannang_mongmuon">
+					<span class="range-slider__value range_cannang_mongmuon">0</span>
+				</div>
+			</div><br>
+			<div id="muctieu">
+				Mục Tiêu Hình Thể<br>
+				<label><input type="checkbox" name="muctieu" value="Giảm cân, giảm mỡ toàn thân: tập trung giảm mỡ từ eo, tay, vai, đùi, lưng.">Giảm cân, giảm mỡ toàn thân: tập trung giảm mỡ từ eo, tay, vai, đùi, lưng. </label>
+				<label><input type="checkbox" name="muctieu" value="Giảm mỡ + Tăng cơ: vừa giảm mỡ, vừa tạo cơ cho tỉ lệ eo sâu, mông căng tròn.">Giảm mỡ + Tăng cơ: vừa giảm mỡ, vừa tạo cơ cho tỉ lệ eo sâu, mông căng tròn. </label>
+				<label><input type="checkbox" name="muctieu" value="Chuyên sâu mông căng tròn: tạo dáng mông quyến rũ và săn chắc.">Chuyên sâu mông căng tròn: tạo dáng mông quyến rũ và săn chắc. </label>
+				<label><input type="checkbox" name="muctieu" value="Tăng cân, tăng cơ: giúp lên cân đẹp, tạo tỉ lệ eo sâu, mông đầy đặn.">Tăng cân, tăng cơ: giúp lên cân đẹp, tạo tỉ lệ eo sâu, mông đầy đặn. </label>
+				<label><input type="checkbox" name="muctieu" value="Giữ cân, tăng cơ, cắt nét toàn thân: giữ dáng hiện tại, tập trung cắt nét cơ thể.">Giữ cân, tăng cơ, cắt nét toàn thân: giữ dáng hiện tại, tập trung cắt nét cơ thể. </label>
+				<label><input type="checkbox" name="muctieu" value="Giảm mỡ sau sinh: siết eo, bụng phẳng lì, cải thiện bụng sổ, xệ.">Giảm mỡ sau sinh: siết eo, bụng phẳng lì, cải thiện bụng sổ, xệ. </label>
+				<table width="100%" cellpadding="0" cellspacing="0">
+					<tr>
+						<td width="50">Khác</td>
+						<td><input type="text" name="muctieu_text" placeholder="Giảm đùi, tăng mông, v.v..."></td>
+					</tr>
+				</table>
+			</div><br>
+			<div id="tapluyen">
+				Bạn đã quen với việc tập luyện?<br>
+				<label><input type="radio" name="tapluyen" value="Chưa bao giờ tập / Biết tập sơ sơ"> Chưa bao giờ tập / Biết tập sơ sơ </label>
+				<label><input type="radio" name="tapluyen" value="Đã có kinh nghiệm trong việc tập"> Đã có kinh nghiệm trong việc tập</label>
+				<table width="100%" cellpadding="0" cellspacing="0">
+					<tr>
+						<td width="50">Khác</td>
+						<td width="5">&nbsp;</td>
+						<td><input type="text" name="tapluyen_text"></td>
+					</tr>
+				</table>
+			</div><br>
+			<div id="khokhan">
+				Các vấn đề khó khăn gặp phải trong việc giảm cân trước đây??<br>
+				<label class="checkbox"><input type="checkbox" name="khokhan" value="Nhịn ăn / ăn kiêng nhưng chững cân không giảm"> Nhịn ăn / ăn kiêng nhưng chững cân không giảm</label>
+				<label class="checkbox"><input type="checkbox" name="khokhan" value="Yếu hay bị chấn thương không tập được"> Yếu hay bị chấn thương không tập được</label>
+				<table width="100%" cellpadding="0" cellspacing="0">
+					<tr>
+						<td width="50">Khác</td>
+						<td width="5">&nbsp;</td>
+						<td><input type="text" name="khokhan_text"></td>
+					</tr>
+				</table>
+			</div><br>
+			<p class="txt_center"><a class="quiz_submit">XEM KẾT QUẢ BODY CỦA BẠN</a></p>
+		</div>
+	</div>
+	<div id="slide_quiz" class="box02"><br>
+		<h2 class="tit_03 border_bottom white">KHÓA HỌC NỔI BẬT NHẤT TRONG THÁNG</h2><br>
+		<div class="slide_noibat">
+									<div>
+							<h3 class="tit_04">POWER BURN 1 - SIÊU ĐỐT MỠ & SĂN CHẮC CHUYÊN SÂU GĐ1</h3><br>
+							<div class="txt_02 short_letter"><b>GÓI SIÊU ĐỐT MỠ, SĂN CHẮC: Giảm 3-6kg Mỡ/Tháng! TẬP THEO VIDEO CHỦ ĐỘNG THỜI GIAN</b><div><br></div><div>- Gói <b>POWER BURN</b> của SHEFIT áp dụng phương pháp <b>ĐỐT MỠ &amp; ĐIÊU KHẮC - FBBS</b>&nbsp;độc quyền, <b>GIẢM MỠ KHÔNG LÀM NGƯỜI BỊ NHÃO!</b></div><div><br></div><div>Chương trình được thiết kế dành riêng cho chị em đang gặp tình trạng chững cân hoặc muốn giảm mỡ, giảm cân nhanh chóng vì sắp có dịp gì đó quan trọng&nbsp;&nbsp;</div><div><br></div><div>- <b>Chương trình tập kết hợp bài HIIT, kháng lực và Pilates biến thể:</b> Các bài HIIT không chỉ là cardio mà còn giúp đốt mỡ hiệu quả và cải thiện sức khỏe tim mạch. Kháng lực và Pilates giúp cơ săn chắc, không bị nhão trong quá trình giảm mỡ</div><div><br></div><div><b>- Menu detox đặc biệt: </b>Được thiết kế để tăng cường trao đổi chất, thoát khỏi trạng thái chững cân và giúp đốt mỡ toàn thân nhanh chóng.</div><div><br></div><div><b>- Video hướng dẫn chi tiết:</b> Mỗi buổi tập kéo dài từ 35-45 phút, và video theo dạng xuyên suốt (follow-along), để các chị dễ dàng thực hiện và duy trì động lực trong suốt buổi tập</div><div><br></div><div><b>- Tập trung cho các bài siêu cắt nét bụng phẳng, rãnh số 11 rõ nét:</b> Giúp thon gọn vùng bụng, eo và thân trên, mang lại cơ thể săn chắc, không mỡ thừa.</div></div><br>
+							<p class="txt_center"><a class="btn_01" action="timhieuthem" khoahoc_id="231">TÌM HIỂU THÊM</a></p><br>
+																												<p><img src="img/upload/20241002092612.jpg" width="100%"></p><br>
+																										<p class="txt_03">HLV Miss Vi, Miss Thoa, Miss Trang</p>
+							<p class="txt_04">219,000 đ</p><br>
+							<p class="txt_center"><a href="https://zalo.me/0906934821" target="_blank" class="btn_01">ĐĂNG KÝ NGAY</a></p><br><br><br>
+						</div>
+											<div>
+							<h3 class="tit_04">TOTAL BURN & SCUPLT: LỚP TRỰC TUYẾN VỚI HLV ĐỐT MỠ & ĐIÊU KHẮC BODY CHUYÊN SÂU</h3><br>
+							<div class="txt_02 short_letter"><div><b>GIẢM 4-6 KG MỠ/ THÁNG VÀ ĐIÊU KHẮC CẢ BODY:</b> rãnh bụng 11 rõ nét, mông đào cao tròn để cho ra tỉ lệ thắt eo đẹp</div><div>Có HLV hướng dẫn và kiểm tra form dáng trong suốt buổi tập</div><div><br></div><div>Nếu bạn đã tập luyện nhưng chưa thấy tiến triển, đây chính là giải pháp để đẩy nhanh tốc độ và kích thích cơ thể giảm mỡ nhưng vẫn giữ nét cơ, thon gọn mà không bị nhão nhờ phương pháp<b> FBBS (FAT BURN BODY SHAPE).</b></div><div><br></div><div><b>ĐIỂM NỔI BẬT CỦA KHÓA:</b></div><div><b>- Lịch tập đỉnh cao và khoa học:</b> Lịch tập được sắp xếp để đảm bảo bạn vừa giảm mỡ nhanh chóng vừa duy trì cơ nét và săn chắc.<br></div><div><b>- Ngày Siêu đốt mỡ:</b> Các bài HIIT, LISS đốt cháy năng lượng mạnh mẽ, giúp bạn giảm mỡ liên tục mà vẫn giữ được cơ thể săn chắc.</div><div><b>- Ngày Điêu khắc body:</b> Tập trung định hình vòng eo, bụng phẳng, rãnh bụng 11 rõ nét – vóc dáng quyến rũ và mạnh mẽ từ mọi góc độ.</div><div><b>- Ngày Siêu mông đào: </b>Chương trình chuyên sâu dành cho vùng mông, giúp mông cao đầy và săn chắc. Bài tập kháng lực phối hợp độc quyền của SHEFIT tác động đa chiều vào các nhóm cơ, đảm bảo mông lên form chuẩn và căng tròn. ????</div><div><b>- Menu ăn uống:</b> Tối ưu hóa dinh dưỡng, hỗ trợ giảm mỡ và lên cơ nhanh chóng, giúp bạn đạt được vóc dáng mong muốn với cơ thể thon gọn, nét đẹp rõ ràng.</div></div><br>
+							<p class="txt_center"><a class="btn_01" action="timhieuthem" khoahoc_id="225">TÌM HIỂU THÊM</a></p><br>
+																												<p><img src="img/upload/20241002092630.jpg" width="100%"></p><br>
+																										<p class="txt_03">HLV: Vi Salano</p>
+							<p class="txt_04"></p><br>
+							<p class="txt_center"><a href="https://zalo.me/0906934821" target="_blank" class="btn_01">ĐĂNG KÝ NGAY</a></p><br><br><br>
+						</div>
+							</div>
+	</div><br>
+	<div class="loading"><div></div></div>
+	
+	<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/jquery.simplePagination.min.js"></script>
+<script src="js/pdf.min.js"></script>
+<br>
+<footer class="container" id="footer">
+	<div class="top_footer clearfix">
+		<a href="index.html"><img src="img/logo_footer.png" alt="" width="100%"></a>
+	</div>
+	<div class="box01">
+		<h2 class="tit_07">FITNESS FOR WOMAN</h2>
+		<div class="txt_01">Start-up giúp cho chị em phái yếu có vóc dáng đẹp & sức khỏe dẻo dai một cách tiện lợi & tiết kiệm.</div><br><br>
+		<h3 class="tit_08">CÔNG TY TNHH SHEFIT</h2>
+		<table class="list_footer">
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Văn phòng</td>
+				<td width="1">:</td>
+				<td>Khu The Sun Avenue, An Phú, Q2, TPHCM</td>
+			</tr>
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Hotline</td>
+				<td width="1">:</td>
+				<td><a href="tel:0906934821">0906934821</a></td>
+			</tr>
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Email</td>
+				<td width="1">:</td>
+				<td><a href="mailto:info@shefit.vn">info@shefit.vn</a></td>
+			</tr>
+		</table><br>
+		<table class="list_footer">
+			<tr>
+				<td width="40"><a href="https://zalo.me/0906934821" target="_blank"><img src="img/zalo_icon.png" alt=""></a></td>
+				<td width="5">&nbsp;</td>
+				<td width="40"><a href="https://www.facebook.com/shefitvn" target="_blank"><img src="img/facebook_icon.png" alt=""></a></td>
+				<td width="5">&nbsp;</td>
+				<td width="40"><a href="https://www.youtube.com/@GluteLab-LoNanDang-zl7td" target="_blank"><img src="img/youtube_icon.png" alt=""></a></td>
+			</tr>
+		</table><br>
+		<div class="copyright">
+			<a href="index.html">&copy; Ngôi Nhà Đầu Bếp 2024</a>
+		</div><br>
+	</div>
+</footer>
+</div>
+	<script>
+		$(document).ready(function() {
+			var rangeSlider = function(){
+			  var slider = $('.range-slider'),
+			      range = $('.range-slider__range'),
+			      value = $('.range-slider__value');
+			    
+			  slider.each(function(){
+
+			    value.each(function(){
+			      var value = $(this).prev().attr('value');
+			      $(this).html(value);
+			    });
+
+			    range.on('input', function(){
+			      $(this).next(value).html(this.value);
+			    });
+			  });
+			};
+
+			rangeSlider();
+			$(document).on( "change", "input[type=radio],input[type=checkbox]", function(e) {
+				$('input[type=radio],input[type=checkbox]').each(function() {
+					if ($(this).is(':checked')) {
+						$(this).closest('label').addClass('selected');
+					}else{
+						$(this).closest('label').removeClass('selected');
+					}
+				});
+			});
+			$(document).on( "click", "input[name=tapluyen_text],input[name=khokhan_text]", function(e) {
+				$(this).closest('label').addClass('selected');
+			});
+            $('.slide_noibat').slick({
+				  infinite: true,
+				  slidesToShow: 1,
+				  slidesToScroll: 1,
+				  dots: true,
+				  arrows: true,
+				  autoplay: true
+            });
+			$(document).on( "click", ".quiz_submit", function(e) {
+				$('.loading').show();
+				$('*').removeClass('loi');
+				var hoten = $('input[name=hoten]').val();
+				var dienthoai = $('input[name=dienthoai]').val();
+				var chieucao = $('input[name=chieucao]').val();
+				var tuoi = $('input[name=tuoi]').val();
+				var cannang_hientai = $('input[name=cannang_hientai]').val();
+				var cannang_mongmuon = $('input[name=cannang_mongmuon]').val();
+
+				var muctieu=[];
+	            $('input[name="muctieu"]:checked').each(function() {
+	                muctieu.push($(this).val());
+	            });
+				var muctieu_text = $('input[name=muctieu_text]').val();
+				if(muctieu_text!=''){
+					muctieu.push(muctieu_text);		
+				}
+				muctieu = muctieu.join(',');
+
+
+
+				var tapluyen1 = $('input[name=tapluyen]:checked').val();
+				var tapluyen2 = $('input[name=tapluyen_text]').val();
+				var tapluyen = [];
+				if(tapluyen1){
+					tapluyen.push(tapluyen1);
+				}
+				if(tapluyen2!=''){
+					tapluyen.push(tapluyen2);
+				}
+				tapluyen = tapluyen.join(',');
+				var khokhan=[];
+	            $('input[name="khokhan"]:checked').each(function() {
+	                khokhan.push($(this).val());
+	            });
+				var khokhan_text = $('input[name=khokhan_text]').val();
+				if(khokhan_text!=''){
+					khokhan.push(khokhan_text);		
+				}
+				khokhan = khokhan.join(',');
+				var body_quiz = '';
+				if(hoten==''){
+					$('input[name=hoten]').addClass('loi');
+					$('html,body').animate({scrollTop:$('#hoten').offset().top -50}, 400);
+					$('input[name=hoten]').focus();
+					setTimeout(function() { $('.loading').hide(); }, 500);
+				}else if(dienthoai==''){
+					$('input[name=dienthoai]').addClass('loi');
+					$('html,body').animate({scrollTop:$('#dienthoai').offset().top -50}, 400);
+					$('input[name=dienthoai]').focus();
+					setTimeout(function() { $('.loading').hide(); }, 500);
+				}else if(muctieu==''){
+					$('#muctieu label').addClass('loi');
+					$('html,body').animate({scrollTop:$('#muctieu').offset().top -50}, 400);
+					setTimeout(function() { $('.loading').hide(); }, 500);
+				}else if(tapluyen==''){
+					$('#tapluyen label').addClass('loi');
+					$('html,body').animate({scrollTop:$('#tapluyen').offset().top -50}, 400);
+					setTimeout(function() { $('.loading').hide(); }, 500);
+				}else if(khokhan==''){
+					$('#khokhan label').addClass('loi');
+					$('html,body').animate({scrollTop:$('#khokhan').offset().top -50}, 400);
+					setTimeout(function() { $('.loading').hide(); }, 500);
+				}else{
+					var bmi_hientai = parseInt(cannang_hientai) / ((parseInt(chieucao)/100)*(parseInt(chieucao)/100));
+					var bmi_danhgia = '';
+					if(bmi_hientai<18){
+						bmi_danhgia = 'Bạn đang gầy';
+					}else if(bmi_hientai>=18 && bmi_hientai<22){
+						bmi_danhgia = 'Bạn bình thường';
+					}else if(bmi_hientai>=22 && bmi_hientai<35){
+						bmi_danhgia = 'Bạn đang thừa cân';
+					}else{
+						bmi_danhgia = 'Bạn khá béo tròn';
+					}
+
+					var cannang_lytuong = 45.5+(2.1*(parseInt(chieucao)-152.4))/2.54;
+					var cannang_lytuong1 = cannang_lytuong - 2;
+					var cannang_lytuong2 = cannang_lytuong + 1;
+					cannang_lytuong = '<table><tr><td><small>Từ &nbsp;</small></td><td>'+cannang_lytuong1.toFixed(2)+'</td><td><small>&nbsp; kg</small></td></tr><tr><td><small>Đến &nbsp;</small></td><td>'+cannang_lytuong2.toFixed(2)+'</td><td><small>&nbsp; kg</small></td></tr></table>';
+					cannanglytuong = cannang_lytuong1.toFixed(2)+'-'+cannang_lytuong2.toFixed(2)
+					if(parseInt(chieucao)<152.4){
+						cannang_lytuong = '45.5 <small>kg</small>';
+					}
+
+					var luongmo = 1.2*bmi_hientai+0.23*parseInt(tuoi)-5.4;
+					var luongmo_danhgia = '';
+					if(luongmo>24){
+						luongmo_danhgia = "Bạn có thể bị thừa mỡ, cơ thể cần đốt mỡ";
+					}else if(luongmo>=21 && luongmo<=24){
+						luongmo_danhgia = "Bạn có lượng mỡ cơ thể lành mạnh";
+					}
+					body_quiz = `
+						<div>
+							<table cellpadding="0" cellspacing="0" width="100%">
+								<tr>
+									<td width="40%"><img src="img/bodyquiz.jpg" width="100%"></td>
+									<td width="10">&nbsp;</td>
+									<td class="txt_center">
+										<span class="danhgia" style="color:#532f4c;">Kết quả body của bạn</span>
+										<h2 class="quiz_ketqua">`+hoten+`</h2><br><br>
+										<h3>BMI hiện tại</h3>
+										<div class="quiz_ketqua">`+bmi_hientai.toFixed(2)+`</div><br>
+										<span class="danhgia">`+bmi_danhgia+`</span><br>
+										<h3>Cân nặng lý tưởng</h3>
+										<div class="quiz_ketqua">`+cannang_lytuong+`</div><br><br>
+										<h3>Lượng mỡ cơ thể</h3>
+										<div class="quiz_ketqua">`+luongmo.toFixed(2)+`<sup>%</sup></div><br>
+										<span class="danhgia">`+luongmo_danhgia+`</span>
+									</td>
+								</tr>
+							</table>
+						</div><br>
+						<div>
+							Hãy bắt đầu hành trình độ dáng cùng Shefit với các bài tập và menu ăn kiêng trong 28 ngày! 
+						</div>
+					`;
+					$('#box_quiz').html(body_quiz);
+					$('#slide_quiz').show();
+					$('.slide_noibat').slick('refresh');
+			        $.ajax({
+			            url: 'https://script.google.com/macros/s/AKfycbyiiDlbnqxFWbMCxK_BqMUP0jXDlziwnt7RaScIMEOllicNyAmYvbL2-9x-O4e70FoD/exec?',
+			            type: 'GET',
+			            data: {
+			            	'hoten': hoten,
+			            	'dienthoai': dienthoai,
+			            	'chieucao': chieucao,
+			            	'tuoi': tuoi,
+			            	'cannanghientai': cannang_hientai,
+			            	'cannangkivong': cannang_mongmuon,
+			            	'muctieu': muctieu,
+			            	'tapluyen': tapluyen,
+			            	'khokhan': khokhan,
+			            	'ngay': "22:23:37 29/10/2024"
+			            },
+			            success: function (response) {
+			            	console.log(cannang_hientai);
+					        $.ajax({
+					            url: 'post.php',
+					            type: 'POST',
+					            data: {
+					            	'update_hocvien': '',
+					            	'hocvien_cannang': cannang_hientai,
+					            	'hocvien_chieucao': chieucao,
+					            	'hocvien_muctieu': muctieu
+					            },
+					            success: function (response) {
+									$('html,body').animate({scrollTop:0}, 400);
+									setTimeout(function() { $('.loading').hide(); }, 5000);
+					            },
+					            error: function (e) {
+					                console.log(e.message);
+					            }
+					        });
+			            },
+			            error: function (e) {
+			                console.log(e.message);
+			            }
+			        });
+
+					setTimeout(function() { $('.loading').hide(); }, 5000);
+				}
+					// https://script.google.com/macros/s/AKfycbyiiDlbnqxFWbMCxK_BqMUP0jXDlziwnt7RaScIMEOllicNyAmYvbL2-9x-O4e70FoD/exec
+			});
+
+	        // https://script.google.com/macros/s/AKfycbyiiDlbnqxFWbMCxK_BqMUP0jXDlziwnt7RaScIMEOllicNyAmYvbL2-9x-O4e70FoD/exec?hoten=hoten&dienthoai=dienthoai&chieucao=chieucao cm&tuoi=tuoi&cannanghientai=cannang_hientai kg&cannangkivong=cannang_mongmuon kg&muctieu=muctieu&tapluyen=tapluyen&khokhan=khokhan&bmi=bmi_hientai&cannanglytuong=cannanglytuong kg&luongmo=luongmo ⁒
+
+		});
+	</script>
+</body>
+</html>

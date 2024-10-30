@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SHEFIT</title>
+	<link rel="stylesheet" type="text/css" href="css/slick.css@7900">
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css@3821">
+	<link rel="stylesheet" type="text/css" href="css/style_main.css@3822">
+	<body>
+	<div class="container">
+		<header id="header" class="header">
+	<div class="top_header container">
+		<table width="100%" cellspacing="0" cellpadding="0">
+			<tr>
+				<td>
+					<a href="index.html">
+						<span class="home_icon">
+							<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.3103 1.77586C11.6966 1.40805 12.3034 1.40805 12.6897 1.77586L20.6897 9.39491L23.1897 11.7759C23.5896 12.1567 23.605 12.7897 23.2241 13.1897C22.8433 13.5896 22.2103 13.605 21.8103 13.2241L21 12.4524V20C21 21.1046 20.1046 22 19 22H14H10H5C3.89543 22 3 21.1046 3 20V12.4524L2.18966 13.2241C1.78972 13.605 1.15675 13.5896 0.775862 13.1897C0.394976 12.7897 0.410414 12.1567 0.810345 11.7759L3.31034 9.39491L11.3103 1.77586ZM5 10.5476V20H9V15C9 13.3431 10.3431 12 12 12C13.6569 12 15 13.3431 15 15V20H19V10.5476L12 3.88095L5 10.5476ZM13 20V15C13 14.4477 12.5523 14 12 14C11.4477 14 11 14.4477 11 15V20H13Z" fill="#9b5e6e"/></svg>
+						</span> 
+						Home
+					</a>
+				</td>
+				<td style="text-align: right;">
+					<a href="quiz">
+						<span class="home_icon">
+							<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 14V7C20 5.34315 18.6569 4 17 4H7C5.34315 4 4 5.34315 4 7V17C4 18.6569 5.34315 20 7 20H13.5M20 14L13.5 20M20 14H15.5C14.3954 14 13.5 14.8954 13.5 16V20" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 8H16" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 12H12" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+						</span>
+						Body Quiz
+					</a>
+					<span class="ngancach">|</span> 
+												<a href="login">
+								<span class="home_icon">
+									<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M13 3C13 2.44772 12.5523 2 12 2C11.4477 2 11 2.44772 11 3V12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12V3ZM8.6092 5.8744C9.09211 5.60643 9.26636 4.99771 8.99839 4.5148C8.73042 4.03188 8.12171 3.85763 7.63879 4.1256C4.87453 5.65948 3 8.61014 3 12C3 16.9706 7.02944 21 12 21C16.9706 21 21 16.9706 21 12C21 8.66747 19.1882 5.75928 16.5007 4.20465C16.0227 3.92811 15.4109 4.09147 15.1344 4.56953C14.8579 5.04759 15.0212 5.65932 15.4993 5.93586C17.5942 7.14771 19 9.41027 19 12C19 15.866 15.866 19 12 19C8.13401 19 5 15.866 5 12C5 9.3658 6.45462 7.06997 8.6092 5.8744Z" fill="#9b5e6e"/></svg>
+								</span>
+								Đăng nhập
+							</a>
+									</td>
+
+			</tr>
+		</table>
+	</div>
+	<div class="main_header">
+		<ul class="clearfix">
+			<li><a href="khoahoc">Khóa học</a></li>
+			<li><a href="thucdon">Thực đơn</a></li>
+			<li><a href="huanluyenvien">Giáo viên</a></li>
+			<li><a href="sanpham">Dụng cụ</a></li>
+			<li><a href="thucpham">Thực phẩm</a></li>
+			<li><a href="blog">Blog</a></li>
+		</ul>
+	</div>
+</header>
+		<div class="box01">
+														<nav aria-label="breadcrumb" class="breadcrumb">
+							  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							   		&#10070;
+							      <a itemprop="item" href="index.html">
+							        <span itemprop="name">Trang chủ</span>
+							      </a>
+							      <meta itemprop="position" content="1" />
+							    </li>
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							      <a itemprop="item" href="blog.php">
+							        <span itemprop="name">Blog</span>
+							      </a>
+							      <meta itemprop="position" content="2" />
+							    </li>
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							      <a itemprop="item" href="blog.php">
+							        <span itemprop="name">TOP THỰC PHẨM, VI CHẤT TỐT CHO TÓC CỦA BẠN</span>
+							      </a>
+							      <meta itemprop="position" content="3" />
+							    </li>
+							  </ol>
+							</nav>
+							<h1 class="tit_01">TOP THỰC PHẨM, VI CHẤT TỐT CHO TÓC CỦA BẠN</h1>
+							<div class="blog_meta">
+								<table width="100%" cellpadding="0" cellspacing="0">
+									<tr>
+										<td>
+											<svg width="10%" height="10%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 14C8.13401 14 5 17.134 5 21H19C19 17.134 15.866 14 12 14Z" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Phạm Nguyễn Quỳnh Anh</td>
+										<td class="txt_right">
+											<svg width="10%" height="10%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 10V7C20 5.89543 19.1046 5 18 5H6C4.89543 5 4 5.89543 4 7V10M20 10V19C20 20.1046 19.1046 21 18 21H6C4.89543 21 4 20.1046 4 19V10M20 10H4M8 3V7M16 3V7" stroke="#666666" stroke-width="2" stroke-linecap="round"/><rect x="6" y="12" width="3" height="3" rx="0.5" fill="#666666"/><rect x="10.5" y="12" width="3" height="3" rx="0.5" fill="#666666"/><rect x="15" y="12" width="3" height="3" rx="0.5" fill="#666666"/></svg>
+											2023-11-15										</td>
+									</tr>
+								</table>
+							</div><br>
+							<div class="slide_blog">
+																			<div><img src="img/upload/20241021113837.jpg"></div>
+																	</div>
+							<div class="blog_noidung"><div>Chế độ ăn uống chính là yếu tố quan trọng để duy trì sức khỏe cho làn da và mái tóc của bạn. Thức ăn mà chúng ta tiêu thụ hằng ngày có ảnh hưởng trực tiếp đến sự phát triển, độ bóng và độ dày của tóc.</div><div>Làm thế nào tóc mọc và phát triển khỏe mạnh? Câu trả lời nằm ở việc cải thiện tình trạng da đầu và nang tóc. Da đầu là môi trường từ nơi tóc bắt đầu phát triển, và nang tóc chứa các tế bào tạo nên sợi tóc. Để đảm bảo rằng tóc của bạn phát triển tốt nhất có thể, hãy quan tâm đến chế độ ăn uống của bạn.</div><div>Bài viết này sẽ tập trung vào xem xét các thực phẩm và chất dinh dưỡng mà bạn nên tích hợp vào chế độ ăn uống hằng ngày để thúc đẩy sự phát triển của tóc.</div><div><br></div><div><b>1. Chế độ ăn uống ảnh hưởng thế nào đến sự phát triển của tóc</b></div><div>Làn da và mái tóc của chúng ta có thể được coi là một gương phản ánh chế độ ăn uống và chất dinh dưỡng mà chúng ta áp dụng hằng ngày. Mỗi sợi tóc trên đầu chúng ta không ngừng phát triển và được tái tạo, nhờ vào các nàng tóc tạo ra chúng từ các chất dinh dưỡng quý báu trong cơ thể.</div><div>Thực phẩm mà chúng ta ăn đóng vai trò quan trọng trong việc quyết định cách tóc phát triển và chất lượng của chúng. Các protein, chất béo, vitamin và khoáng chất đóng vai trò đặc biệt quan trọng để duy trì mái tóc mạnh khỏe.</div><div>Một chế độ ăn uống đa dạng và cân đối không chỉ tạo điều kiện cho mái tóc khỏe mạnh mà còn có thể cải thiện sức khỏe của da và móng tay. Những thay đổi tích cực thường rõ rệt ở những người trước đây thiếu hụt các loại vitamin và chất dinh dưỡng quan trọng. Tuy nhiên, cần thời gian để thấy được sự cải thiện đáng kể trong sự phát triển của tóc.</div><div>Theo ước tính của Học viện Da liễu Hoa Kỳ, mọi người rụng khoảng 50-100 sợi tóc mỗi ngày, nhưng tóc luôn có khả năng mọc lại từ các nang tóc đang chờ đợi. Tốc độ mọc tóc trung bình là khoảng 6 inch mỗi năm. Bài viết tiếp theo sẽ đi sâu vào các chất dinh dưỡng quan trọng và xem xét những thực phẩm nào nên được bổ sung vào chế độ ăn uống để thúc đẩy sự phát triển của tóc.</div><div><br></div><div><b>a. Trứng</b></div><div>Trứng là một nguồn cung cấp biotin phong phú, một loại khoáng chất được cho là có khả năng thúc đẩy sự phát triển của tóc.</div><div>Sự thiếu hụt biotin thường không phổ biến và có thể dẫn đến tóc mỏng, rụng lông trên cơ thể, phát ban quanh mặt và hậu môn, nhiễm trùng da, và móng giòn. Tuy nhiên, các trường hợp thiếu hụt biotin thực sự hiếm.</div><div>Ngoài trứng, nhiều thực phẩm khác cũng chứa biotin, bao gồm thịt, cả cá, quả hạch, hạt giống, và một số loại rau xanh như khoai lang, rau bina, và bông cải xanh. Tuy nhiên, cần lưu ý rằng dù biotin có vai trò quan trọng trong sự phát triển của tóc, hiện chưa có đủ bằng chứng khoa học cho thấy việc bổ sung biotin một cách độc lập có thể cải thiện sức khỏe tóc, da, hoặc móng.</div><div>Ngoài biotin, trứng còn cung cấp các hợp chất khác như L-lysine, vitamin D và một số khoáng chất, có thể cùng đóng vai trò quan trọng trong việc thúc đẩy sự phát triển của tóc. Điều này thể hiện sự đa dạng của chế độ ăn uống và cách nhiều yếu tố có thể tương tác để cung cấp cho tóc chất dinh dưỡng cần thiết cho sự phát triển khỏe mạnh.</div><div><br></div><div><b>b. Thực phẩm chứa Omega 3</b></div><div>Chất béo có lợi cho sức khỏe là một phần quan trọng trong bất kỳ chế độ ăn kiêng nào và axit béo omega-3 là một trong những chất quan trọng giúp bảo vệ tim, cũng như cải thiện tình trạng tóc, da và mắt.</div><div>Cá là một nguồn cung cấp chất béo omega-3 xuất sắc, cùng với việc cung cấp vitamin D, có khả năng tăng cường sức khỏe cho mái tóc.</div><div>Ngoài ra, những người thường ăn cá thường giảm nguy cơ mắc các bệnh mãn tính khác và có lợi cho tim, giúp giảm nguy cơ đau tim và đột quỵ.</div><div>Một nghiên cứu thực hiện trên động vật vào năm 2018 đã cho thấy rằng chiết xuất dầu cá chứa axit docosahexaenoic (DHA) - một loại axit béo omega-3 - có khả năng thúc đẩy sự phát triển tóc bằng cách tăng hoạt động của một số protein quan trọng trong cơ thể.</div><div>Ngoài ra, một nghiên cứu quy mô nhỏ hơn cũng gợi ý rằng việc bổ sung omega-3 cùng với protein từ nguồn hải sản có thể giảm tình trạng rụng tóc, mặc dù nhà nghiên cứu đã lưu ý rằng nó không thúc đẩy sự phát triển tóc một cách đặc biệt.</div><div>Những loại cá giàu axit béo omega-3 bao gồm:</div><div>- Cá hồi</div><div>- Cá thu</div><div>- Cá ngừ</div><div>- Cá trích</div><div>- Cá mòi.</div><div>Đối với những người tuân thủ chế độ ăn chay hoặc thuần chay, omega-3 có thể được cung cấp từ các nguồn thực vật như:</div><div>- Quả óc chó</div><div>- Hạt lanh</div><div>- Hạt chia</div><div>Dầu hạt lanh, dầu đậu nành và dầu hạt cải, … cũng như tảo xoắn.</div><div><br></div><div><b>c. Thực phẩm giàu vitamin D</b></div><div>Một số nghiên cứu đã đề xuất rằng vitamin D có thể có lợi trong việc thúc đẩy sự phát triển của tóc. Vitamin D cũng đóng vai trò quan trọng đối với chức năng của cơ bắp, hệ thần kinh và hệ miễn dịch. Trong hầu hết các chế độ ăn kiêng ở người Mỹ, thực phẩm được bổ sung vitamin D là nguồn chính. Một số thực phẩm thường được bổ sung vitamin D bao gồm:</div><div>- Ngũ cốc ăn sáng</div><div>- Nước cam</div><div>- Sữa chua</div><div>- Bơ hỗn hợp</div><div>- Đồ uống từ đậu nành</div><div>Ngoài ra, vitamin D cũng tồn tại trong một số loại thực phẩm khác như:</div><div>- Cá béo</div><div>- Gan </div><div>- Phô mai</div><div>- Nấm</div><div><br></div><div><b>d. Thực phẩm chứa các acid amin</b></div><div>Một số axit amin có trong thực phẩm giàu chất đạm có khả năng hỗ trợ quá trình phát triển tóc, và L-lysine là một ví dụ điển hình. L-lysine cũng được tìm thấy trong cơ tạo tóc và chịu trách nhiệm về việc tạo nên hình dạng và khối lượng của sợi tóc.</div><div>Sự thiếu hụt L-lysine có thể gây rụng tóc, nhưng việc bổ sung đủ lượng axit amin này có thể giúp ngăn ngừa tình trạng này và thúc đẩy tóc mọc đều đặn.</div><div>Mọi người có thể bổ sung L-lysine thông qua việc ăn các thực phẩm chứa nhiều axit amin này.</div><div><br></div><div><b>e. Các chất vi khoáng dinh dưỡng</b></div><div>Các thiếu sót cụ thể trong chất dinh dưỡng có thể dẫn đến tình trạng rụng tóc và việc khắc phục các thiếu sót về chất dinh dưỡng và khoáng chất có thể thúc đẩy sự phát triển của tóc:</div><div>- Thiếu sắt. Ngay cả các trường hợp thiếu máu do thiếu sắt nhẹ cũng có thể dẫn đến rụng tóc.</div><div>- Thiếu kẽm. Sự thiếu kẽm có thể gây tóc khô và rụng.</div><div>- Thiếu protein. Thiếu chất đạm có thể làm cho tóc trở nên yếu và mất sức sống.</div><div>- Mặc dù nghiên cứu khoa học vẫn còn hạn chế, nhưng một số nguồn gợi ý rằng các chất dinh dưỡng sau có thể hỗ trợ sự phát triển của tóc:</div><div>Niacin, giúp bảo vệ sức khỏe nang tóc.</div><div>Axit folic, thúc đẩy tăng trưởng tóc mới.</div><div>Vitamin A, giúp bảo vệ sức khỏe của nang tóc.</div><div>Vitamin C, một chất chống oxy hóa, ngăn ngừa hỏng hóc của tóc và hỗ trợ sản xuất collagen.</div><div>Một số người có thể sử dụng các chất bổ sung thảo dược để thúc đẩy sự phát triển của tóc, mặc dù hiệu quả của những biện pháp này vẫn chưa được xác nhận bởi nghiên cứu khoa học. Chẳng hạn, một số người cho rằng chất bổ sung Palmetto có thể giúp ngăn ngừa hoặc thậm chí đảo ngược một phần tình trạng rụng tóc.</div><div><br></div><div><i>Tài liệu tham khảo</i></div><div>https://www.healthline.com/nutrition/foods-for-hair-growth</div><div>https://www.webmd.com/skin-problems-and-treatments/hair-loss/eat-right-healthy-hair</div><div><br></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+											</div>
+	</div>
+	<div id="timhieuthem">
+		<div class="content"></div>
+		<a class="close_timhieuthem">&#215;</a>
+	</div>
+	<div id="play_youtube"></div>
+	<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/jquery.simplePagination.min.js"></script>
+<script src="js/pdf.min.js"></script>
+<br>
+<footer class="container" id="footer">
+	<div class="top_footer clearfix">
+		<a href="index.html"><img src="img/logo_footer.png" alt="" width="100%"></a>
+	</div>
+	<div class="box01">
+		<h2 class="tit_07">FITNESS FOR WOMAN</h2>
+		<div class="txt_01">Start-up giúp cho chị em phái yếu có vóc dáng đẹp & sức khỏe dẻo dai một cách tiện lợi & tiết kiệm.</div><br><br>
+		<h3 class="tit_08">CÔNG TY TNHH SHEFIT</h2>
+		<table class="list_footer">
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Văn phòng</td>
+				<td width="1">:</td>
+				<td>Khu The Sun Avenue, An Phú, Q2, TPHCM</td>
+			</tr>
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Hotline</td>
+				<td width="1">:</td>
+				<td><a href="tel:0906934821">0906934821</a></td>
+			</tr>
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Email</td>
+				<td width="1">:</td>
+				<td><a href="mailto:info@shefit.vn">info@shefit.vn</a></td>
+			</tr>
+		</table><br>
+		<table class="list_footer">
+			<tr>
+				<td width="40"><a href="https://zalo.me/0906934821" target="_blank"><img src="img/zalo_icon.png" alt=""></a></td>
+				<td width="5">&nbsp;</td>
+				<td width="40"><a href="https://www.facebook.com/shefitvn" target="_blank"><img src="img/facebook_icon.png" alt=""></a></td>
+				<td width="5">&nbsp;</td>
+				<td width="40"><a href="https://www.youtube.com/@GluteLab-LoNanDang-zl7td" target="_blank"><img src="img/youtube_icon.png" alt=""></a></td>
+			</tr>
+		</table><br>
+		<div class="copyright">
+			<a href="index.html">&copy; Ngôi Nhà Đầu Bếp 2024</a>
+		</div><br>
+	</div>
+</footer>
+
+	<script>
+		$(document).ready(function() {
+			$(document).on( "click", ".frame_youtube", function(e) {
+				$(this).addClass('active');
+				var youtube_id = $(this).attr('youtube_id');
+                $(this).html('<iframe src="https://www.youtube.com/embed/' + youtube_id + '?autoplay=1&rel=0&showinfo=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>');
+			});
+
+            initializeSlider();
+            function initializeSlider() {
+                $('.slide_blog').slick({
+					infinite: true,
+					slidesToShow: 1,
+					autoplay: true,
+					slidesToScroll: 1,
+					pauseOnHover: true,
+					dots: true,
+					arrows: true,
+					autoplay: true
+                });
+            }
+		});
+	</script>
+</body>
+</html>

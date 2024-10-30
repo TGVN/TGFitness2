@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SHEFIT</title>
+	<link rel="stylesheet" type="text/css" href="css/slick.css@3133">
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css@4972">
+	<link rel="stylesheet" type="text/css" href="css/style_main.css@3990">
+	<body>
+	<div class="container">
+		<header id="header" class="header">
+	<div class="top_header container">
+		<table width="100%" cellspacing="0" cellpadding="0">
+			<tr>
+				<td>
+					<a href="index.html">
+						<span class="home_icon">
+							<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.3103 1.77586C11.6966 1.40805 12.3034 1.40805 12.6897 1.77586L20.6897 9.39491L23.1897 11.7759C23.5896 12.1567 23.605 12.7897 23.2241 13.1897C22.8433 13.5896 22.2103 13.605 21.8103 13.2241L21 12.4524V20C21 21.1046 20.1046 22 19 22H14H10H5C3.89543 22 3 21.1046 3 20V12.4524L2.18966 13.2241C1.78972 13.605 1.15675 13.5896 0.775862 13.1897C0.394976 12.7897 0.410414 12.1567 0.810345 11.7759L3.31034 9.39491L11.3103 1.77586ZM5 10.5476V20H9V15C9 13.3431 10.3431 12 12 12C13.6569 12 15 13.3431 15 15V20H19V10.5476L12 3.88095L5 10.5476ZM13 20V15C13 14.4477 12.5523 14 12 14C11.4477 14 11 14.4477 11 15V20H13Z" fill="#9b5e6e"/></svg>
+						</span> 
+						Home
+					</a>
+				</td>
+				<td style="text-align: right;">
+					<a href="quiz">
+						<span class="home_icon">
+							<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 14V7C20 5.34315 18.6569 4 17 4H7C5.34315 4 4 5.34315 4 7V17C4 18.6569 5.34315 20 7 20H13.5M20 14L13.5 20M20 14H15.5C14.3954 14 13.5 14.8954 13.5 16V20" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 8H16" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 12H12" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+						</span>
+						Body Quiz
+					</a>
+					<span class="ngancach">|</span> 
+												<a href="login">
+								<span class="home_icon">
+									<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M13 3C13 2.44772 12.5523 2 12 2C11.4477 2 11 2.44772 11 3V12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12V3ZM8.6092 5.8744C9.09211 5.60643 9.26636 4.99771 8.99839 4.5148C8.73042 4.03188 8.12171 3.85763 7.63879 4.1256C4.87453 5.65948 3 8.61014 3 12C3 16.9706 7.02944 21 12 21C16.9706 21 21 16.9706 21 12C21 8.66747 19.1882 5.75928 16.5007 4.20465C16.0227 3.92811 15.4109 4.09147 15.1344 4.56953C14.8579 5.04759 15.0212 5.65932 15.4993 5.93586C17.5942 7.14771 19 9.41027 19 12C19 15.866 15.866 19 12 19C8.13401 19 5 15.866 5 12C5 9.3658 6.45462 7.06997 8.6092 5.8744Z" fill="#9b5e6e"/></svg>
+								</span>
+								Đăng nhập
+							</a>
+									</td>
+
+			</tr>
+		</table>
+	</div>
+	<div class="main_header">
+		<ul class="clearfix">
+			<li><a href="khoahoc">Khóa học</a></li>
+			<li><a href="thucdon">Thực đơn</a></li>
+			<li><a href="huanluyenvien">Giáo viên</a></li>
+			<li><a href="sanpham">Dụng cụ</a></li>
+			<li><a href="thucpham">Thực phẩm</a></li>
+			<li><a href="blog">Blog</a></li>
+		</ul>
+	</div>
+</header>
+		<div class="box01">
+														<nav aria-label="breadcrumb" class="breadcrumb">
+							  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							   		&#10070;
+							      <a itemprop="item" href="index.html">
+							        <span itemprop="name">Trang chủ</span>
+							      </a>
+							      <meta itemprop="position" content="1" />
+							    </li>
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							      <a itemprop="item" href="blog.php">
+							        <span itemprop="name">Blog</span>
+							      </a>
+							      <meta itemprop="position" content="2" />
+							    </li>
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							      <a itemprop="item" href="blog.php">
+							        <span itemprop="name">GIA VỊ CÓ HẾT HẠN KHÔNG? THỜI GIAN LÝ TƯỞNG ĐỂ SỬ DỤNG?</span>
+							      </a>
+							      <meta itemprop="position" content="3" />
+							    </li>
+							  </ol>
+							</nav>
+							<h1 class="tit_01">GIA VỊ CÓ HẾT HẠN KHÔNG? THỜI GIAN LÝ TƯỞNG ĐỂ SỬ DỤNG?</h1>
+							<div class="blog_meta">
+								<table width="100%" cellpadding="0" cellspacing="0">
+									<tr>
+										<td>
+											<svg width="10%" height="10%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 14C8.13401 14 5 17.134 5 21H19C19 17.134 15.866 14 12 14Z" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Huỳnh Thị Sang</td>
+										<td class="txt_right">
+											<svg width="10%" height="10%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 10V7C20 5.89543 19.1046 5 18 5H6C4.89543 5 4 5.89543 4 7V10M20 10V19C20 20.1046 19.1046 21 18 21H6C4.89543 21 4 20.1046 4 19V10M20 10H4M8 3V7M16 3V7" stroke="#666666" stroke-width="2" stroke-linecap="round"/><rect x="6" y="12" width="3" height="3" rx="0.5" fill="#666666"/><rect x="10.5" y="12" width="3" height="3" rx="0.5" fill="#666666"/><rect x="15" y="12" width="3" height="3" rx="0.5" fill="#666666"/></svg>
+											2023-11-16										</td>
+									</tr>
+								</table>
+							</div><br>
+							<div class="slide_blog">
+																			<div><img src="img/upload/20241021164038.jpg"></div>
+																	</div>
+							<div class="blog_noidung"><div>Việc sưu tập nhiều loại gia vị dường như là sở thích của những người yêu bếp. Gia vị không chỉ giúp bạn tạo ra món ăn ngon mà còn giúp bảo quản thức ăn và đem lại nhiều lợi ích cho sức khỏe thông qua các món ăn đó. </div><div>Nếu bạn đang thu thập được nhiều loại gia vị thú vị chắc bạn sẽ khó tránh khỏi lo lắng khi một lúc nào đó bạn phải vứt chúng đi vì không kịp sử dụng. Có thể chúng chưa bị hư nhưng những thay đổi về cảm quan làm bạn ngại sử dụng tiếp hoặc là bạn vẫn chưa biết cách bảo quản chúng được tốt hơn. Những thông tin hôm nay chắc hẳn sẽ hữu ích cho bộ sưu tập gia vị của bạn.</div><div><br></div><div><b>1. Thời hạn sử dụng của gia vị</b></div><div>Gia vị gồm hai loại chính. Một là gia vị thông thường như muối, hạt nêm, đường, nước mắm, nước tương,... Hai là gia vị thảo mộc như tiêu, ớt bột, bột nghệ, ngũ vị hương, đinh hương, hồi, quế, lá xạ hương,... </div><div>Để xác định thời hạn sử dụng của các loại gia vị cần xem xét các yếu tố như loại gia vị, cách chế biến, cách bảo quản,... Các loại gia vị càng nguyên hạt hoặc càng ít chế biến thì thời gian sử dụng càng dài.</div><div><b>- Gia vị thảo mộc dạng lá khô: </b>có hạn dùng từ 1-3 năm. Bao gồm thì là, ngò rí, lá húng tây (basil), lá nguyệt quế, kinh giới cay (oregano), kinh giới ngọt (marjoram), lá xạ hương, lá hương thảo, lá mùi tây, lá bạc hà, lá xô thơm (sage),...</div><div><b>- Gia vị thảo mộc dạng bột khô:</b> thời hạn sử dụng khoảng 2–3 năm. Chẳng hạn như bột gừng, bột tỏi, bột quế, bột ớt, bột nghệ, bột tiêu,...</div><div><b>- Gia vị nguyên hạt (hoặc không xay), khô:</b> có thời hạn sử dụng lâu nhất vì chúng có diện tích bề mặt tiếp xúc với không khí, ánh sáng và độ ẩm ít hơn. Do đó, chúng giữ các hợp chất hương vị đặc trưng lâu hơn so với các loại đã được xay. Nếu bảo quản đúng cách, toàn bộ gia vị có thể để được tới 4 năm. Điển hình như tiêu khô nguyên hạt, hạt mù tạt, hạt rau mùi, hạt tiểu hồi hương, nhục đậu khấu, ớt khô nguyên quả, đinh hương, sả khô,...</div><div><b>- Các loại gia vị thông thường khác:</b> hãy xem hạn sử dụng đến từ nhà sản xuất. Muối là ngoại lệ của quy tắc này, vì nó có thể được sử dụng vô thời hạn bất kể kích thước và hình dạng của nó như thế nào hay thậm chí hương vị có phần thay đổi.</div><div><br></div><div><b>2. Cách nhận biết gia vị đã bị hỏng</b></div><div>Khi gia vị hỏng chúng sẽ mất đi phần lớn hương vị, màu sắc và tác dụng. Rất may là việc tiêu thụ một loại gia vị đã bị hỏng sẽ không ảnh hưởng quá nhiều đến sức khỏe.</div><div>Nhiều loại gia vị mua tại cửa hàng sẽ được ghi rõ hạn sử dụng, đó là khung thời gian mà chúng sẽ giữ được hương vị và chất lượng tốt nhất.</div><div>Nếu bạn không chắc mình đã để gia vị được bao lâu, hãy kiểm tra mùi và hương vị của chúng bằng cách nghiền nát hoặc xoa một lượng nhỏ vào lòng bàn tay. Nếu mùi nhạt và hương nhẹ đi thì khả năng cao là bạn nên thay mới.</div><div><br></div><div><b>3. Cách bảo quản gia vị </b></div><div>Mặc dù việc để sẵn gia vị cạnh bếp có thể thuận tiện cho việc nấu nướng nhưng đó không phải cách tuyệt vời để bảo quản tốt gia vị.</div><div>Giảm thiểu sự tiếp xúc của gia vị với không khí, nhiệt độ, ánh sáng và độ ẩm là chìa khóa để tối đa hóa thời hạn sử dụng của các loại gia vị, điều này có thể giúp bạn đỡ lãng phí và tiết kiệm tiền mua gia vị mới. Một môi trường mát mẻ, khô ráo và tối như tủ đựng thức ăn, ngăn kéo hoặc tủ đặt cách xa bếp nấu hoặc lò nướng là nơi tuyệt vời để lưu trữ toàn bộ gia vị. </div><div>Dựa vào những tiêu chí trên, sau đây là những mẹo hữu ích dành cho bộ sưu tập gia vị của bạn.</div><div><br></div><div><b><i>Mẹo 1. Lựa chọn loại vật dụng để chứa đựng</i></b></div><div>Lọ thủy tinh hoặc gốm có nắp đậy kín là hai lựa chọn tốt nhất để đựng gia vị, chúng có hiệu quả cao trong việc ngăn không khí và hơi ẩm lọt vào. </div><div>Lọ nhựa là một lựa chọn phổ biến nhưng chúng thường không kín khí và có thể hấp thụ màu sắc cũng như mùi của một vài loại gia vị. </div><div>Lọ đựng bằng thép không gỉ hoặc thiếc là những lựa chọn khả thi khác, nhưng vì kim loại có tính dẫn nhiệt nên điều quan trọng hơn là chúng phải được đặt cách xa các nguồn nhiệt như bếp hay gần tủ lạnh.</div><div><br></div><div><b><i>Mẹo 2. Nhiệt độ bảo quản</i></b></div><div>Mặc dù không quá cần thiết để bảo quản lạnh nhưng các loại gia vị màu đỏ như ớt bột, ngũ vị hương, hồi, quế,... sẽ giữ được sắc tố lâu hơn khi được bảo quản trong tủ lạnh. Tương tự, bảo quản các gia vị có chứa dầu như hạt vừng và hạt anh túc trong tủ lạnh có thể giúp chúng không bị ôi thiu.</div><div>Ngoài ra, hãy nhớ rằng độ ẩm có thể nhanh chóng làm giảm hương vị và kết cấu của gia vị, có khả năng khiến chúng bị vón cục hoặc mốc. Nếu bạn nhận thấy nấm mốc trong bất kỳ lọ gia vị nào, hãy nhanh chóng loại bỏ lọ gia vị đó.</div><div><br></div><div><b><i>Mẹo 3. Cách lấy gia vị</i></b></div><div>Bạn có thể giữ gia vị tốt hơn bằng cách dùng thìa lấy chúng ra khỏi lọ đựng trước khi cho vào thức ăn nóng thay vì rắc thẳng từ lọ.</div><div>Nếu bạn mua hoặc làm sẵn một lượng lớn gia vị, khoan cho vào một lọ để dùng mà hãy chia làm nhiều lọ nhỏ hơn và dùng dần dần từng lọ.</div><div><br></div><div><b><i>Mẹo 4. Dán nhãn gia vị</i></b></div><div>Dùng một mẩu giấy ghi tên và thời hạn sử dụng của từng loại gia vị sẽ giúp bạn dễ dàng nhận diện và xác định được hạn dùng của lọ gia vị đó. </div><div>Sẽ rất tuyệt vời nếu bạn có một góc riêng cho bộ sưu tập quý giá này, bạn có thể sáng tạo nó thành một bức tranh nghệ thuật. Biết đâu nó sẽ bạn cảm thấy thoải mái và có nhiều cảm hứng hơn để bạn tạo ra nhiều món ăn ngon như một đầu bếp tài ba.</div><div><br></div><div><i>Tài liệu tham khảo</i></div><div>https://www.healthline.com/nutrition/do-spices-expire</div><div><br></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+											</div>
+	</div>
+	<div id="timhieuthem">
+		<div class="content"></div>
+		<a class="close_timhieuthem">&#215;</a>
+	</div>
+	<div id="play_youtube"></div>
+	<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/jquery.simplePagination.min.js"></script>
+<script src="js/pdf.min.js"></script>
+<br>
+<footer class="container" id="footer">
+	<div class="top_footer clearfix">
+		<a href="index.html"><img src="img/logo_footer.png" alt="" width="100%"></a>
+	</div>
+	<div class="box01">
+		<h2 class="tit_07">FITNESS FOR WOMAN</h2>
+		<div class="txt_01">Start-up giúp cho chị em phái yếu có vóc dáng đẹp & sức khỏe dẻo dai một cách tiện lợi & tiết kiệm.</div><br><br>
+		<h3 class="tit_08">CÔNG TY TNHH SHEFIT</h2>
+		<table class="list_footer">
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Văn phòng</td>
+				<td width="1">:</td>
+				<td>Khu The Sun Avenue, An Phú, Q2, TPHCM</td>
+			</tr>
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Hotline</td>
+				<td width="1">:</td>
+				<td><a href="tel:0906934821">0906934821</a></td>
+			</tr>
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Email</td>
+				<td width="1">:</td>
+				<td><a href="mailto:info@shefit.vn">info@shefit.vn</a></td>
+			</tr>
+		</table><br>
+		<table class="list_footer">
+			<tr>
+				<td width="40"><a href="https://zalo.me/0906934821" target="_blank"><img src="img/zalo_icon.png" alt=""></a></td>
+				<td width="5">&nbsp;</td>
+				<td width="40"><a href="https://www.facebook.com/shefitvn" target="_blank"><img src="img/facebook_icon.png" alt=""></a></td>
+				<td width="5">&nbsp;</td>
+				<td width="40"><a href="https://www.youtube.com/@GluteLab-LoNanDang-zl7td" target="_blank"><img src="img/youtube_icon.png" alt=""></a></td>
+			</tr>
+		</table><br>
+		<div class="copyright">
+			<a href="index.html">&copy; Ngôi Nhà Đầu Bếp 2024</a>
+		</div><br>
+	</div>
+</footer>
+
+	<script>
+		$(document).ready(function() {
+			$(document).on( "click", ".frame_youtube", function(e) {
+				$(this).addClass('active');
+				var youtube_id = $(this).attr('youtube_id');
+                $(this).html('<iframe src="https://www.youtube.com/embed/' + youtube_id + '?autoplay=1&rel=0&showinfo=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>');
+			});
+
+            initializeSlider();
+            function initializeSlider() {
+                $('.slide_blog').slick({
+					infinite: true,
+					slidesToShow: 1,
+					autoplay: true,
+					slidesToScroll: 1,
+					pauseOnHover: true,
+					dots: true,
+					arrows: true,
+					autoplay: true
+                });
+            }
+		});
+	</script>
+</body>
+</html>

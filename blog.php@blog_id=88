@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SHEFIT</title>
+	<link rel="stylesheet" type="text/css" href="css/slick.css@2772">
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css@5363">
+	<link rel="stylesheet" type="text/css" href="css/style_main.css@3855">
+	<body>
+	<div class="container">
+		<header id="header" class="header">
+	<div class="top_header container">
+		<table width="100%" cellspacing="0" cellpadding="0">
+			<tr>
+				<td>
+					<a href="index.html">
+						<span class="home_icon">
+							<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.3103 1.77586C11.6966 1.40805 12.3034 1.40805 12.6897 1.77586L20.6897 9.39491L23.1897 11.7759C23.5896 12.1567 23.605 12.7897 23.2241 13.1897C22.8433 13.5896 22.2103 13.605 21.8103 13.2241L21 12.4524V20C21 21.1046 20.1046 22 19 22H14H10H5C3.89543 22 3 21.1046 3 20V12.4524L2.18966 13.2241C1.78972 13.605 1.15675 13.5896 0.775862 13.1897C0.394976 12.7897 0.410414 12.1567 0.810345 11.7759L3.31034 9.39491L11.3103 1.77586ZM5 10.5476V20H9V15C9 13.3431 10.3431 12 12 12C13.6569 12 15 13.3431 15 15V20H19V10.5476L12 3.88095L5 10.5476ZM13 20V15C13 14.4477 12.5523 14 12 14C11.4477 14 11 14.4477 11 15V20H13Z" fill="#9b5e6e"/></svg>
+						</span> 
+						Home
+					</a>
+				</td>
+				<td style="text-align: right;">
+					<a href="quiz">
+						<span class="home_icon">
+							<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 14V7C20 5.34315 18.6569 4 17 4H7C5.34315 4 4 5.34315 4 7V17C4 18.6569 5.34315 20 7 20H13.5M20 14L13.5 20M20 14H15.5C14.3954 14 13.5 14.8954 13.5 16V20" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 8H16" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 12H12" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+						</span>
+						Body Quiz
+					</a>
+					<span class="ngancach">|</span> 
+												<a href="login">
+								<span class="home_icon">
+									<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M13 3C13 2.44772 12.5523 2 12 2C11.4477 2 11 2.44772 11 3V12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12V3ZM8.6092 5.8744C9.09211 5.60643 9.26636 4.99771 8.99839 4.5148C8.73042 4.03188 8.12171 3.85763 7.63879 4.1256C4.87453 5.65948 3 8.61014 3 12C3 16.9706 7.02944 21 12 21C16.9706 21 21 16.9706 21 12C21 8.66747 19.1882 5.75928 16.5007 4.20465C16.0227 3.92811 15.4109 4.09147 15.1344 4.56953C14.8579 5.04759 15.0212 5.65932 15.4993 5.93586C17.5942 7.14771 19 9.41027 19 12C19 15.866 15.866 19 12 19C8.13401 19 5 15.866 5 12C5 9.3658 6.45462 7.06997 8.6092 5.8744Z" fill="#9b5e6e"/></svg>
+								</span>
+								Đăng nhập
+							</a>
+									</td>
+
+			</tr>
+		</table>
+	</div>
+	<div class="main_header">
+		<ul class="clearfix">
+			<li><a href="khoahoc">Khóa học</a></li>
+			<li><a href="thucdon">Thực đơn</a></li>
+			<li><a href="huanluyenvien">Giáo viên</a></li>
+			<li><a href="sanpham">Dụng cụ</a></li>
+			<li><a href="thucpham">Thực phẩm</a></li>
+			<li><a href="blog">Blog</a></li>
+		</ul>
+	</div>
+</header>
+		<div class="box01">
+														<nav aria-label="breadcrumb" class="breadcrumb">
+							  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							   		&#10070;
+							      <a itemprop="item" href="index.html">
+							        <span itemprop="name">Trang chủ</span>
+							      </a>
+							      <meta itemprop="position" content="1" />
+							    </li>
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							      <a itemprop="item" href="blog.php">
+							        <span itemprop="name">Blog</span>
+							      </a>
+							      <meta itemprop="position" content="2" />
+							    </li>
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							      <a itemprop="item" href="blog.php">
+							        <span itemprop="name">LỢI ÍCH SỨC KHỎE TỪ ĐẬU NÀNH</span>
+							      </a>
+							      <meta itemprop="position" content="3" />
+							    </li>
+							  </ol>
+							</nav>
+							<h1 class="tit_01">LỢI ÍCH SỨC KHỎE TỪ ĐẬU NÀNH</h1>
+							<div class="blog_meta">
+								<table width="100%" cellpadding="0" cellspacing="0">
+									<tr>
+										<td>
+											<svg width="10%" height="10%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 14C8.13401 14 5 17.134 5 21H19C19 17.134 15.866 14 12 14Z" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Trương Thuỷ Thuỳ Giang</td>
+										<td class="txt_right">
+											<svg width="10%" height="10%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 10V7C20 5.89543 19.1046 5 18 5H6C4.89543 5 4 5.89543 4 7V10M20 10V19C20 20.1046 19.1046 21 18 21H6C4.89543 21 4 20.1046 4 19V10M20 10H4M8 3V7M16 3V7" stroke="#666666" stroke-width="2" stroke-linecap="round"/><rect x="6" y="12" width="3" height="3" rx="0.5" fill="#666666"/><rect x="10.5" y="12" width="3" height="3" rx="0.5" fill="#666666"/><rect x="15" y="12" width="3" height="3" rx="0.5" fill="#666666"/></svg>
+											2023-11-08										</td>
+									</tr>
+								</table>
+							</div><br>
+							<div class="slide_blog">
+																			<div><img src="img/upload/20241006225448.jpg"></div>
+																	</div>
+							<div class="blog_noidung">Đậu nành là một loại thực phẩm phổ biến và có rất nhiều cách chế biến vô cùng đa dạng. Không những vậy, đậu nành còn là thực phẩm giàu đạm, chất xơ, chất béo tốt omega-3, chất chống oxi hoá và phytoestrogens. Hiện nay, có một số lời “đồn thổi” hay tranh cãi về lợi ích của đậu nành. Thậm chí, một số người còn cho rằng việc ăn đậu nành là không tốt cho sức khỏe. Tuy nhiên, mặc cho những lời đồn thổi, có rất nhiều bằng chứng khoa học đã chỉ ra lợi ích của đậu nành đối với sức khỏe. Vậy thực hư như thế nào, chúng ta hãy cùng tìm hiểu về một số lợi ích sức khỏe đến từ đậu nành nhé.<div><br><div><b>Tìm hiểu về đậu nành và các sản phẩm từ đậu nành </b></div><div>Đậu nành là thành viên của họ đậu và là một món ăn chủ yếu của ẩm thực châu Á trong hàng nghìn năm. Đậu nành và các thực phẩm từ đậu nành rất phổ biến trong ẩm thực châu Á, ngày nay độ phổ biến đang dần lan rộng ra toàn thế giới, đặc biệt đối với những người theo chế độ ăn chay và thuần chay. Lý do đậu nành được mọi người ưa thích chính là <b>hàm lượng dinh dưỡng trong đậu nành rất cao</b>, đặc biệt là nó chứa protein chất lượng cao (protein hoàn chỉnh). Có lẽ chính vì lý do đó, đậu nành được chế biến thành nhiều món ăn vô cùng đa dạng, điển hình là <b>các sản phẩm thay thế sữa và thịt.</b></div><div><br></div><div><b>Hàm lượng dinh dưỡng trong đậu nành</b></div><div>Theo FDA, trong 100g đậu nành luộc chứa đến ~18.2g protein, 8.4g carbohydrate (trong đó 6g là chất xơ), và ~9g chất béo (phần lớn là chất béo không bão hòa- chất béo tốt). Ngoài ra, hàm lượng vitamin và chất khoáng trong đậu nành cũng không hề thấp. Ví dụ như: vitamin K1, folate, thiamin, phốt-pho, magan,...</div><div>Đặc biệt, đậu nành rất giàu các hợp chất thực vật có hoạt tính sinh học khác nhau, bao gồm:</div><div><b>- Isoflavone:</b> Là một họ polyphenol chống oxy hóa, isoflavone có nhiều tác dụng đối với sức khỏe. Isoflavone có chức năng tương tự như estrogen (hormone sinh dục nữ) của con người nhưng có tác dụng yếu hơn nhiều. Trên thực tế, chúng thuộc họ chất gọi là phytoestrogen (estrogen thực vật). <b>Các loại isoflavone chính</b> trong đậu nành là <b>genistein (50%), daidzein (40%) và glycitein (10%).</b></div><div><b>- Axit phytic:</b> Được tìm thấy trong tất cả các loại hạt thực vật, axit phytic (phytate) làm suy yếu sự hấp thụ các khoáng chất như kẽm và sắt. Mức độ axit này có thể được giảm bớt bằng cách đun sôi, hoặc ngâm đậu qua đêm, làm nảy mầm hoặc lên men đậu.</div><div><b>- Saponin:</b> Một trong những loại hợp chất thực vật chính trong đậu nành, saponin đã được phát hiện có tác dụng làm giảm cholesterol ở động vật.</div><div><br></div><div><b>Những lợi ích về sức khỏe từ đậu nành</b></div><div>Có rất nhiều lợi ích từ đậu nành đã và đang được nghiên cứu và chứng minh. Một số lợi ích về đậu  nành có thể kể đến như: </div><div><b>1. Lợi ích về tim mạch</b></div><div>Đậu nành đã được chứng minh là làm giảm mức cholesterol toàn phần và cholesterol LDL, cả hai đều là yếu tố nguy cơ gây bệnh tim.</div><div>Một phân tích của các thử nghiệm lâm sàng cho thấy 14g đến 50g protein đậu nành có thể làm giảm đáng kể mức cholesterol toàn phần trong máu, mức cholesterol LDL (có hại) và chất béo trung tính, đồng thời làm tăng mức cholesterol HDL (có lợi) vừa phải.</div><div>Đặc biệt, các nghiên cứu cũng chỉ ra rằng ăn protein đậu nành mà không có isoflavone chỉ giúp giảm cholesterol một phần nhỏ và chỉ bổ sung isoflavone mới có tác dụng giảm cholesterol ở mức tối thiểu.</div><div><br></div><div><b>2. Giúp giảm các triệu chứng tiền mãn kinh và hậu mãn kinh</b></div><div>Bằng chứng cũng cho thấy việc tiêu thụ đậu nành và thực phẩm từ đậu nành có lợi cho phụ nữ tiền mãn kinh và hậu mãn kinh, đồng thời có thể cải thiện sự khó chịu ở phụ nữ sau mãn kinh, có liên quan đến việc giảm mức độ nghiêm trọng của các cơn bốc hỏa. Lợi ích này đến từ thành phần protein đậu nành và thụ thể estrogen.</div><div>Do chứa hàm lượng phytoestrogen nên người ta cho rằng đậu nành có thể làm giảm các triệu chứng mãn kinh (như bốc hỏa). Điều này dựa trên quan sát của phụ nữ ở một số vùng ở châu Á, những người có xu hướng ăn nhiều đậu nành và thường ít bốc hỏa hơn trong thời kỳ mãn kinh so với phụ nữ ăn nhiều thịt.</div><div>Tuy nhiên, các bạn hãy lưu ý rằng không nên dùng thực phẩm bổ sung đậu nành đã qua chế biến quá nhiều nếu bạn có nguy cơ cao mắc bệnh ung thư vú hoặc là người sống sót sau bệnh ung thư vú. Hãy tập trung ưu tiên thực phẩm từ đậu nành chuyên chất và tự nhiên.</div><div><br></div><div><b>3. Giảm tỉ lệ ung thư vú ở nữ </b></div><div>Ăn các sản phẩm từ đậu nành có liên quan đến việc tăng mô vú ở phụ nữ, theo giả thuyết là làm tăng nguy cơ ung thư vú. Tuy nhiên, cho đến thời điểm hiện tại, chưa có bằng chứng khoa học cụ thể chứng minh rằng việc ăn đậu nành gây ra nguy cơ ung thư vú.</div><div>Ngược lại, một số nghiên cứu đã chỉ ra rằng Isoflavones - phytoestrogens trong đậu nành có khả năng giảm nguy cơ ung thư vú. Một số hợp chất đậu nành - bao gồm isoflavone và lunasin - có thể chịu trách nhiệm về tác dụng ngăn ngừa ung thư tiềm tàng. Các nghiên cứu quan sát cho thấy phụ nữ châu Á tiêu thụ nhiều đậu nành hơn có liên quan đến việc giảm khoảng 30% nguy cơ phát triển ung thư vú. Việc tiếp xúc với isoflavone sớm trong đời có thể đặc biệt bảo vệ chống lại bệnh ung thư vú sau này.</div><div><br></div><div><b>4. Giảm nguy cơ bị loãng xương ở người già</b></div><div>Ngoài những lợi ích kể trên, phytoestrogens cũng được chứng minh là có thể ngăn ngừa tình trạng loãng xương ở tuổi lão hoá nữ. Khi lão hoá diễn ra, các tế bào cơ sẽ bị teo lại và kèm theo các tế bào cơ xương cũng sẽ bị mất đi, gọi là tình trạng loãng xương. </div><div>So với protein từ sữa, protein đậu nành được phát hiện có tác dụng lớn hơn trong việc tăng serum IGF-1 - một trong những hormone tăng trưởng của cơ thể. Vì IGF-1 có khả năng tạo xương và có thể kích thích tổng hợp protein cơ, nên phụ nữ sau mãn kinh nên ăn nhiều đậu nành hơn protein giàu IGF-1 để thúc đẩy quá trình tái tạo cơ bắp và sức khỏe của xương, đồng thời cải thiện chất lượng cuộc sống của họ.</div><div><br></div><div><b>Tóm lại</b></div><div>Qua bài viết này, ta đã cùng tìm hiểu được một số lợi ích của đậu nành đối với sức khỏe. Tuy nhiên có một số người bị dị ứng với đậu nành hoặc các loại đậu hạt thì không nên tiêu thụ đậu nành và các sản phẩm chứa đậu nành. Hãy gặp bác sĩ hoặc chuyên gia dinh dưỡng để được hướng dẫn thêm. Và bên cạnh đó, các chuyên gia dinh dưỡng cũng đưa ra lời khuyên rằng chúng ta nên ưu tiên chọn những sản phẩm đậu nành tự nhiên và nguyên chất nhất có thể để đảm bảo một sức khỏe toàn diện hơn.</div><div><br></div><div><i>Tài liệu tham khảo:</i></div><div>Department of Health &amp; Human Services. (2003, March 27). Soybeans and soy foods. Better Health Channel. https://www.betterhealth.vic.gov.au/health/healthyliving/soybeans#where-to-get-help FDA. Nutrient fact of Soybeans. Available via: https://fdc.nal.usda.gov/fdc-app.html#/food-details/174271/nutrients</div><div>McMichael-Phillips, D. F., Harding, C., Morton, M., Roberts, S. A., Howell, A., Potten, C. S., &amp; Bundred, N. J. (1998). Effects of soy-protein supplementation on epithelial proliferation in the histologically normal human breast. The American journal of clinical nutrition, 68(6 Suppl), 1431S–1435S. https://doi.org/10.1093/ajcn/68.6.1431S</div><div>Messina M. (2016). Impact of Soy Foods on the Development of Breast Cancer and the Prognosis of Breast Cancer Patients. Forschende Komplementarmedizin (2006), 23(2), 75–80. https://doi.org/10.1159/000444735</div><div>Murphy, P. A., Barua, K., &amp; Hauck, C. C. (2002). Solvent extraction selection in the determination of isoflavones in soy foods. Journal of chromatography. B, Analytical technologies in the biomedical and life sciences, 777(1-2), 129–138. https://doi.org/10.1016/s1570-0232(02)00342-2</div><div>Nagata C. (2010). Factors to consider in the association between soy isoflavone intake and breast cancer risk. Journal of epidemiology, 20(2), 83–89. https://doi.org/10.2188/jea.je20090181</div><div>Petrakis, N. L., Barnes, S., King, E. B., Lowenstein, J., Wiencke, J., Lee, M. M., Miike, R., Kirk, M., &amp; Coward, L. (1996). Stimulatory influence of soy protein isolate on breast secretion in pre- and postmenopausal women. Cancer epidemiology, biomarkers &amp; prevention : a publication of the American Association for Cancer Research, cosponsored by the American Society of Preventive Oncology, 5(10), 785–794.</div><div>Sarkar, F. H., &amp; Li, Y. (2003). Soy isoflavones and cancer prevention. Cancer investigation, 21(5), 744–757. https://doi.org/10.1081/cnv-120023773</div><div>Schlemmer, U., Frølich, W., Prieto, R. M., &amp; Grases, F. (2009). Phytate in foods and significance for humans: food sources, intake, processing, bioavailability, protective role and analysis. Molecular nutrition &amp; food research, 53 Suppl 2, S330–S375. https://doi.org/10.1002/mnfr.200900099</div><div>Tang, S., Du, Y., Oh, C., &amp; No, J. (2020). Effects of soy foods in postmenopausal women: A focus on osteosarcopenia and obesity. Journal of Obesity &amp;amp; Metabolic Syndrome, 29(3), 180–187. https://doi.org/10.7570/jomes20006 </div><div><br></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+											</div>
+	</div>
+	<div id="timhieuthem">
+		<div class="content"></div>
+		<a class="close_timhieuthem">&#215;</a>
+	</div>
+	<div id="play_youtube"></div>
+	<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/jquery.simplePagination.min.js"></script>
+<script src="js/pdf.min.js"></script>
+<br>
+<footer class="container" id="footer">
+	<div class="top_footer clearfix">
+		<a href="index.html"><img src="img/logo_footer.png" alt="" width="100%"></a>
+	</div>
+	<div class="box01">
+		<h2 class="tit_07">FITNESS FOR WOMAN</h2>
+		<div class="txt_01">Start-up giúp cho chị em phái yếu có vóc dáng đẹp & sức khỏe dẻo dai một cách tiện lợi & tiết kiệm.</div><br><br>
+		<h3 class="tit_08">CÔNG TY TNHH SHEFIT</h2>
+		<table class="list_footer">
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Văn phòng</td>
+				<td width="1">:</td>
+				<td>Khu The Sun Avenue, An Phú, Q2, TPHCM</td>
+			</tr>
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Hotline</td>
+				<td width="1">:</td>
+				<td><a href="tel:0906934821">0906934821</a></td>
+			</tr>
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Email</td>
+				<td width="1">:</td>
+				<td><a href="mailto:info@shefit.vn">info@shefit.vn</a></td>
+			</tr>
+		</table><br>
+		<table class="list_footer">
+			<tr>
+				<td width="40"><a href="https://zalo.me/0906934821" target="_blank"><img src="img/zalo_icon.png" alt=""></a></td>
+				<td width="5">&nbsp;</td>
+				<td width="40"><a href="https://www.facebook.com/shefitvn" target="_blank"><img src="img/facebook_icon.png" alt=""></a></td>
+				<td width="5">&nbsp;</td>
+				<td width="40"><a href="https://www.youtube.com/@GluteLab-LoNanDang-zl7td" target="_blank"><img src="img/youtube_icon.png" alt=""></a></td>
+			</tr>
+		</table><br>
+		<div class="copyright">
+			<a href="index.html">&copy; Ngôi Nhà Đầu Bếp 2024</a>
+		</div><br>
+	</div>
+</footer>
+
+	<script>
+		$(document).ready(function() {
+			$(document).on( "click", ".frame_youtube", function(e) {
+				$(this).addClass('active');
+				var youtube_id = $(this).attr('youtube_id');
+                $(this).html('<iframe src="https://www.youtube.com/embed/' + youtube_id + '?autoplay=1&rel=0&showinfo=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>');
+			});
+
+            initializeSlider();
+            function initializeSlider() {
+                $('.slide_blog').slick({
+					infinite: true,
+					slidesToShow: 1,
+					autoplay: true,
+					slidesToScroll: 1,
+					pauseOnHover: true,
+					dots: true,
+					arrows: true,
+					autoplay: true
+                });
+            }
+		});
+	</script>
+</body>
+</html>

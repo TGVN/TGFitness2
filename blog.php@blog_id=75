@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SHEFIT</title>
+	<link rel="stylesheet" type="text/css" href="css/slick.css@1665">
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css@1247">
+	<link rel="stylesheet" type="text/css" href="css/style_main.css@2215">
+	<body>
+	<div class="container">
+		<header id="header" class="header">
+	<div class="top_header container">
+		<table width="100%" cellspacing="0" cellpadding="0">
+			<tr>
+				<td>
+					<a href="index.html">
+						<span class="home_icon">
+							<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.3103 1.77586C11.6966 1.40805 12.3034 1.40805 12.6897 1.77586L20.6897 9.39491L23.1897 11.7759C23.5896 12.1567 23.605 12.7897 23.2241 13.1897C22.8433 13.5896 22.2103 13.605 21.8103 13.2241L21 12.4524V20C21 21.1046 20.1046 22 19 22H14H10H5C3.89543 22 3 21.1046 3 20V12.4524L2.18966 13.2241C1.78972 13.605 1.15675 13.5896 0.775862 13.1897C0.394976 12.7897 0.410414 12.1567 0.810345 11.7759L3.31034 9.39491L11.3103 1.77586ZM5 10.5476V20H9V15C9 13.3431 10.3431 12 12 12C13.6569 12 15 13.3431 15 15V20H19V10.5476L12 3.88095L5 10.5476ZM13 20V15C13 14.4477 12.5523 14 12 14C11.4477 14 11 14.4477 11 15V20H13Z" fill="#9b5e6e"/></svg>
+						</span> 
+						Home
+					</a>
+				</td>
+				<td style="text-align: right;">
+					<a href="quiz">
+						<span class="home_icon">
+							<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 14V7C20 5.34315 18.6569 4 17 4H7C5.34315 4 4 5.34315 4 7V17C4 18.6569 5.34315 20 7 20H13.5M20 14L13.5 20M20 14H15.5C14.3954 14 13.5 14.8954 13.5 16V20" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 8H16" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 12H12" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+						</span>
+						Body Quiz
+					</a>
+					<span class="ngancach">|</span> 
+												<a href="login">
+								<span class="home_icon">
+									<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M13 3C13 2.44772 12.5523 2 12 2C11.4477 2 11 2.44772 11 3V12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12V3ZM8.6092 5.8744C9.09211 5.60643 9.26636 4.99771 8.99839 4.5148C8.73042 4.03188 8.12171 3.85763 7.63879 4.1256C4.87453 5.65948 3 8.61014 3 12C3 16.9706 7.02944 21 12 21C16.9706 21 21 16.9706 21 12C21 8.66747 19.1882 5.75928 16.5007 4.20465C16.0227 3.92811 15.4109 4.09147 15.1344 4.56953C14.8579 5.04759 15.0212 5.65932 15.4993 5.93586C17.5942 7.14771 19 9.41027 19 12C19 15.866 15.866 19 12 19C8.13401 19 5 15.866 5 12C5 9.3658 6.45462 7.06997 8.6092 5.8744Z" fill="#9b5e6e"/></svg>
+								</span>
+								Đăng nhập
+							</a>
+									</td>
+
+			</tr>
+		</table>
+	</div>
+	<div class="main_header">
+		<ul class="clearfix">
+			<li><a href="khoahoc">Khóa học</a></li>
+			<li><a href="thucdon">Thực đơn</a></li>
+			<li><a href="huanluyenvien">Giáo viên</a></li>
+			<li><a href="sanpham">Dụng cụ</a></li>
+			<li><a href="thucpham">Thực phẩm</a></li>
+			<li><a href="blog">Blog</a></li>
+		</ul>
+	</div>
+</header>
+		<div class="box01">
+														<nav aria-label="breadcrumb" class="breadcrumb">
+							  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							   		&#10070;
+							      <a itemprop="item" href="index.html">
+							        <span itemprop="name">Trang chủ</span>
+							      </a>
+							      <meta itemprop="position" content="1" />
+							    </li>
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							      <a itemprop="item" href="blog.php">
+							        <span itemprop="name">Blog</span>
+							      </a>
+							      <meta itemprop="position" content="2" />
+							    </li>
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							      <a itemprop="item" href="blog.php">
+							        <span itemprop="name">NHỊN ĂN 12 GIỜ VÀ 16 GIỜ?</span>
+							      </a>
+							      <meta itemprop="position" content="3" />
+							    </li>
+							  </ol>
+							</nav>
+							<h1 class="tit_01">NHỊN ĂN 12 GIỜ VÀ 16 GIỜ?</h1>
+							<div class="blog_meta">
+								<table width="100%" cellpadding="0" cellspacing="0">
+									<tr>
+										<td>
+											<svg width="10%" height="10%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 14C8.13401 14 5 17.134 5 21H19C19 17.134 15.866 14 12 14Z" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Vũ Thị Quỳnh Trang</td>
+										<td class="txt_right">
+											<svg width="10%" height="10%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 10V7C20 5.89543 19.1046 5 18 5H6C4.89543 5 4 5.89543 4 7V10M20 10V19C20 20.1046 19.1046 21 18 21H6C4.89543 21 4 20.1046 4 19V10M20 10H4M8 3V7M16 3V7" stroke="#666666" stroke-width="2" stroke-linecap="round"/><rect x="6" y="12" width="3" height="3" rx="0.5" fill="#666666"/><rect x="10.5" y="12" width="3" height="3" rx="0.5" fill="#666666"/><rect x="15" y="12" width="3" height="3" rx="0.5" fill="#666666"/></svg>
+											2023-11-07										</td>
+									</tr>
+								</table>
+							</div><br>
+							<div class="slide_blog">
+																			<div><img src="img/upload/20241001215425.jpg"></div>
+																	</div>
+							<div class="blog_noidung">Nhịn ăn gián đoạn (IF) là một trong những phương pháp mới mẻ để tác động vào quá trình trao đổi chất, giúp giảm cân và cải thiện sức khỏe. Có khá nhiều lựa chọn chế độ ăn khác nhau để bắt đầu thực hiện IF, nhưng bạn vẫn phân vân lựa chọn nào là tốt và phù hợp nhất? Nếu bạn đang cố gắng lựa chọn giữa nhịn ăn gián đoạn 12:12 và 16:8 thì bài viết này là dành cho bạn.<div><br><div></div><div><b>Điều gì xảy ra trong cơ thể bạn khi bạn nhịn ăn trong 12 giờ so với 16 giờ?
+</b></div><div>Xét về nguyên tắc chung của chuyển hoá năng lượng, khi bạn nhịn ăn ít nhất 12 giờ, lượng đường trong máu của bạn giảm xuống mức cơ bản. Mức đường máu thấp này kích hoạt bộ máy đốt cháy chất béo trong các tế bào để tạo ra năng lượng đáp ứng nhu cầu cơ thể. Trong hầu hết các trường hợp, nhịn ăn ít nhất 12 giờ sẽ kích hoạt quá trình chuyển hoá này.
+</div><div>Chính bằng cơ chế đó, nhịn ăn trong 16 giờ thúc đẩy mạnh mẽ hơn quá trình chuyển hoá chất béo. Hầu hết sự khác biệt giữa nhịn ăn 12 giờ và 16 giờ là kết quả của việc có nhiều thời gian hơn để các quá trình điều chỉnh trên khắp cơ thể thực sự bắt đầu.
+</div><div><br></div><div><b>Sự khác biệt chính giữa nhịn ăn 12 giờ và nhịn ăn 16 giờ?
+</b></div><div>Nhìn chung, cơ chế tác động của nhịn ăn 12h và nhịn ăn 16 giờ là giống nhau. Tuy nhiên giữa 2 chế độ này cũng có những điểm khác, chủ yếu là trong giai đoạn mới bắt đầu.
+</div><div><br></div><div><b>Thời gian nhịn ăn
+</b></div><div>Sự khác biệt đầu tiên và rõ ràng nhất giữa nhịn ăn 12 giờ và 16 giờ là thời gian nhịn ăn: nhịn ăn 16 giờ dài hơn có thể khó thực hiện hơn một chút so với nhịn ăn 12 giờ. Nhịn ăn 12h dễ dàng thực hiện và duy trì bằng một thói quen tương đối dễ đó là không ăn đêm. Chẳng hạn như bạn ăn tối lúc 19h, sau đó không ăn thêm gì nữa và có bữa sáng lúc 7h sáng ngày hôm sau, như vậy bạn đã nhịn ăn liên tục 12h nhưng không ảnh hưởng gì tới sinh hoạt bình thường.
+</div><div>Các chuyên gia dinh dưỡng cũng khuyên những người dưới 18 tuổi, đang mang thai, cho con bú hoặc người có tiền sử rối loạn tiêu hoá đều không nên nhịn ăn quá 12 giờ.
+</div><div><br></div><div><b>Autophagy
+</b></div><div>Autophagy có lẽ là một trong những ví dụ điển hình nhất về cơ chế tự điều chỉnh “xịn xò” của cơ thể. Autophagy hiểu đơn giản là sự “tự thực” của tế bào. Quá trình được khởi động khi cơ thể ở mức năng lượng thấp, nên đây là một cơ chế có lợi giúp dọn dẹp những tế bào “già yếu”, giải phóng nguồn nguyên liệu và năng lượng để tái sử dụng.
+</div><div>Một vài nghiên cứu đáng chú ý trên người chứng minh việc nhịn ăn từ 17 đến 19 giờ sẽ kích hoạt các gen đóng vai trò khởi động quá trình tự thực. Một nghiên cứu khác cho thấy rằng nhịn ăn trong 18 giờ kích hoạt autophagy. Dựa trên những nghiên cứu này, có thể suy ra rằng nhịn ăn trong 16 giờ sẽ đưa bạn đến gần hơn với lợi ích từ autophagy hơn là nhịn ăn trong 12 giờ.
+</div><div><br></div><div><b>Sự giảm cân
+</b></div><div>Cả nhịn ăn 12 giờ và nhịn ăn 16 giờ đều có hiệu quả để giảm cân, nhưng nhịn ăn 16 giờ có thể hiệu quả hơn nhờ giảm 
+</div><div>khung thời gian ăn uống có thể giúp giảm lượng calo in nhiều hơn và thúc đẩy quá trình đốt cháy chất béo mạnh mẽ hơn. Một nghiên cứu chéo ở những người khỏe mạnh đã chứng minh rằng nhịn ăn 16:8 vượt trội hơn nhịn ăn 12:12 trong việc thúc đẩy giảm mỡ.
+</div><div>Mặc dù dữ liệu cho thấy nhịn ăn lâu hơn có liên quan đến việc giảm cân nhiều hơn, nhưng cần lưu ý là nếu thời gian ăn uống quá hạn chế, bạn có thể suy dinh dưỡng do làm chậm quá trình trao đổi chất. Ngay cả khi bạn chọn nhịn ăn 16 giờ vì lợi ích giảm cân, hãy cân nhắc thay đổi thời gian nhịn ăn của bạn theo định kỳ và đảm bảo chế độ tập thể dục cũng như ăn đủ thức ăn để giữ cho tốc độ trao đổi chất ở mức cơ bản.
+</div><div><br></div><div><b>Đốt cháy chất béo
+</b></div><div>Khi nhịn ăn lớn hơn 12h, cơ thể cạn kiệt glycogen dự trữ và bắt đầu đốt cháy chất béo dự trữ để lấy năng lượng. 
+</div><div>Mặc dù cả nhịn ăn 12 giờ và 16 giờ đều có thể thúc đẩy quá trình đốt cháy chất béo, nhưng nhìn chung nhịn ăn 16 giờ tạo hiệu quả cao hơn. Điều này là do thời gian nhịn ăn dài hơn dẫn đến sự cạn kiệt lượng dự trữ glycogen lớn hơn, điều này có thể kích hoạt mức độ đốt cháy chất béo cao hơn. 
+</div><div><br></div><div><b>Thay đổi nội tiết tố
+</b></div><div>Nhịn ăn có thể có tác động đáng kể đến nồng độ hormone, nhưng các tác động cụ thể có thể khác nhau tùy thuộc vào thời gian nhịn ăn và các yếu tố cá nhân như tuổi tác, giới tính và tình trạng sức khỏe. 
+</div><div>Trong thời gian nhịn ăn, cơ thể trải qua một loạt các thay đổi nội tiết tố khi nó phải điều chỉnh để thích nghi với lượng thức ăn hạn chế. Ví dụ, mức insulin giảm trong thời gian nhịn ăn của bạn, điều này có thể cải thiện độ nhạy insulin và giảm nguy cơ mắc bệnh tiểu đường loại 2.
+</div><div>Ngoài ra, nhịn ăn có thể làm tăng mức độ hormone tăng trưởng có vai trò phát triển cơ bắp, sửa chữa mô và đốt cháy chất béo.
+</div><div>Nghiên cứu cho thấy nhịn ăn trong 12 giờ đem lại ít tác động có lợi với trao đổi chất và hormone hơn so với nhịn ăn trong hơn 16 giờ. Vì vậy nếu mục tiêu của bạn là tác động đến mức độ hormone, thì nhịn ăn từ 16 giờ trở lên là phù hợp hơn.
+</div><div><br></div><div><b>Bạn có thể nhịn ăn gián đoạn 12 hoặc 16 giờ mỗi ngày không?
+</b></div><div>Nhiều người tự nhiên đã có thói quen nhịn ăn hằng ngày. Họ không phải lúc nào cũng tuân theo một chế độ nhịn ăn cố định, có thể thay đổi thời gian dựa trên lịch trình, cơn đói và chế độ tập thể dục. Cũng có nhiều người áp dụng một biến thể của chế độ ăn 5:2: họ nhịn ăn trong 16 giờ từ thứ 2 - thứ 6, nhưng giảm thời gian nhịn ăn của họ xuống còn 12 giờ vào cuối tuần hoặc ngược lại. 
+</div><div>Một người bình thường và không nhịn ăn trung bình sẽ tiêu thụ calo trong gần 15/24 giờ hàng ngày. Với thời gian ăn kéo dài như vậy, rất dễ dẫn tới tiêu thụ thức ăn quá mức. Bởi vậy, dù bạn không cần thiết phải nhịn ăn mỗi ngày, nhưng thỉnh thoảng nhịn ăn ít nhất 12 giờ sẽ giúp bạn duy trì trọng lượng cơ thể cân đối và trao đổi chất thuận lợi hơn.
+</div><div><br></div><div><b>Bạn có nên xen kẽ giữa nhịn ăn gián đoạn trong 12 giờ và 16 giờ không?
+</b></div><div>Một lợi ích của việc xen kẽ giữa nhịn ăn 12 giờ và 16 giờ là nó tạo ra sự đa dạng và linh hoạt trong chế độ nhịn ăn. Điều này có thể giúp duy trì thói quen nhịn ăn theo thời gian dễ dàng hơn, giúp bạn dễ tuân thủ chế độ ăn và kết quả là sức khỏe được cải thiện rõ ràng. 
+</div><div>Ngoài ra, xen kẽ giữa nhịn ăn 12 giờ và 16 giờ giúp bạn hưởng lợi từ cả 2 chế độ nhịn ăn này. Ví dụ, nhịn ăn 12 giờ được coi là dễ dàng hơn và  linh hoạt hơn trong lịch trình, trong khi nhịn ăn 16 giờ thúc đẩy lợi ích đốt cháy chất béo và trao đổi chất lớn hơn.
+</div><div><br></div><div><b>Kết luận
+</b></div><div>Nếu giảm cân là mục tiêu chính thì nhịn ăn 16 giờ có thể hiệu quả hơn. Tuy nhiên, nếu bạn đang tìm kiếm một thói quen nhịn ăn bền vững hơn thì nhịn ăn 12 giờ mới là lựa chọn phù hợp. Cho dù bạn chọn nhịn ăn 12 giờ hay nhịn ăn 16 giờ thì đừng quên giá trị cốt lõi nhất mà những chế độ ăn này mang lại là hỗ trợ lối sống lành mạnh và sức khoẻ lâu dài của chính bạn.
+</div><div><br></div><div><i>Tham khảo
+</i></div><div>Healthline.com
+</div><div>Medicalnewtoday.com
+</div><div><br></div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div></div></div>
+											</div>
+	</div>
+	<div id="timhieuthem">
+		<div class="content"></div>
+		<a class="close_timhieuthem">&#215;</a>
+	</div>
+	<div id="play_youtube"></div>
+	<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/jquery.simplePagination.min.js"></script>
+<script src="js/pdf.min.js"></script>
+<br>
+<footer class="container" id="footer">
+	<div class="top_footer clearfix">
+		<a href="index.html"><img src="img/logo_footer.png" alt="" width="100%"></a>
+	</div>
+	<div class="box01">
+		<h2 class="tit_07">FITNESS FOR WOMAN</h2>
+		<div class="txt_01">Start-up giúp cho chị em phái yếu có vóc dáng đẹp & sức khỏe dẻo dai một cách tiện lợi & tiết kiệm.</div><br><br>
+		<h3 class="tit_08">CÔNG TY TNHH SHEFIT</h2>
+		<table class="list_footer">
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Văn phòng</td>
+				<td width="1">:</td>
+				<td>Khu The Sun Avenue, An Phú, Q2, TPHCM</td>
+			</tr>
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Hotline</td>
+				<td width="1">:</td>
+				<td><a href="tel:0906934821">0906934821</a></td>
+			</tr>
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Email</td>
+				<td width="1">:</td>
+				<td><a href="mailto:info@shefit.vn">info@shefit.vn</a></td>
+			</tr>
+		</table><br>
+		<table class="list_footer">
+			<tr>
+				<td width="40"><a href="https://zalo.me/0906934821" target="_blank"><img src="img/zalo_icon.png" alt=""></a></td>
+				<td width="5">&nbsp;</td>
+				<td width="40"><a href="https://www.facebook.com/shefitvn" target="_blank"><img src="img/facebook_icon.png" alt=""></a></td>
+				<td width="5">&nbsp;</td>
+				<td width="40"><a href="https://www.youtube.com/@GluteLab-LoNanDang-zl7td" target="_blank"><img src="img/youtube_icon.png" alt=""></a></td>
+			</tr>
+		</table><br>
+		<div class="copyright">
+			<a href="index.html">&copy; Ngôi Nhà Đầu Bếp 2024</a>
+		</div><br>
+	</div>
+</footer>
+
+	<script>
+		$(document).ready(function() {
+			$(document).on( "click", ".frame_youtube", function(e) {
+				$(this).addClass('active');
+				var youtube_id = $(this).attr('youtube_id');
+                $(this).html('<iframe src="https://www.youtube.com/embed/' + youtube_id + '?autoplay=1&rel=0&showinfo=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>');
+			});
+
+            initializeSlider();
+            function initializeSlider() {
+                $('.slide_blog').slick({
+					infinite: true,
+					slidesToShow: 1,
+					autoplay: true,
+					slidesToScroll: 1,
+					pauseOnHover: true,
+					dots: true,
+					arrows: true,
+					autoplay: true
+                });
+            }
+		});
+	</script>
+</body>
+</html>

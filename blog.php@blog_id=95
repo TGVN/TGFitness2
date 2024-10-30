@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SHEFIT</title>
+	<link rel="stylesheet" type="text/css" href="css/slick.css@9556">
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css@4286">
+	<link rel="stylesheet" type="text/css" href="css/style_main.css@2755">
+	<body>
+	<div class="container">
+		<header id="header" class="header">
+	<div class="top_header container">
+		<table width="100%" cellspacing="0" cellpadding="0">
+			<tr>
+				<td>
+					<a href="index.html">
+						<span class="home_icon">
+							<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.3103 1.77586C11.6966 1.40805 12.3034 1.40805 12.6897 1.77586L20.6897 9.39491L23.1897 11.7759C23.5896 12.1567 23.605 12.7897 23.2241 13.1897C22.8433 13.5896 22.2103 13.605 21.8103 13.2241L21 12.4524V20C21 21.1046 20.1046 22 19 22H14H10H5C3.89543 22 3 21.1046 3 20V12.4524L2.18966 13.2241C1.78972 13.605 1.15675 13.5896 0.775862 13.1897C0.394976 12.7897 0.410414 12.1567 0.810345 11.7759L3.31034 9.39491L11.3103 1.77586ZM5 10.5476V20H9V15C9 13.3431 10.3431 12 12 12C13.6569 12 15 13.3431 15 15V20H19V10.5476L12 3.88095L5 10.5476ZM13 20V15C13 14.4477 12.5523 14 12 14C11.4477 14 11 14.4477 11 15V20H13Z" fill="#9b5e6e"/></svg>
+						</span> 
+						Home
+					</a>
+				</td>
+				<td style="text-align: right;">
+					<a href="quiz">
+						<span class="home_icon">
+							<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 14V7C20 5.34315 18.6569 4 17 4H7C5.34315 4 4 5.34315 4 7V17C4 18.6569 5.34315 20 7 20H13.5M20 14L13.5 20M20 14H15.5C14.3954 14 13.5 14.8954 13.5 16V20" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 8H16" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 12H12" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+						</span>
+						Body Quiz
+					</a>
+					<span class="ngancach">|</span> 
+												<a href="login">
+								<span class="home_icon">
+									<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M13 3C13 2.44772 12.5523 2 12 2C11.4477 2 11 2.44772 11 3V12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12V3ZM8.6092 5.8744C9.09211 5.60643 9.26636 4.99771 8.99839 4.5148C8.73042 4.03188 8.12171 3.85763 7.63879 4.1256C4.87453 5.65948 3 8.61014 3 12C3 16.9706 7.02944 21 12 21C16.9706 21 21 16.9706 21 12C21 8.66747 19.1882 5.75928 16.5007 4.20465C16.0227 3.92811 15.4109 4.09147 15.1344 4.56953C14.8579 5.04759 15.0212 5.65932 15.4993 5.93586C17.5942 7.14771 19 9.41027 19 12C19 15.866 15.866 19 12 19C8.13401 19 5 15.866 5 12C5 9.3658 6.45462 7.06997 8.6092 5.8744Z" fill="#9b5e6e"/></svg>
+								</span>
+								Đăng nhập
+							</a>
+									</td>
+
+			</tr>
+		</table>
+	</div>
+	<div class="main_header">
+		<ul class="clearfix">
+			<li><a href="khoahoc">Khóa học</a></li>
+			<li><a href="thucdon">Thực đơn</a></li>
+			<li><a href="huanluyenvien">Giáo viên</a></li>
+			<li><a href="sanpham">Dụng cụ</a></li>
+			<li><a href="thucpham">Thực phẩm</a></li>
+			<li><a href="blog">Blog</a></li>
+		</ul>
+	</div>
+</header>
+		<div class="box01">
+														<nav aria-label="breadcrumb" class="breadcrumb">
+							  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							   		&#10070;
+							      <a itemprop="item" href="index.html">
+							        <span itemprop="name">Trang chủ</span>
+							      </a>
+							      <meta itemprop="position" content="1" />
+							    </li>
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							      <a itemprop="item" href="blog.php">
+							        <span itemprop="name">Blog</span>
+							      </a>
+							      <meta itemprop="position" content="2" />
+							    </li>
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							      <a itemprop="item" href="blog.php">
+							        <span itemprop="name">ĐIỀU GÌ XẢY RA NẾU BẠN ĂN “SẠCH SÀNH SANH” NƯỚC LÈO TRONG CÁC MÓN NƯỚC?</span>
+							      </a>
+							      <meta itemprop="position" content="3" />
+							    </li>
+							  </ol>
+							</nav>
+							<h1 class="tit_01">ĐIỀU GÌ XẢY RA NẾU BẠN ĂN “SẠCH SÀNH SANH” NƯỚC LÈO TRONG CÁC MÓN NƯỚC?</h1>
+							<div class="blog_meta">
+								<table width="100%" cellpadding="0" cellspacing="0">
+									<tr>
+										<td>
+											<svg width="10%" height="10%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 14C8.13401 14 5 17.134 5 21H19C19 17.134 15.866 14 12 14Z" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Trương Ái Trân</td>
+										<td class="txt_right">
+											<svg width="10%" height="10%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 10V7C20 5.89543 19.1046 5 18 5H6C4.89543 5 4 5.89543 4 7V10M20 10V19C20 20.1046 19.1046 21 18 21H6C4.89543 21 4 20.1046 4 19V10M20 10H4M8 3V7M16 3V7" stroke="#666666" stroke-width="2" stroke-linecap="round"/><rect x="6" y="12" width="3" height="3" rx="0.5" fill="#666666"/><rect x="10.5" y="12" width="3" height="3" rx="0.5" fill="#666666"/><rect x="15" y="12" width="3" height="3" rx="0.5" fill="#666666"/></svg>
+											2023-11-13										</td>
+									</tr>
+								</table>
+							</div><br>
+							<div class="slide_blog">
+																			<div><img src="img/upload/20241015134036.png"></div>
+																	</div>
+							<div class="blog_noidung">Việt Nam từ lâu đã không còn xa lạ với các món ăn với nước lèo. Từ bắc tới nam, không một tỉnh thành nào là không có một món nước đặc trưng, thân thuộc của vùng miền đó. Thông thường, thành phần của các món nước đều được chia thành 2 phần theo cách gọi quen thuộc là: phần “cái” và phần “nước”. Phần cái bao gồm thịt, cá, bún, phở,..., trong khi đó phần nước lèo mang lại hương vị đặc trưng nhất, được ví như linh hồn của món ăn. Nước lèo có đa dạng cách chế biến khác nhau, tạo ra được hàng trăm món ăn nổi tiếng tại Việt Nam, phải kể đến như: bún bò, phở, bánh canh,...<div><br><div></div><div>Có thể thấy, nước lèo không chỉ mang lại hương vị, mà còn chứa nhiều chất dinh dưỡng từ các nguyên liệu như thịt, xương, rau củ,... Có lẽ vì thế, nhiều người vẫn nghĩ rằng, ăn nước lèo sẽ có thể hấp thụ càng nhiều dưỡng chất, bổ dưỡng và trọn vẹn hơn. Vậy thực tế thì sao? Trong bài viết này, chúng ta sẽ cùng tìm hiểu các nguy cơ đến từ việc tiêu thụ quá nhiều nước lèo và các giải pháp để hạn chế vấn đề này nhé!  </div><div><br></div><div>Người Việt ưa chuộng các món ăn theo kiểu cân bằng hương vị. Do đó, để tạo ra được món nước lèo thơm ngon, người ta thường nêm nếm với nhiều muối, đường, bột ngọt và các loại gia vị khác. Đây cũng là một trong những nguyên nhân khi bạn tiêu thụ quá nhiều nước lèo đồng nghĩa với việc bạn sẽ tiêu thụ quá nhiều muối và nước trong một bữa ăn. Điều này có khả năng làm tăng huyết áp của cơ thể, tạo sức ép lên tim. Nếu về lâu dài có thể dẫn đến các bệnh tim mạch như đau tim, suy tim, tăng huyết áp,... Ngoài ra, việc tăng lượng muối và nước trong cơ thể cũng có thể làm suy giảm chức năng của thận, gây ra các bệnh thận như sỏi thận, suy thận,...</div><div><br></div><div>Việc tiêu thụ quá nhiều nước lèo cũng có thể dẫn đến việc dung nạp quá nhiều năng lượng và chất béo. Nước lèo không chỉ chứa muối và gia vị, mà còn được chế biến với lượng mỡ cao từ việc hầm xương, thêm dầu, hành phi,... Ăn lượng lớn nước lèo không lành mạnh thường xuyên cũng là một trong các nguyên nhân làm tăng lượng mỡ trong máu, gây ra các vấn đề về cân nặng, béo phì và tiểu đường, ảnh hưởng xấu đến sức khỏe về lâu dài.</div><div><br></div><div>Ngoài ra, nước lèo có độ axit cao do chứa các chất như axit citric, axit axetic... từ các nguyên liệu như chanh, giấm, cà chua... Nếu ăn quá nhiều nước lèo có độ axit cao, bạn sẽ làm tăng kích thích niêm mạc dạ dày, gây ra các triệu chứng như đau bụng, ợ chua, buồn nôn... và tệ hơn có thể dẫn đến viêm loét dạ dày. Đồng thời, axit dạ dày và các men tiêu hóa trong ruột có thể bị làm loãng khiến việc tiêu hóa và hấp thụ trở nên kém hơn. </div><div><br></div><div>Chúng ta đều không thể phủ nhận được việc ăn nước lèo có thể mang lại cảm giác vị ngon hoàn hảo nhất. Tuy nhiên, để có thể thưởng thức các món nước vừa ngon, vừa khỏe và giảm thiểu những nguy cơ từ việc tiêu thụ quá nhiều nước lèo, bạn có thể áp dụng một số cách sau:</div><div><b>Ăn nước lèo vừa đủ:</b> Bạn chỉ nên ăn khoảng 1/3 hoặc 1/2 bát nước lèo để cảm nhận được hương vị của món ăn, không nên ăn sạch toàn bộ. Bạn cũng nên chọn những nước lèo có độ trong, nhạt hơn những nước lèo đậm đặc. </div><div><b>Chọn những nước lèo có nguồn gốc tự nhiên:</b> Nước lèo sẽ ngon hơn nếu có sự phối hợp từ các nguyên liệu tự nhiên như vị ngọt từ xương, củ cải trắng, cà rốt, rau mùi,... Chỉ bấy nhiêu cũng đã đủ tạo sức hấp dẫn cho nhiều món ăn. Tuy nhiên, để tiết kiệm chi phí, nhiều người thường thay thế các nguyên liệu tự nhiên bằng nhiều gia vị nhân tạo và chất phụ gia như bột nêm, bột ngọt,...Bạn nên tránh những loại nước lèo đó. Và tốt hơn hết, bạn nên tự nấu các món ăn tại nhà để dễ dàng kiểm soát nguồn gốc của các thành phần chế biến cũng như điều chỉnh phù hợp với vị giác của mình.</div><div><b>Thêm rau xanh vào bát nước lèo:</b> Bạn có thể thêm một ít rau như rau muống, giá, hoa chuối,.... vào bát nước lèo để tăng cường chất xơ, vitamin và khoáng chất cho cơ thể. Rau xanh cũng giúp làm giảm độ axit của nước lèo, bảo vệ niêm mạc dạ dày.</div><div><br></div><div>Nước lèo mang đến nét đặc trưng riêng biệt của từng món ăn. Tuy nhiên nó sẽ không thể mang lại lợi ích sức khỏe trong trường hợp tiêu thụ quá nhiều hoặc dùng cạn như cách chúng ta vẫn thường thưởng thức “thơm ngon đến giọt cuối cùng”. Do đó, việc tiêu thụ bao nhiêu nước lèo là vấn đề cần phải được lưu ý và kiểm soát để có thể trải nghiệm các món nước dùng vừa ngon, vừa healthy nhé!</div><div>#nướclèo #nướcdùng #mónnước</div><div>https://kienthuc.net.vn/5481/khon-an-cai-dai-an-nuoc-151208.html</div><div>https://dantri.com.vn/suc-khoe/nuoc-leo-ngon-nho-bot-sieu-ngot-1371624469.htm</div><div><br></div><div></div><div></div><div></div><div></div></div></div>
+											</div>
+	</div>
+	<div id="timhieuthem">
+		<div class="content"></div>
+		<a class="close_timhieuthem">&#215;</a>
+	</div>
+	<div id="play_youtube"></div>
+	<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/jquery.simplePagination.min.js"></script>
+<script src="js/pdf.min.js"></script>
+<br>
+<footer class="container" id="footer">
+	<div class="top_footer clearfix">
+		<a href="index.html"><img src="img/logo_footer.png" alt="" width="100%"></a>
+	</div>
+	<div class="box01">
+		<h2 class="tit_07">FITNESS FOR WOMAN</h2>
+		<div class="txt_01">Start-up giúp cho chị em phái yếu có vóc dáng đẹp & sức khỏe dẻo dai một cách tiện lợi & tiết kiệm.</div><br><br>
+		<h3 class="tit_08">CÔNG TY TNHH SHEFIT</h2>
+		<table class="list_footer">
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Văn phòng</td>
+				<td width="1">:</td>
+				<td>Khu The Sun Avenue, An Phú, Q2, TPHCM</td>
+			</tr>
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Hotline</td>
+				<td width="1">:</td>
+				<td><a href="tel:0906934821">0906934821</a></td>
+			</tr>
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Email</td>
+				<td width="1">:</td>
+				<td><a href="mailto:info@shefit.vn">info@shefit.vn</a></td>
+			</tr>
+		</table><br>
+		<table class="list_footer">
+			<tr>
+				<td width="40"><a href="https://zalo.me/0906934821" target="_blank"><img src="img/zalo_icon.png" alt=""></a></td>
+				<td width="5">&nbsp;</td>
+				<td width="40"><a href="https://www.facebook.com/shefitvn" target="_blank"><img src="img/facebook_icon.png" alt=""></a></td>
+				<td width="5">&nbsp;</td>
+				<td width="40"><a href="https://www.youtube.com/@GluteLab-LoNanDang-zl7td" target="_blank"><img src="img/youtube_icon.png" alt=""></a></td>
+			</tr>
+		</table><br>
+		<div class="copyright">
+			<a href="index.html">&copy; Ngôi Nhà Đầu Bếp 2024</a>
+		</div><br>
+	</div>
+</footer>
+
+	<script>
+		$(document).ready(function() {
+			$(document).on( "click", ".frame_youtube", function(e) {
+				$(this).addClass('active');
+				var youtube_id = $(this).attr('youtube_id');
+                $(this).html('<iframe src="https://www.youtube.com/embed/' + youtube_id + '?autoplay=1&rel=0&showinfo=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>');
+			});
+
+            initializeSlider();
+            function initializeSlider() {
+                $('.slide_blog').slick({
+					infinite: true,
+					slidesToShow: 1,
+					autoplay: true,
+					slidesToScroll: 1,
+					pauseOnHover: true,
+					dots: true,
+					arrows: true,
+					autoplay: true
+                });
+            }
+		});
+	</script>
+</body>
+</html>

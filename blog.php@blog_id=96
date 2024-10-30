@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SHEFIT</title>
+	<link rel="stylesheet" type="text/css" href="css/slick.css@8687">
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css@7279">
+	<link rel="stylesheet" type="text/css" href="css/style_main.css@7193">
+	<body>
+	<div class="container">
+		<header id="header" class="header">
+	<div class="top_header container">
+		<table width="100%" cellspacing="0" cellpadding="0">
+			<tr>
+				<td>
+					<a href="index.html">
+						<span class="home_icon">
+							<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.3103 1.77586C11.6966 1.40805 12.3034 1.40805 12.6897 1.77586L20.6897 9.39491L23.1897 11.7759C23.5896 12.1567 23.605 12.7897 23.2241 13.1897C22.8433 13.5896 22.2103 13.605 21.8103 13.2241L21 12.4524V20C21 21.1046 20.1046 22 19 22H14H10H5C3.89543 22 3 21.1046 3 20V12.4524L2.18966 13.2241C1.78972 13.605 1.15675 13.5896 0.775862 13.1897C0.394976 12.7897 0.410414 12.1567 0.810345 11.7759L3.31034 9.39491L11.3103 1.77586ZM5 10.5476V20H9V15C9 13.3431 10.3431 12 12 12C13.6569 12 15 13.3431 15 15V20H19V10.5476L12 3.88095L5 10.5476ZM13 20V15C13 14.4477 12.5523 14 12 14C11.4477 14 11 14.4477 11 15V20H13Z" fill="#9b5e6e"/></svg>
+						</span> 
+						Home
+					</a>
+				</td>
+				<td style="text-align: right;">
+					<a href="quiz">
+						<span class="home_icon">
+							<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 14V7C20 5.34315 18.6569 4 17 4H7C5.34315 4 4 5.34315 4 7V17C4 18.6569 5.34315 20 7 20H13.5M20 14L13.5 20M20 14H15.5C14.3954 14 13.5 14.8954 13.5 16V20" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 8H16" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 12H12" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+						</span>
+						Body Quiz
+					</a>
+					<span class="ngancach">|</span> 
+												<a href="login">
+								<span class="home_icon">
+									<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M13 3C13 2.44772 12.5523 2 12 2C11.4477 2 11 2.44772 11 3V12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12V3ZM8.6092 5.8744C9.09211 5.60643 9.26636 4.99771 8.99839 4.5148C8.73042 4.03188 8.12171 3.85763 7.63879 4.1256C4.87453 5.65948 3 8.61014 3 12C3 16.9706 7.02944 21 12 21C16.9706 21 21 16.9706 21 12C21 8.66747 19.1882 5.75928 16.5007 4.20465C16.0227 3.92811 15.4109 4.09147 15.1344 4.56953C14.8579 5.04759 15.0212 5.65932 15.4993 5.93586C17.5942 7.14771 19 9.41027 19 12C19 15.866 15.866 19 12 19C8.13401 19 5 15.866 5 12C5 9.3658 6.45462 7.06997 8.6092 5.8744Z" fill="#9b5e6e"/></svg>
+								</span>
+								Đăng nhập
+							</a>
+									</td>
+
+			</tr>
+		</table>
+	</div>
+	<div class="main_header">
+		<ul class="clearfix">
+			<li><a href="khoahoc">Khóa học</a></li>
+			<li><a href="thucdon">Thực đơn</a></li>
+			<li><a href="huanluyenvien">Giáo viên</a></li>
+			<li><a href="sanpham">Dụng cụ</a></li>
+			<li><a href="thucpham">Thực phẩm</a></li>
+			<li><a href="blog">Blog</a></li>
+		</ul>
+	</div>
+</header>
+		<div class="box01">
+														<nav aria-label="breadcrumb" class="breadcrumb">
+							  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							   		&#10070;
+							      <a itemprop="item" href="index.html">
+							        <span itemprop="name">Trang chủ</span>
+							      </a>
+							      <meta itemprop="position" content="1" />
+							    </li>
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							      <a itemprop="item" href="blog.php">
+							        <span itemprop="name">Blog</span>
+							      </a>
+							      <meta itemprop="position" content="2" />
+							    </li>
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							      <a itemprop="item" href="blog.php">
+							        <span itemprop="name">LỢI ÍCH CỦA ĂN KIÊNG VÀ TẬP LUYỆN PHÙ HỢP VỚI SỨC KHOẺ VÀ CÂN NẶNG CỦA BẠN </span>
+							      </a>
+							      <meta itemprop="position" content="3" />
+							    </li>
+							  </ol>
+							</nav>
+							<h1 class="tit_01">LỢI ÍCH CỦA ĂN KIÊNG VÀ TẬP LUYỆN PHÙ HỢP VỚI SỨC KHOẺ VÀ CÂN NẶNG CỦA BẠN </h1>
+							<div class="blog_meta">
+								<table width="100%" cellpadding="0" cellspacing="0">
+									<tr>
+										<td>
+											<svg width="10%" height="10%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 14C8.13401 14 5 17.134 5 21H19C19 17.134 15.866 14 12 14Z" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Phạm Nguyễn Quỳnh Anh</td>
+										<td class="txt_right">
+											<svg width="10%" height="10%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 10V7C20 5.89543 19.1046 5 18 5H6C4.89543 5 4 5.89543 4 7V10M20 10V19C20 20.1046 19.1046 21 18 21H6C4.89543 21 4 20.1046 4 19V10M20 10H4M8 3V7M16 3V7" stroke="#666666" stroke-width="2" stroke-linecap="round"/><rect x="6" y="12" width="3" height="3" rx="0.5" fill="#666666"/><rect x="10.5" y="12" width="3" height="3" rx="0.5" fill="#666666"/><rect x="15" y="12" width="3" height="3" rx="0.5" fill="#666666"/></svg>
+											2023-11-13										</td>
+									</tr>
+								</table>
+							</div><br>
+							<div class="slide_blog">
+																			<div><img src="img/upload/20241015174230.jpeg"></div>
+																	</div>
+							<div class="blog_noidung"><b>1. Tầm quan trọng của việc ăn kiêng và tập luyện</b><div><b></b></div><div>Tầm quan trọng của việc ăn kiêng và tập luyện không chỉ giới hạn trong việc duy trì vóc dáng hoặc ngoại hình hấp dẫn. Đây là hai yếu tố cơ bản quyết định đến sức khỏe toàn diện của chúng ta. Chế độ ăn uống cân đối và việc tập luyện đều đóng vai trò quan trọng trong việc duy trì cơ thể khỏe mạnh và tinh thần lạc quan. Hãy cùng khám phá sâu hơn về sự quan trọng của chúng trong cuộc sống hàng ngày và tác động tích cực mà chúng mang lại cho sức khỏe của chúng ta.</div><div><b>- Sức khỏe vận động:</b> Tập luyện đều đặn giúp cải thiện sức khỏe vận động của cơ thể, tăng sức mạnh, độ bền, và linh hoạt. Điều này giúp bạn thực hiện các hoạt động hàng ngày một cách dễ dàng và tránh các vấn đề liên quan đến sức khỏe cơ bản.</div><div><b>- Kiểm soát cân nặng: </b>Kết hợp ăn kiêng cân đối và tập luyện có thể giúp kiểm soát cân nặng, giảm béo thừa, và duy trì trọng lượng lý tưởng. Điều này giúp phòng ngừa nhiều bệnh liên quan đến thừa cân và béo phì.</div><div><b>- Sức khỏe tim mạch: </b>Ẩn kiêng và tập luyện đều có lợi cho sức khỏe tim mạch. Chúng giúp làm giảm mức cholesterol xấu (LDL), huyết áp cao, và nguy cơ mắc các bệnh tim mạch như đau thắt ngực và đột quỵ.</div><div><b>- Sức kháng và tăng cường hệ miễn dịch:</b> Chế độ ăn uống cân đối và việc tập luyện thường đi kèm với sức kháng tốt hơn và tăng cường hệ miễn dịch của cơ thể, giúp bạn chống lại các bệnh lý và viêm nhiễm.</div><div><b>- Sức khỏe tinh thần:</b> Tập luyện thường có tác động tích cực đến tâm trạng và tinh thần của bạn. Nó giúp giảm căng thẳng, lo âu, và tăng cường sự thư giãn và tự tin.</div><div><b>- Độ dẻo dai và khả năng di chuyển:</b> Tập luyện giúp duy trì sự dẻo dai của cơ thể và khả năng di chuyển linh hoạt, giúp bạn duy trì một cuộc sống độc lập và thoải mái.</div><div><b>- Phòng ngừa bệnh lý:</b> Một chế độ ăn uống cân đối và lối sống lành mạnh có thể giúp phòng ngừa nhiều bệnh lý như tiểu đường, ung thư, và bệnh Alzheimer.</div><div><b>- Duy trì sức khỏe toàn diện: </b>Việc ăn kiêng và tập luyện không chỉ là về việc duy trì cơ thể cân đối mà còn là về việc duy trì sức khỏe toàn diện, bao gồm tâm hồn, tinh thần, và tinh thần lạc quan.</div><div><br></div><div><b>2. Lợi ích của việc tuân thủ chế độ ăn và nghiêm túc tập luyện</b></div><div><b>a. Đối với tập luyện</b></div><div>Thêm hoạt động tập thể dục vào cuộc sống hàng ngày mang lại một loạt lợi ích sức khỏe đáng kể. Tập thể dục không chỉ giúp bạn duy trì vóc dáng mà còn có tác động tích cực đến sức khỏe và tinh thần của bạn. Dưới đây là một số lợi ích của việc thường xuyên tập thể dục:</div><div><b>- Giảm nguy cơ mắc bệnh:</b> Tập thể dục đề xuất giảm nguy cơ mắc các bệnh tim mạch, cao huyết áp, loãng xương, tiểu đường và béo phì. Điều này giúp bảo vệ hệ tim mạch và xương khỏi các vấn đề sức khỏe nguy hiểm.</div><div><b>- Duy trì tính linh hoạt:</b> Tập thể dục giúp duy trì sự linh hoạt của khớp xương, gân và dây chằng, giúp cơ thể bạn trở nên linh hoạt hơn và dễ dàng vận động.</div><div><b>- Điều trị viêm khớp: </b>Đối với những người có vấn đề về viêm khớp, tập thể dục thường xuyên có thể giúp giảm đi các triệu chứng và cải thiện chất lượng cuộc sống.</div><div><b>- Tinh thần sảng khoái:</b> Tập thể dục được biết đến là một biện pháp hiệu quả trong việc làm giảm căng thẳng và lo lắng, đồng thời giúp tăng cường tinh thần lạc quan.</div><div><b>- Tăng sức đề kháng</b>: Hoạt động thể thao thường xuyên cải thiện hệ miễn dịch, giúp cơ thể chống lại các bệnh lý và viêm nhiễm.</div><div><b>- Sức khỏe và sức bền: </b>Tập thể dục thường xuyên giúp bạn duy trì sức khỏe tốt và sức bền cơ bắp, giúp bạn thực hiện các hoạt động hàng ngày một cách dễ dàng hơn.</div><div><b>- Giấc ngủ ngon hơn:</b> Tập thể dục có thể cải thiện chất lượng giấc ngủ, giúp bạn thức dậy sảng khoái và sẵn sàng cho một ngày mới.</div><div><b>- Trọng lượng cân đối:</b> Bằng cách tăng quá trình trao đổi chất, tập thể dục giúp bạn duy trì trọng lượng phù hợp và ngăn chặn tăng cân không mong muốn.</div><div><br></div><div><b>b. Đối với tuân thủ chế độ ăn</b></div><div>Tuân thủ chế độ ăn có nhiều lợi ích quan trọng cho sức khỏe và cơ thể của bạn. Dưới đây là một số lợi ích quan trọng của việc duy trì một chế độ ăn lành mạnh và tuân thủ nó:</div><div><b>- Cung cấp dưỡng chất cần thiết:</b> Chế độ ăn đa dạng và cân đối giúp cung cấp đầy đủ dưỡng chất cần thiết cho cơ thể, bao gồm vitamin, khoáng chất, chất xơ và các dưỡng chất quan trọng khác. Điều này giúp duy trì sức khỏe và tăng cường hệ miễn dịch.</div><div><b>- Quản lý cân nặng:</b> Tuân thủ chế độ ăn lành mạnh giúp duy trì trọng lượng phù hợp hoặc giảm cân nếu cần. Điều này có lợi cho sức khỏe tim mạch, hệ tiêu hóa và giảm nguy cơ mắc các bệnh liên quan đến thừa cân.</div><div><b>- Kiểm soát đường huyết:</b> Một chế độ ăn cân đối giúp kiểm soát đường huyết, đặc biệt quan trọng cho người bị tiểu đường hoặc nguy cơ mắc tiểu đường.</div><div><b>- Sức khỏe tim mạch tốt hơn:</b> Ăn ít chất béo bão hòa và cholesterol cùng với việc tăng cường tiêu thụ thực phẩm giàu chất xơ, hạt và rau cải giúp bảo vệ sức khỏe tim mạch và giảm nguy cơ bệnh tim.</div><div><b>- Bảo vệ khỏi bệnh lý và ung thư:</b> Một chế độ ăn giàu rau cải và trái cây, đồng thời hạn chế tiêu thụ thực phẩm chứa chất bảo quản và chất béo bão hòa có thể giúp giảm nguy cơ mắc một số loại ung thư và các bệnh lý khác.</div><div><b>- Tăng cường sức đề kháng: </b>Ăn cân đối và giàu chất dinh dưỡng giúp tăng cường hệ miễn dịch, giúp cơ thể chống lại các bệnh lý và nhiễm trùng.</div><div><b>- Sức khỏe tinh thần:</b> Chế độ ăn lành mạnh có thể ảnh hưởng tích cực đến tình trạng tâm trí và tinh thần của bạn. Nó có thể giúp làm giảm căng thẳng, lo âu và tăng cường tinh thần lạc quan.</div><div><b>- Tiêu hóa tốt hơn:</b> Ăn nhiều chất xơ và thực phẩm giúp duy trì hệ tiêu hóa khỏe mạnh và ngăn ngừa tình trạng táo bón.</div><div><b>- Giúp dự phòng bệnh: </b>Chế độ ăn lành mạnh có thể giúp giảm nguy cơ mắc các bệnh mãn tính như bệnh tiểu đường, cao huyết áp và bệnh tim mạch.</div><div><b>- Duy trì sức khỏe toàn diện:</b> Tuân thủ chế độ ăn là một cách hiệu quả để duy trì sức khỏe toàn diện và tăng cường chất lượng cuộc sống.</div><div><br></div><div><b>3. Những sai lầm đối với việc ăn kiêng và tập luyện</b></div><div>Bên cạnh đó, có một số sai lầm phổ biến mà người ta thường mắc phải khi thực hiện chế độ ăn kiêng và tập luyện. Dưới đây là một số sai lầm đối với việc ăn kiêng và tập luyện:</div><div><b>- Đặt mục tiêu không cụ thể: </b>Thay vì đặt mục tiêu cụ thể như "tôi muốn giảm 5kg trong 3 tháng", nhiều người chỉ đặt ra mục tiêu mơ hồ như "tôi muốn giảm cân." Mục tiêu cụ thể và đo lường có thể giúp bạn theo dõi tiến trình và đảm bảo bạn đang đi đúng hướng.</div><div><b>- Giảm calo quá nhanh: </b>Cắt giảm quá nhiều calo một cách đột ngột có thể dẫn đến cảm giác thèm ăn và mệt mỏi. Hãy đảm bảo giảm calo một cách bài bản và duy trì một lối sống lành mạnh.</div><div><b>- Sử dụng thực phẩm ăn kiêng mà bạn không thích:</b> Nếu bạn không thích thực phẩm ăn kiêng cụ thể, việc duy trì chế độ ăn này sẽ trở nên khó khăn hơn và dễ dàng bị đổ vỡ.</div><div><b>- Không tập trung vào chất lượng thực phẩm: </b>Một số người tập trung quá nhiều vào lượng calo và bỏ qua chất lượng của thực phẩm. Chất lượng thực phẩm là quan trọng, hãy chọn thực phẩm giàu dưỡng chất và dinh dưỡng.</div><div><b>- Không tập luyện đều đặn:</b> Chế độ ăn kiêng nên kết hợp với việc tập luyện đều đặn. Nhiều người tập trung quá nhiều vào chế độ ăn mà bỏ qua tập luyện hoặc ngược lại. Sự cân bằng giữa chế độ ăn và tập luyện là quan trọng.</div><div><b>- Chỉ tập trung vào cân nặng: </b>Việc đo lường tiến trình chỉ bằng cân nặng có thể dẫn đến thất vọng nếu bạn bắt đầu tăng cân do tăng cơ hoặc giữ nước. Hãy tập trung vào sự thay đổi về cơ thể, sức khỏe và cảm giác của bạn.</div><div><b>- Tiêu thụ quá nhiều thực phẩm ăn kiêng:</b> Một số người tin rằng nếu thực phẩm được ghi là "ăn kiêng," họ có thể tiêu thụ một lượng lớn mà không ảnh hưởng đến trọng lượng hoặc sức khỏe. Thực tế là, bạn vẫn cần kiểm soát lượng calo và chất lượng thực phẩm.</div><div><b>- Bỏ cuộc khi gặp khó khăn: </b>Hãy nhớ rằng việc ăn kiêng và tập luyện có thể gặp khó khăn và trở ngại. Không bao giờ nản lòng khi gặp khó khăn, hãy tìm cách vượt qua chúng.</div><div><b>- Tập luyện quá mức:</b> Tập luyện quá nhiều và quá mức có thể gây ra chấn thương và mệt mỏi. Hãy lắng nghe cơ thể của bạn và tạo ra một lịch tập luyện cân đối.</div><div><b>- Không tham khảo ý kiến chuyên gia: </b>Nếu bạn không hiểu rõ về chế độ ăn kiêng hoặc tập luyện, hãy tham khảo ý kiến của một chuyên gia dinh dưỡng hoặc huấn luyện viên để có sự hướng dẫn chính xác.</div><div><br></div><div>Để thành công trong việc ăn kiêng và tập luyện, quan trọng nhất là phải duy trì một cách cân bằng, kiên nhẫn và có ý thức. Hãy tập trung vào mục tiêu của bạn và luôn lắng nghe cơ thể của mình để đảm bảo bạn đang thực hiện một chế độ ăn kiêng và tập luyện phù hợp với nhu cầu cá nhân của bạn.</div><div><br></div><div><i>Tài liệu tham khảo<br></i></div><div>https://www.healthline.com/health/exercise-and-weight-loss</div><div>https://www.msdmanuals.com/vi-vn/chuy%C3%AAn-gia/%C4%91%E1%BB%91i-t%C6%B0%E1%BB%A3ng-%C4%91%E1%BA%B7c-bi%E1%BB%87t/t%E1%BA%ADp-th%E1%BB%83-d%E1%BB%A5c/t%E1%BB%95ng-quan-v%E1%BB%81-t%E1%BA%ADp-luy%E1%BB%87n</div><div>https://www.healthline.com/nutrition/can-you-lose-weight-with-diet-alone#bottom-line</div><div><br></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+											</div>
+	</div>
+	<div id="timhieuthem">
+		<div class="content"></div>
+		<a class="close_timhieuthem">&#215;</a>
+	</div>
+	<div id="play_youtube"></div>
+	<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/jquery.simplePagination.min.js"></script>
+<script src="js/pdf.min.js"></script>
+<br>
+<footer class="container" id="footer">
+	<div class="top_footer clearfix">
+		<a href="index.html"><img src="img/logo_footer.png" alt="" width="100%"></a>
+	</div>
+	<div class="box01">
+		<h2 class="tit_07">FITNESS FOR WOMAN</h2>
+		<div class="txt_01">Start-up giúp cho chị em phái yếu có vóc dáng đẹp & sức khỏe dẻo dai một cách tiện lợi & tiết kiệm.</div><br><br>
+		<h3 class="tit_08">CÔNG TY TNHH SHEFIT</h2>
+		<table class="list_footer">
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Văn phòng</td>
+				<td width="1">:</td>
+				<td>Khu The Sun Avenue, An Phú, Q2, TPHCM</td>
+			</tr>
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Hotline</td>
+				<td width="1">:</td>
+				<td><a href="tel:0906934821">0906934821</a></td>
+			</tr>
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Email</td>
+				<td width="1">:</td>
+				<td><a href="mailto:info@shefit.vn">info@shefit.vn</a></td>
+			</tr>
+		</table><br>
+		<table class="list_footer">
+			<tr>
+				<td width="40"><a href="https://zalo.me/0906934821" target="_blank"><img src="img/zalo_icon.png" alt=""></a></td>
+				<td width="5">&nbsp;</td>
+				<td width="40"><a href="https://www.facebook.com/shefitvn" target="_blank"><img src="img/facebook_icon.png" alt=""></a></td>
+				<td width="5">&nbsp;</td>
+				<td width="40"><a href="https://www.youtube.com/@GluteLab-LoNanDang-zl7td" target="_blank"><img src="img/youtube_icon.png" alt=""></a></td>
+			</tr>
+		</table><br>
+		<div class="copyright">
+			<a href="index.html">&copy; Ngôi Nhà Đầu Bếp 2024</a>
+		</div><br>
+	</div>
+</footer>
+
+	<script>
+		$(document).ready(function() {
+			$(document).on( "click", ".frame_youtube", function(e) {
+				$(this).addClass('active');
+				var youtube_id = $(this).attr('youtube_id');
+                $(this).html('<iframe src="https://www.youtube.com/embed/' + youtube_id + '?autoplay=1&rel=0&showinfo=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>');
+			});
+
+            initializeSlider();
+            function initializeSlider() {
+                $('.slide_blog').slick({
+					infinite: true,
+					slidesToShow: 1,
+					autoplay: true,
+					slidesToScroll: 1,
+					pauseOnHover: true,
+					dots: true,
+					arrows: true,
+					autoplay: true
+                });
+            }
+		});
+	</script>
+</body>
+</html>

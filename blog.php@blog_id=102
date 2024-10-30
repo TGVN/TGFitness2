@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SHEFIT</title>
+	<link rel="stylesheet" type="text/css" href="css/slick.css@6290">
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css@9568">
+	<link rel="stylesheet" type="text/css" href="css/style_main.css@8946">
+	<body>
+	<div class="container">
+		<header id="header" class="header">
+	<div class="top_header container">
+		<table width="100%" cellspacing="0" cellpadding="0">
+			<tr>
+				<td>
+					<a href="index.html">
+						<span class="home_icon">
+							<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.3103 1.77586C11.6966 1.40805 12.3034 1.40805 12.6897 1.77586L20.6897 9.39491L23.1897 11.7759C23.5896 12.1567 23.605 12.7897 23.2241 13.1897C22.8433 13.5896 22.2103 13.605 21.8103 13.2241L21 12.4524V20C21 21.1046 20.1046 22 19 22H14H10H5C3.89543 22 3 21.1046 3 20V12.4524L2.18966 13.2241C1.78972 13.605 1.15675 13.5896 0.775862 13.1897C0.394976 12.7897 0.410414 12.1567 0.810345 11.7759L3.31034 9.39491L11.3103 1.77586ZM5 10.5476V20H9V15C9 13.3431 10.3431 12 12 12C13.6569 12 15 13.3431 15 15V20H19V10.5476L12 3.88095L5 10.5476ZM13 20V15C13 14.4477 12.5523 14 12 14C11.4477 14 11 14.4477 11 15V20H13Z" fill="#9b5e6e"/></svg>
+						</span> 
+						Home
+					</a>
+				</td>
+				<td style="text-align: right;">
+					<a href="quiz">
+						<span class="home_icon">
+							<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 14V7C20 5.34315 18.6569 4 17 4H7C5.34315 4 4 5.34315 4 7V17C4 18.6569 5.34315 20 7 20H13.5M20 14L13.5 20M20 14H15.5C14.3954 14 13.5 14.8954 13.5 16V20" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 8H16" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 12H12" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+						</span>
+						Body Quiz
+					</a>
+					<span class="ngancach">|</span> 
+												<a href="login">
+								<span class="home_icon">
+									<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M13 3C13 2.44772 12.5523 2 12 2C11.4477 2 11 2.44772 11 3V12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12V3ZM8.6092 5.8744C9.09211 5.60643 9.26636 4.99771 8.99839 4.5148C8.73042 4.03188 8.12171 3.85763 7.63879 4.1256C4.87453 5.65948 3 8.61014 3 12C3 16.9706 7.02944 21 12 21C16.9706 21 21 16.9706 21 12C21 8.66747 19.1882 5.75928 16.5007 4.20465C16.0227 3.92811 15.4109 4.09147 15.1344 4.56953C14.8579 5.04759 15.0212 5.65932 15.4993 5.93586C17.5942 7.14771 19 9.41027 19 12C19 15.866 15.866 19 12 19C8.13401 19 5 15.866 5 12C5 9.3658 6.45462 7.06997 8.6092 5.8744Z" fill="#9b5e6e"/></svg>
+								</span>
+								Đăng nhập
+							</a>
+									</td>
+
+			</tr>
+		</table>
+	</div>
+	<div class="main_header">
+		<ul class="clearfix">
+			<li><a href="khoahoc">Khóa học</a></li>
+			<li><a href="thucdon">Thực đơn</a></li>
+			<li><a href="huanluyenvien">Giáo viên</a></li>
+			<li><a href="sanpham">Dụng cụ</a></li>
+			<li><a href="thucpham">Thực phẩm</a></li>
+			<li><a href="blog">Blog</a></li>
+		</ul>
+	</div>
+</header>
+		<div class="box01">
+														<nav aria-label="breadcrumb" class="breadcrumb">
+							  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							   		&#10070;
+							      <a itemprop="item" href="index.html">
+							        <span itemprop="name">Trang chủ</span>
+							      </a>
+							      <meta itemprop="position" content="1" />
+							    </li>
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							      <a itemprop="item" href="blog.php">
+							        <span itemprop="name">Blog</span>
+							      </a>
+							      <meta itemprop="position" content="2" />
+							    </li>
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							      <a itemprop="item" href="blog.php">
+							        <span itemprop="name">GIẢI OAN CHO CHOLESTEROL</span>
+							      </a>
+							      <meta itemprop="position" content="3" />
+							    </li>
+							  </ol>
+							</nav>
+							<h1 class="tit_01">GIẢI OAN CHO CHOLESTEROL</h1>
+							<div class="blog_meta">
+								<table width="100%" cellpadding="0" cellspacing="0">
+									<tr>
+										<td>
+											<svg width="10%" height="10%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 14C8.13401 14 5 17.134 5 21H19C19 17.134 15.866 14 12 14Z" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Huỳnh Thị Sang</td>
+										<td class="txt_right">
+											<svg width="10%" height="10%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 10V7C20 5.89543 19.1046 5 18 5H6C4.89543 5 4 5.89543 4 7V10M20 10V19C20 20.1046 19.1046 21 18 21H6C4.89543 21 4 20.1046 4 19V10M20 10H4M8 3V7M16 3V7" stroke="#666666" stroke-width="2" stroke-linecap="round"/><rect x="6" y="12" width="3" height="3" rx="0.5" fill="#666666"/><rect x="10.5" y="12" width="3" height="3" rx="0.5" fill="#666666"/><rect x="15" y="12" width="3" height="3" rx="0.5" fill="#666666"/></svg>
+											2023-11-15										</td>
+									</tr>
+								</table>
+							</div><br>
+							<div class="slide_blog">
+																			<div><img src="img/upload/20241021104157.jpg"></div>
+																	</div>
+							<div class="blog_noidung"><div>Khi nhắc đến cholesterol, liệu bạn có cho rằng chúng là những kẻ “phản diện” (xấu) và gây bất lợi cho sức khỏe? Đây chính là nỗi oan ức khó diễn tả bấy lâu nay của cholesterol. Thật buồn khi nghe được điều này nhưng không chỉ riêng bạn có suy nghĩ như trên. Thậm chí, nhiều người còn rất “anti” các thực phẩm chứa cholesterol, họ truyền tai nhau rồi suy diễn ra những nỗi lo lắng không đáng có.<br></div><div>Vậy sự thật ra sao? Hãy cùng Blog Calories làm sáng tỏ nỗi oan cho cholesterol nhé.</div><div><br></div><div><b>1. Hiểu về cholesterol</b></div><div><b><i>Cholesterol là gì?</i></b></div><div>Cholesterol là một chất sáp, giống như chất béo trong máu nhưng không hòa tan với máu. Cholesterol rất cần thiết cho sức khỏe tốt. Cơ thể cần cholesterol để tạo ra hormone steroid, vitamin D và axit mật. </div><div><br></div><div><b><i>Cholesterol đến từ đâu?</i></b></div><div>Chúng đến từ hai nguồn khác nhau.</div><div>- Cholesterol trong máu đến từ gan, giúp cơ thể xây dựng các tế bào, tạo ra vitamin và một số hormone. Cơ thể sản xuất tất cả lượng cholesterol cần thiết thông qua quá trình này.</div><div>- Cholesterol trong chế độ ăn uống đến từ thực phẩm bạn ăn, chủ yếu là các sản phẩm động vật như thịt, trứng, phô mai và sữa. Cholesterol trong chế độ ăn uống có thể dẫn đến các vấn đề sức khỏe nếu nó quá cao.</div><div>Mỗi ngày, gan của chúng ta sản xuất từ ​​1-2 gram cholesterol. Sản xuất có thể giảm khi chúng ta ăn thực phẩm giàu cholesterol và tăng lên khi chúng ta ăn thực phẩm không có cholesterol.</div><div><br></div><div><b>2. Giải oan: Có phải tất cả cholesterol đều “xấu”?</b></div><div>Xin nhắc lại lần nữa, cholesterol rất cần thiết để có sức khỏe tốt. Vốn dĩ nó không phải là “xấu”, nhưng quá nhiều cholesterol có thể gây ra vấn đề.</div><div>Sự thật là <i style="">cách cholesterol được vận chuyển</i> đã tạo nên sự khác biệt về việc liệu nó có gây hại cho sức khỏe hay không. </div><div><br></div><div>Cholesterol di chuyển trong máu nhờ các protein gọi là lipoprotein.</div><div>Hai loại lipoprotein mang cholesterol đi khắp cơ thể là <i>lipoprotein mật độ thấp (LDL)</i>, đôi khi được gọi là cholesterol “xấu” và <i>lipoprotein mật độ cao (HDL)</i> hay cholesterol “tốt”.<br></div><div>- Khi cơ thể có quá nhiều cholesterol LDL dẫn đến sự tích tụ và tạo nên các mảng bám trong thành mạch máu. Theo thời gian, các mảng bám có thể dày hơn, làm chặn dòng máu đến - đi từ tim và các cơ quan khác. Khi lưu lượng máu đến tim bị chặn, nó gây ra cơn đau thắt ngực hoặc đau tim.</div><div>- Ngược lại, HDL hay cholesterol “tốt” mang cholesterol trở lại gan. Gan sau đó sẽ thải nó ra khỏi cơ thể. Mức cholesterol HDL cao giúp làm giảm nguy cơ mắc bệnh tim mạch và đột quỵ.</div><div>Thêm một yếu tố cần được quan tâm là Triglyceride. Đây là loại chất béo được cơ thể sử dụng để tạo năng lượng. Mức chất béo trung tính cao kết hợp với cholesterol LDL (có hại) cao hoặc cholesterol HDL (có lợi) thấp có thể làm tăng nguy cơ đau tim và đột quỵ. </div><div><br></div><div><b>Tóm lại</b></div><div>Không phải tất cả cholesterol đều xấu, chúng chỉ xấu khi cơ thể tiêu thụ thực phẩm giàu cholesterol một cách quá đà. Tình trạng này xấu hơn khi cộng hưởng với yếu tố triglyceride cao do việc ăn quá nhiều thực phẩm, nhất là ở những người thừa cân và béo phì.</div><div><br></div><div><b>3. Lời khuyên chân thành</b></div><div><b>- Kiểm tra định kỳ cholesterol</b></div><div>Khi có quá nhiều cholesterol xấu lưu thông trong máu, nó có thể tích tụ bên trong các động mạch nuôi sống tim và não của bạn. Nếu sự tích tụ cholesterol quá dày, sẽ gây tắc nghẽn các cục máu đông trong động mạch và dẫn đến đau tim hoặc đột quỵ. Việc kiểm tra định kỳ nhằm giúp bạn tránh khỏi các vấn đề này và đảm bảo cơ thể đang được khỏe mạnh.</div><div>Hiệp hội Tim mạch Hoa Kỳ (AHA) khuyến nghị nên kiểm tra mức cholesterol một lần trong độ tuổi từ 9 - 11 tuổi và một lần nữa từ 17 - 21 tuổi đối với trẻ em và thanh niên không có các yếu tố nguy cơ khác hoặc tiền sử gia đình mắc bệnh tim. Sau 20 tuổi, chúng ta nên kiểm tra lại lượng cholesterol mỗi 4 - 6 năm, miễn là nguy cơ vẫn ở mức thấp.</div><div><br></div><div><b>- Xây dựng cơ thể khỏe mạnh</b></div><div>Các thói quen lối sống lành mạnh như có một chế độ ăn uống lành mạnh - cân bằng, vận động điều độ và loại bỏ việc sử dụng thuốc lá đều có thể giúp bạn quản lý mức cholesterol tốt hơn. </div><div><br></div><div><b>- Tham khảo ý kiến chuyên gia</b></div><div>Nếu bạn đang cảm thấy lo lắng hay không may bạn đang gặp vấn đề về tình trạng cholesterol, hãy nói chuyện với bác sĩ hoặc chuyên gia sức khỏe của bạn. Họ sẽ giúp bạn giải tỏa các vấn đề hoặc cùng bạn lập ra kế hoạch điều trị tốt nhất cho bạn.</div><div><br></div><div><i>Tài liệu tham khảo</i></div><div>https://www.heart.org</div><div>https://www.precisionnutrition.com</div><div><br></div><div></div><div></div><div></div><div></div><div></div></div>
+											</div>
+	</div>
+	<div id="timhieuthem">
+		<div class="content"></div>
+		<a class="close_timhieuthem">&#215;</a>
+	</div>
+	<div id="play_youtube"></div>
+	<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/jquery.simplePagination.min.js"></script>
+<script src="js/pdf.min.js"></script>
+<br>
+<footer class="container" id="footer">
+	<div class="top_footer clearfix">
+		<a href="index.html"><img src="img/logo_footer.png" alt="" width="100%"></a>
+	</div>
+	<div class="box01">
+		<h2 class="tit_07">FITNESS FOR WOMAN</h2>
+		<div class="txt_01">Start-up giúp cho chị em phái yếu có vóc dáng đẹp & sức khỏe dẻo dai một cách tiện lợi & tiết kiệm.</div><br><br>
+		<h3 class="tit_08">CÔNG TY TNHH SHEFIT</h2>
+		<table class="list_footer">
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Văn phòng</td>
+				<td width="1">:</td>
+				<td>Khu The Sun Avenue, An Phú, Q2, TPHCM</td>
+			</tr>
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Hotline</td>
+				<td width="1">:</td>
+				<td><a href="tel:0906934821">0906934821</a></td>
+			</tr>
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Email</td>
+				<td width="1">:</td>
+				<td><a href="mailto:info@shefit.vn">info@shefit.vn</a></td>
+			</tr>
+		</table><br>
+		<table class="list_footer">
+			<tr>
+				<td width="40"><a href="https://zalo.me/0906934821" target="_blank"><img src="img/zalo_icon.png" alt=""></a></td>
+				<td width="5">&nbsp;</td>
+				<td width="40"><a href="https://www.facebook.com/shefitvn" target="_blank"><img src="img/facebook_icon.png" alt=""></a></td>
+				<td width="5">&nbsp;</td>
+				<td width="40"><a href="https://www.youtube.com/@GluteLab-LoNanDang-zl7td" target="_blank"><img src="img/youtube_icon.png" alt=""></a></td>
+			</tr>
+		</table><br>
+		<div class="copyright">
+			<a href="index.html">&copy; Ngôi Nhà Đầu Bếp 2024</a>
+		</div><br>
+	</div>
+</footer>
+
+	<script>
+		$(document).ready(function() {
+			$(document).on( "click", ".frame_youtube", function(e) {
+				$(this).addClass('active');
+				var youtube_id = $(this).attr('youtube_id');
+                $(this).html('<iframe src="https://www.youtube.com/embed/' + youtube_id + '?autoplay=1&rel=0&showinfo=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>');
+			});
+
+            initializeSlider();
+            function initializeSlider() {
+                $('.slide_blog').slick({
+					infinite: true,
+					slidesToShow: 1,
+					autoplay: true,
+					slidesToScroll: 1,
+					pauseOnHover: true,
+					dots: true,
+					arrows: true,
+					autoplay: true
+                });
+            }
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SHEFIT</title>
+	<link rel="stylesheet" type="text/css" href="css/slick.css@8825">
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css@9911">
+	<link rel="stylesheet" type="text/css" href="css/style_main.css@7667">
+	<body>
+	<div class="container">
+		<header id="header" class="header">
+	<div class="top_header container">
+		<table width="100%" cellspacing="0" cellpadding="0">
+			<tr>
+				<td>
+					<a href="index.html">
+						<span class="home_icon">
+							<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.3103 1.77586C11.6966 1.40805 12.3034 1.40805 12.6897 1.77586L20.6897 9.39491L23.1897 11.7759C23.5896 12.1567 23.605 12.7897 23.2241 13.1897C22.8433 13.5896 22.2103 13.605 21.8103 13.2241L21 12.4524V20C21 21.1046 20.1046 22 19 22H14H10H5C3.89543 22 3 21.1046 3 20V12.4524L2.18966 13.2241C1.78972 13.605 1.15675 13.5896 0.775862 13.1897C0.394976 12.7897 0.410414 12.1567 0.810345 11.7759L3.31034 9.39491L11.3103 1.77586ZM5 10.5476V20H9V15C9 13.3431 10.3431 12 12 12C13.6569 12 15 13.3431 15 15V20H19V10.5476L12 3.88095L5 10.5476ZM13 20V15C13 14.4477 12.5523 14 12 14C11.4477 14 11 14.4477 11 15V20H13Z" fill="#9b5e6e"/></svg>
+						</span> 
+						Home
+					</a>
+				</td>
+				<td style="text-align: right;">
+					<a href="quiz">
+						<span class="home_icon">
+							<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 14V7C20 5.34315 18.6569 4 17 4H7C5.34315 4 4 5.34315 4 7V17C4 18.6569 5.34315 20 7 20H13.5M20 14L13.5 20M20 14H15.5C14.3954 14 13.5 14.8954 13.5 16V20" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 8H16" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 12H12" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+						</span>
+						Body Quiz
+					</a>
+					<span class="ngancach">|</span> 
+												<a href="login">
+								<span class="home_icon">
+									<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M13 3C13 2.44772 12.5523 2 12 2C11.4477 2 11 2.44772 11 3V12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12V3ZM8.6092 5.8744C9.09211 5.60643 9.26636 4.99771 8.99839 4.5148C8.73042 4.03188 8.12171 3.85763 7.63879 4.1256C4.87453 5.65948 3 8.61014 3 12C3 16.9706 7.02944 21 12 21C16.9706 21 21 16.9706 21 12C21 8.66747 19.1882 5.75928 16.5007 4.20465C16.0227 3.92811 15.4109 4.09147 15.1344 4.56953C14.8579 5.04759 15.0212 5.65932 15.4993 5.93586C17.5942 7.14771 19 9.41027 19 12C19 15.866 15.866 19 12 19C8.13401 19 5 15.866 5 12C5 9.3658 6.45462 7.06997 8.6092 5.8744Z" fill="#9b5e6e"/></svg>
+								</span>
+								Đăng nhập
+							</a>
+									</td>
+
+			</tr>
+		</table>
+	</div>
+	<div class="main_header">
+		<ul class="clearfix">
+			<li><a href="khoahoc">Khóa học</a></li>
+			<li><a href="thucdon">Thực đơn</a></li>
+			<li><a href="huanluyenvien">Giáo viên</a></li>
+			<li><a href="sanpham">Dụng cụ</a></li>
+			<li><a href="thucpham">Thực phẩm</a></li>
+			<li><a href="blog">Blog</a></li>
+		</ul>
+	</div>
+</header>
+		<div class="box01">
+														<nav aria-label="breadcrumb" class="breadcrumb">
+							  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							   		&#10070;
+							      <a itemprop="item" href="index.html">
+							        <span itemprop="name">Trang chủ</span>
+							      </a>
+							      <meta itemprop="position" content="1" />
+							    </li>
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							      <a itemprop="item" href="blog.php">
+							        <span itemprop="name">Blog</span>
+							      </a>
+							      <meta itemprop="position" content="2" />
+							    </li>
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							      <a itemprop="item" href="blog.php">
+							        <span itemprop="name">ẢNH HƯỞNG CỦA CARBOHYDRATE ĐẾN TẬP LUYỆN THỂ THAO</span>
+							      </a>
+							      <meta itemprop="position" content="3" />
+							    </li>
+							  </ol>
+							</nav>
+							<h1 class="tit_01">ẢNH HƯỞNG CỦA CARBOHYDRATE ĐẾN TẬP LUYỆN THỂ THAO</h1>
+							<div class="blog_meta">
+								<table width="100%" cellpadding="0" cellspacing="0">
+									<tr>
+										<td>
+											<svg width="10%" height="10%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 14C8.13401 14 5 17.134 5 21H19C19 17.134 15.866 14 12 14Z" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Trương Thuỷ Thuỳ Giang</td>
+										<td class="txt_right">
+											<svg width="10%" height="10%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 10V7C20 5.89543 19.1046 5 18 5H6C4.89543 5 4 5.89543 4 7V10M20 10V19C20 20.1046 19.1046 21 18 21H6C4.89543 21 4 20.1046 4 19V10M20 10H4M8 3V7M16 3V7" stroke="#666666" stroke-width="2" stroke-linecap="round"/><rect x="6" y="12" width="3" height="3" rx="0.5" fill="#666666"/><rect x="10.5" y="12" width="3" height="3" rx="0.5" fill="#666666"/><rect x="15" y="12" width="3" height="3" rx="0.5" fill="#666666"/></svg>
+											2023-11-17										</td>
+									</tr>
+								</table>
+							</div><br>
+							<div class="slide_blog">
+																			<div><img src="img/upload/20241026213859.png"></div>
+																	</div>
+							<div class="blog_noidung"><div>Chắc hẳn chúng ta đều biết nhóm tinh bột (carbohydrate) trong thức ăn là nguồn năng lượng chủ yếu để duy trì sự vận hành của cơ thể vì chúng được hấp thụ nhanh hơn và nhu cầu cơ thể cần nhiều hơn. Vậy còn sự ảnh hưởng của carbohydrate đến việc tập luyện thể thao thì sao nhỉ? Có rất nhiều “tin đồn” rằng carbohydrate không tốt cho sức khỏe, và mọi người, đặc biệt là các chị em phụ nữ hầu hết đều có có xu hướng cắt giảm carbohydrate trong chế độ ăn, nhưng thực chất carbohydrate đóng vai trò vô cùng quan trọng trong cơ thể đấy. Vậy carbohydrate đóng vai trò gì trong việc tập luyện thể thao? Hãy cùng tìm hiểu nhé! </div><div><br></div><div><b>1. Carbohydrate - nguồn nhiên liệu thiết yếu của cơ thể bao gồm cả việc tập luyện</b></div><div>Carbohydrates (carbs) hay còn được biết đến là tinh bột (chất bột đường) là <b>nguồn nhiên liệu chính của cơ thể để sản sinh ra năng lượng</b>, phục vụ cho các hoạt động của cơ thể chúng ta, bao gồm cả các hoạt động rèn luyện thể dục thể thao. Tuỳ vào thời điểm ăn, loại carb và khẩu phần chúng ta nạp vào mà cơ thể sẽ phân giải hay tích trữ và sử dụng chúng một cách phù hợp.</div><div><br></div><div><b>- Glucose - nguồn nhiên liệu tức thời  </b></div><div>Lượng carbs khi được hấp thu vào cơ thể chúng ta sẽ phân giải thành các phân tử đường đơn - glucose giúp cung cấp năng lượng cho chúng ta sử dụng vào tất cả các hoạt động của cơ thể như: hít thở, ăn uống, suy nghĩ, đi hay chạy,.... Glucose cũng là nguồn nhiên liệu yêu thích của bộ não đấy.</div><div><br></div><div><b>- Glycogen- nguồn năng lượng dự trữ trong gan và cơ</b></div><div>Sau khi được hấp thụ, carbohydrate có thể được sử dụng ngay lập tức làm nguồn nhiên liệu (glucose) hoặc có thể được lưu trữ dưới dạng glycogen trong các tế bào cụ thể điển hình là gan và cơ bắp. Glycogen dự trữ trong cơ thể  sẽ được phân giải khi cần thiết, giúp duy trì đường huyết ổn định. Khi lượng glucose trong máu suy giảm, lượng glycogen dự trữ ở gan sẽ được chuyển hoá thành glucose để tạo ra năng lượng duy trì sự hoạt động của cơ thể. Lượng glycogen trong cơ bắp được sử dụng để tạo năng lượng cho các hoạt động thể chất ngắn (dưới 150 phút). Trong trường hợp bạn tham gia vào các hoạt động kéo dài hơn 150 phút, lượng glycogen dự trữ sẽ có nguy cơ bị cạn kiệt.</div><div><br></div><div><b>2. Tại sao phải bổ sung đầy đủ carbs quan trọng với việc tập luyện?</b></div><div>Vai trò chính của carbohydrate trong việc tập luyện chính là cung cấp năng lượng. Nếu bạn không nạp đủ lượng carbohydrate cần thiết cho cơ thể, nguồn năng lượng sẽ bị cạn kiệt, làm giảm đi hiệu suất tập luyện thể thao và hiệu suất của việc phục hồi cơ bắp. Đặc biệt, khi bạn tham gia vào những buổi tập luyện thể thao hoặc thi đấu trong thời gian dài (hơn 150 phút) với cường độ mạnh, lượng glycogen dự trữ trong cơ thể không đủ để tạo năng lượng sẽ bị cạn kiệt. Do đó, việc nạp đầy đủ carbohydrate trong chế độ ăn hằng ngày là rất quan trọng, và thậm chí bạn cũng cần phải có kế hoạch nạp thêm carbohydrate một cách khoa học nếu bạn tham gia những buổi tập luyện thể thao kéo dài với cường độ mạnh.</div><div><br></div><div><b>- Carbohydrate cung cấp năng lượng, đảm bảo hiệu suất tập luyện và tối ưu hoá lượng glycogen dự trữ</b></div><div>Tất cả loại hình vận động của con người bao gồm cả vận động thể chất đều sử dụng carbs làm nhiên liệu để sản sinh ra năng lượng, cụ thể là glycogen dự trữ trong gan và cơ. Mức độ hoạt động càng nhiều, nhu cầu về năng lượng càng cao. Việc không tiêu thụ đủ carbs từ chế độ ăn uống có thể làm thiếu hụt năng lượng, gia tăng nguy cơ hạ đường huyết, não bộ và cơ bắp dễ bị mệt mỏi, làm giảm cường độ và hiệu quả tập luyện. Đó là lý do những người tập gym, hay tham gia các hoạt động thể thao đều có thói quen bổ sung một ít carbohydrate trước và sau khi tập luyện như một cách thức bổ sung năng lượng để duy trì đường huyết ổn định khi luyện tập kéo dài, và tối ưu hoá sự dự trữ glycogen.  </div><div><br></div><div>Việc nạp đủ lượng carbohydrate cần thiết cho cơ thể sẽ tối ưu hoá quá trình tổng hợp glycogen dự trữ trong gan và cơ. Rất nhiều nghiên cứu và báo cáo (VD báo cáo của FAO) đã chỉ ra rằng, việc tối đa hoá sự dự trữ của glycogen ảnh hưởng đến hiệu suất tập luyện cũng như giảm đi sự mệt mỏi của cơ thể chúng ta. Nói một cách dễ hiểu rằng chế độ ăn đầy đủ carbohydrate giúp cơ thể có thể kéo dài thời gian, hiệu suất luyện tập và giảm đi sự mệt mỏi của cơ bắp. </div><div><br></div><div><b>- Carbohydrate giúp phục hồi cơ bắp sau các buổi tập luyện thể chất</b></div><div>Quá trình hồi phục cơ bắp và năng lượng không phải là một quá trình bị động. Các tế bào sẽ phải trải qua quá trình sửa chữa và tái cấu trúc cũng như cân bằng nội môi để cơ thể có thể hồi phục và phát triển cơ bắp sau tập luyện. Carbohydrate đóng vai trò vô cùng quan trọng và thiết yếu cho quá trình hồi phục lượng glycogen dự trữ trong cơ bắp, giúp thúc đẩy quá trình hồi phục và phát triển cơ.</div><div><br></div><div>Theo tạp chí của Hiệp hội Dinh dưỡng Thể thao Quốc tế, sau những bài tập kháng lực, việc nạp carbohydrate đơn giản (VD: những thực phẩm chứa đường đơn glucose hoặc maltodextrin, dễ tiêu hoá) cùng với protein với tỉ lệ thích hợp sẽ kích thích quá trình tăng cơ hiệu quả hơn so với việc chỉ nạp mỗi protein. Hai lý do chính được đưa ra cho sự cần thiết của việc bổ sung carbohydrate chung với protein vào bữa ăn sau tập luyện là;&nbsp;</div><div>1. Sự ảnh hưởng của insulin và leucine trong quá trình tổng hợp protein trong cơ;</div><div>2. Khối lượng cơ thể nạc (Lean Body Mass-LBM) sẽ tăng nhiều hơn so với khi chỉ tiêu thụ protein.</div><div><br></div><div><b>3. Cách bổ sung carb để tối ưu hoá quá trình tập luyện </b></div><div>Nhu cầu tiêu thụ carbs phụ thuộc vào các yếu tố như trọng lượng cơ thể, cường độ, thời gian và tần suất tập luyện, độ tuổi, và giới tính . Những người luyện tập thể thao cường độ càng nặng thì nhu cầu nạp carbohydrate sẽ càng cao, chẳng hạn như các vận động viên. </div><div><br></div><div>Theo tổ chức dinh dưỡng của Anh, đối với những người chỉ tập luyện thể thao ở mức khuyến nghị (150 phút với cường độ trung bình hoặc 75 phút với cường độ cao cộng với hai buổi hoạt động tăng cường cơ bắp mỗi tuần), chúng ta chỉ cần đáp ứng lượng carb tương đương của một người trưởng thành khỏe mạnh là đủ - tức lượng carbs ở mức 45-65% tổng năng lượng tiêu thụ trong một ngày, mà không cần phải nạp thêm trước hoặc sau khi tập. Kèm theo đó, chúng ta nên ưu tiên các sự lựa chọn tinh bột phức và giàu chất xơ.            </div><div><br></div><div>Nhưng đối với những người hoạt động thể chất ở cường độ cao trong thời gian dài, đặc biệt là các vận động viên, mức tiêu thụ carbs có thể tăng lên đến mức cao hơn VD: 55-65% tổng năng lượng tiêu thụ trong ngày. Hơn thế nữa, họ cần một thời gian biểu để nạp carb trước và sau khi tập một cách khoa học, nhằm tối đa hoá hiệu suất luyện tập và sự hồi phục của cơ thể. </div><div><br></div><div><b>Tóm lại </b></div><div>Qua bài viết này, chúng ta đã hiểu được sự ảnh hưởng và tầm quan trọng của việc nạp đúng và đủ lượng carbohydrate đối với việc tập luyện thể thao. Việc ăn không đủ hay cắt giảm tinh bột sẽ gây ảnh hưởng vô cùng nghiêm trọng đến việc tập luyện. Vậy nên, để tối ưu hoá hiệu suất luyện tập và tăng hiệu suất phục hồi sau tập, hãy đảm bảo duy trì một bữa ăn đầy đủ carbohydrate chất lượng nhé.</div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+											</div>
+	</div>
+	<div id="timhieuthem">
+		<div class="content"></div>
+		<a class="close_timhieuthem">&#215;</a>
+	</div>
+	<div id="play_youtube"></div>
+	<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/jquery.simplePagination.min.js"></script>
+<script src="js/pdf.min.js"></script>
+<br>
+<footer class="container" id="footer">
+	<div class="top_footer clearfix">
+		<a href="index.html"><img src="img/logo_footer.png" alt="" width="100%"></a>
+	</div>
+	<div class="box01">
+		<h2 class="tit_07">FITNESS FOR WOMAN</h2>
+		<div class="txt_01">Start-up giúp cho chị em phái yếu có vóc dáng đẹp & sức khỏe dẻo dai một cách tiện lợi & tiết kiệm.</div><br><br>
+		<h3 class="tit_08">CÔNG TY TNHH SHEFIT</h2>
+		<table class="list_footer">
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Văn phòng</td>
+				<td width="1">:</td>
+				<td>Khu The Sun Avenue, An Phú, Q2, TPHCM</td>
+			</tr>
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Hotline</td>
+				<td width="1">:</td>
+				<td><a href="tel:0906934821">0906934821</a></td>
+			</tr>
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Email</td>
+				<td width="1">:</td>
+				<td><a href="mailto:info@shefit.vn">info@shefit.vn</a></td>
+			</tr>
+		</table><br>
+		<table class="list_footer">
+			<tr>
+				<td width="40"><a href="https://zalo.me/0906934821" target="_blank"><img src="img/zalo_icon.png" alt=""></a></td>
+				<td width="5">&nbsp;</td>
+				<td width="40"><a href="https://www.facebook.com/shefitvn" target="_blank"><img src="img/facebook_icon.png" alt=""></a></td>
+				<td width="5">&nbsp;</td>
+				<td width="40"><a href="https://www.youtube.com/@GluteLab-LoNanDang-zl7td" target="_blank"><img src="img/youtube_icon.png" alt=""></a></td>
+			</tr>
+		</table><br>
+		<div class="copyright">
+			<a href="index.html">&copy; Ngôi Nhà Đầu Bếp 2024</a>
+		</div><br>
+	</div>
+</footer>
+
+	<script>
+		$(document).ready(function() {
+			$(document).on( "click", ".frame_youtube", function(e) {
+				$(this).addClass('active');
+				var youtube_id = $(this).attr('youtube_id');
+                $(this).html('<iframe src="https://www.youtube.com/embed/' + youtube_id + '?autoplay=1&rel=0&showinfo=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>');
+			});
+
+            initializeSlider();
+            function initializeSlider() {
+                $('.slide_blog').slick({
+					infinite: true,
+					slidesToShow: 1,
+					autoplay: true,
+					slidesToScroll: 1,
+					pauseOnHover: true,
+					dots: true,
+					arrows: true,
+					autoplay: true
+                });
+            }
+		});
+	</script>
+</body>
+</html>

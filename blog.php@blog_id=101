@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SHEFIT</title>
+	<link rel="stylesheet" type="text/css" href="css/slick.css@9072">
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css@6795">
+	<link rel="stylesheet" type="text/css" href="css/style_main.css@2572">
+	<body>
+	<div class="container">
+		<header id="header" class="header">
+	<div class="top_header container">
+		<table width="100%" cellspacing="0" cellpadding="0">
+			<tr>
+				<td>
+					<a href="index.html">
+						<span class="home_icon">
+							<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.3103 1.77586C11.6966 1.40805 12.3034 1.40805 12.6897 1.77586L20.6897 9.39491L23.1897 11.7759C23.5896 12.1567 23.605 12.7897 23.2241 13.1897C22.8433 13.5896 22.2103 13.605 21.8103 13.2241L21 12.4524V20C21 21.1046 20.1046 22 19 22H14H10H5C3.89543 22 3 21.1046 3 20V12.4524L2.18966 13.2241C1.78972 13.605 1.15675 13.5896 0.775862 13.1897C0.394976 12.7897 0.410414 12.1567 0.810345 11.7759L3.31034 9.39491L11.3103 1.77586ZM5 10.5476V20H9V15C9 13.3431 10.3431 12 12 12C13.6569 12 15 13.3431 15 15V20H19V10.5476L12 3.88095L5 10.5476ZM13 20V15C13 14.4477 12.5523 14 12 14C11.4477 14 11 14.4477 11 15V20H13Z" fill="#9b5e6e"/></svg>
+						</span> 
+						Home
+					</a>
+				</td>
+				<td style="text-align: right;">
+					<a href="quiz">
+						<span class="home_icon">
+							<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 14V7C20 5.34315 18.6569 4 17 4H7C5.34315 4 4 5.34315 4 7V17C4 18.6569 5.34315 20 7 20H13.5M20 14L13.5 20M20 14H15.5C14.3954 14 13.5 14.8954 13.5 16V20" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 8H16" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 12H12" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+						</span>
+						Body Quiz
+					</a>
+					<span class="ngancach">|</span> 
+												<a href="login">
+								<span class="home_icon">
+									<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M13 3C13 2.44772 12.5523 2 12 2C11.4477 2 11 2.44772 11 3V12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12V3ZM8.6092 5.8744C9.09211 5.60643 9.26636 4.99771 8.99839 4.5148C8.73042 4.03188 8.12171 3.85763 7.63879 4.1256C4.87453 5.65948 3 8.61014 3 12C3 16.9706 7.02944 21 12 21C16.9706 21 21 16.9706 21 12C21 8.66747 19.1882 5.75928 16.5007 4.20465C16.0227 3.92811 15.4109 4.09147 15.1344 4.56953C14.8579 5.04759 15.0212 5.65932 15.4993 5.93586C17.5942 7.14771 19 9.41027 19 12C19 15.866 15.866 19 12 19C8.13401 19 5 15.866 5 12C5 9.3658 6.45462 7.06997 8.6092 5.8744Z" fill="#9b5e6e"/></svg>
+								</span>
+								Đăng nhập
+							</a>
+									</td>
+
+			</tr>
+		</table>
+	</div>
+	<div class="main_header">
+		<ul class="clearfix">
+			<li><a href="khoahoc">Khóa học</a></li>
+			<li><a href="thucdon">Thực đơn</a></li>
+			<li><a href="huanluyenvien">Giáo viên</a></li>
+			<li><a href="sanpham">Dụng cụ</a></li>
+			<li><a href="thucpham">Thực phẩm</a></li>
+			<li><a href="blog">Blog</a></li>
+		</ul>
+	</div>
+</header>
+		<div class="box01">
+														<nav aria-label="breadcrumb" class="breadcrumb">
+							  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							   		&#10070;
+							      <a itemprop="item" href="index.html">
+							        <span itemprop="name">Trang chủ</span>
+							      </a>
+							      <meta itemprop="position" content="1" />
+							    </li>
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							      <a itemprop="item" href="blog.php">
+							        <span itemprop="name">Blog</span>
+							      </a>
+							      <meta itemprop="position" content="2" />
+							    </li>
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							      <a itemprop="item" href="blog.php">
+							        <span itemprop="name">"3 PHẦN ĐÓI, 7 PHẦN NO" LÀ NHƯ THẾ NÀO? VÀ LỢI ÍCH CỦA VIỆC ĂN NO 7 PHẦN</span>
+							      </a>
+							      <meta itemprop="position" content="3" />
+							    </li>
+							  </ol>
+							</nav>
+							<h1 class="tit_01">"3 PHẦN ĐÓI, 7 PHẦN NO" LÀ NHƯ THẾ NÀO? VÀ LỢI ÍCH CỦA VIỆC ĂN NO 7 PHẦN</h1>
+							<div class="blog_meta">
+								<table width="100%" cellpadding="0" cellspacing="0">
+									<tr>
+										<td>
+											<svg width="10%" height="10%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 14C8.13401 14 5 17.134 5 21H19C19 17.134 15.866 14 12 14Z" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Phạm Nguyễn Quỳnh Anh</td>
+										<td class="txt_right">
+											<svg width="10%" height="10%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 10V7C20 5.89543 19.1046 5 18 5H6C4.89543 5 4 5.89543 4 7V10M20 10V19C20 20.1046 19.1046 21 18 21H6C4.89543 21 4 20.1046 4 19V10M20 10H4M8 3V7M16 3V7" stroke="#666666" stroke-width="2" stroke-linecap="round"/><rect x="6" y="12" width="3" height="3" rx="0.5" fill="#666666"/><rect x="10.5" y="12" width="3" height="3" rx="0.5" fill="#666666"/><rect x="15" y="12" width="3" height="3" rx="0.5" fill="#666666"/></svg>
+											2023-11-15										</td>
+									</tr>
+								</table>
+							</div><br>
+							<div class="slide_blog">
+																			<div><img src="img/upload/20241021102843.jpg"></div>
+																	</div>
+							<div class="blog_noidung"><div>"3 phần đói 7 phần no" là một nguyên tắc ăn uống trong y học cổ truyền Trung Quốc. </div><div><br></div><div><b>1. Nguyên tắc:</b>&nbsp;chia bữa ăn thành 10 phần, trong đó:</div><div><b>7 phần no</b>: Tức là chúng ta nên ngừng ăn khi đã cảm thấy bụng no 70% - 80%. Việc duy trì thói quen ăn uống không quá no như vậy không chỉ giúp hỗ trợ dạ dày trong việc xử lý thức ăn một cách hiệu quả mà còn có lợi cho sức khỏe tổng thể. Điều này giúp giảm bớt gánh nặng lao động cho dạ dày, đặc biệt sau mỗi bữa ăn. Ngoài ra, việc duy trì thói quen này cũng đóng vai trò quan trọng trong việc bảo vệ cơ thể khỏi nhiều vấn đề về tiêu hóa và duy trì một sức khỏe tổng thể tốt.</div><div><b><i>Mục tiêu:</i></b>&nbsp;đảm bảo rằng bạn ăn đúng lượng thức ăn cần thiết cho cơ thể mà không gây quá tải cho tiêu hóa. Nó cũng giúp bạn kiểm soát cân nặng và duy trì sức khỏe toàn diện. Tuy nhiên, cách ăn này cần thời gian và sự tập trung để cảm nhận cơ thể, và không phải lúc nào cũng phù hợp cho mọi người.</div><div><b style="font-style: italic;">Cách ăn: </b>thường<b style="font-style: italic;">&nbsp;</b>được áp dụng trong lĩnh vực y học cổ truyền và thực hành phong thủy của người Trung Quốc. Tuy nhiên, nó cũng có ý nghĩa sức khỏe và có thể thúc đẩy thái độ ăn uống có lợi cho sức khỏe, giúp ngăn ngừa việc quá ăn và dẫn đến tăng cân hoặc các vấn đề sức khỏe khác.</div><div>Nguyên tắc "3 phần đói 7 phần no" <i>có thể không phù hợp cho tất cả mọi người và không được xem là một quy tắc tuyệt đối cho ăn uống</i>. Mỗi người có nhu cầu calo và dinh dưỡng riêng biệt, và cần phải tuân thủ theo nguyên tắc ăn uống lành mạnh và cân đối dựa trên tình trạng sức khỏe và mục tiêu cá nhân của họ.</div><div><br></div><div><b>2. Lợi ích&nbsp;</b></div><div><b>- Dinh dưỡng cân đối:</b> Nhiều người trên toàn thế giới đang nỗ lực để giảm cân và duy trì sức khỏe tốt. Một trong những cách hiệu quả để đạt được mục tiêu này là kiểm soát lượng thức ăn mỗi bữa. Ăn đủ, nhưng không quá nhiều, có thể đảm bảo rằng bạn cung cấp đủ năng lượng và calo cần thiết cho cơ thể, và cũng có thể giúp bạn đạt được trọng lượng lý tưởng.</div><div><b>- Bảo vệ hệ tiêu hoá:</b> Khi bạn tiêu thụ quá nhiều thức ăn trong mỗi bữa, dạ dày và đường ruột phải làm việc chăm chỉ để tiêu hóa mọi thứ. Điều này có thể tạo áp lực lớn lên hệ thống tiêu hóa của bạn và tăng nguy cơ gặp vấn đề về đường tiêu hóa. Bằng cách ăn mỗi bữa no đến mức khoảng 7 phần, bạn giúp giảm bớt gánh nặng cho dạ dày và đường ruột. Điều này cho phép cơ thể có đủ thời gian để hiệu quả tiêu hóa và hấp thụ thức ăn, giúp dạ dày và đường ruột khỏe mạnh hơn.</div><div><b>- Bảo vệ não bộ:</b> Ăn quá nhiều thức ăn có thể làm máu tập trung ở ruột và dạ dày để tiêu hóa, dẫn đến thiếu oxy cho não bộ. Tình trạng thiếu oxy này có thể góp phần vào quá trình lão hóa của não bộ. Bằng cách kiểm soát lượng thức ăn mỗi bữa, bạn giúp giảm thời gian máu tập trung ở dạ dày, đồng thời cung cấp nhiều oxy hơn cho não bộ. Điều này có lợi cho sức khỏe não, giúp ngăn ngừa các vấn đề về tim mạch và mạch máu não.</div><div><b>- Kéo dài tuổi thọ:</b> Một chế độ ăn uống cân đối có thể là một yếu tố quan trọng trong việc kéo dài tuổi thọ. Nhiều người sống lâu trăm tuổi đã cho thấy rằng ăn đủ một bữa no đến 7 phần có thể giúp giảm bớt gánh nặng cho các cơ quan nội tạng và tối ưu hóa quá trình trao đổi chất. Điều này cũng giúp loại bỏ các chất độc hại và rác thải khỏi cơ thể một cách hiệu quả, góp phần vào sự khỏe mạnh và kéo dài tuổi thọ của bạn.</div><div><br></div><div><b>3. Tập luyện thói quen ăn “3 phần no, 7 phần đói"</b></div><div>Luyện tập thói quen ăn no đến 7 phần là một quá trình có thể đòi hỏi thời gian và kiên nhẫn. Dưới đây là một số bước để bạn có thể bắt đầu:</div><div><b>- Thức ăn cân đối: </b>Bắt đầu bằng việc xây dựng một chế độ ăn uống cân đối. Đảm bảo rằng bạn đang tiêu thụ đủ loại thực phẩm chứa đầy dưỡng chất và vi lượng. Thực hiện một danh sách các thực phẩm mà bạn nên ăn để đảm bảo rằng bạn đang cung cấp đủ dinh dưỡng cho cơ thể.</div><div><b>- Điều chỉnh kích thước bữa ăn:</b> Bắt đầu bằng việc giảm kích thước bữa ăn của bạn. Sử dụng dĩa nhỏ hơn và hạn chế số lượng thức ăn mỗi bữa. Hãy tập trung vào việc cảm nhận sự no thay vì ăn cho đến khi bạn cảm thấy quá căng. Bên cạnh đó, hãy tính lượng calo mà bạn cần nạp vào cơ thể một ngày để có được một khẩu phần ăn hợp lý. </div><div><b>- Ăn chậm: </b>Khi ăn, hãy tập trung vào thực phẩm và ăn chậm. Dừng lại giữa các miếng để cho cơ thể có thời gian cảm nhận sự no. Ăn chậm cũng giúp bạn thấy hài lòng hơn với ít thức ăn.</div><div><b>- Lắng nghe cơ thể:</b> Hãy lắng nghe cơ thể của bạn và cảm nhận sự no. Khi bạn cảm thấy đã đạt đến mức "7 phần no" như bạn đã mô tả, hãy dừng lại và không tiếp tục ăn.</div><div><b>- Đặt lịch trình ăn uống:</b> Để luyện tập thói quen này, hãy đặt lịch trình ăn uống cố định và tuân thủ nó. Điều này giúp cơ thể thích nghi với thói quen ăn 7 phần no và biết khi nào sẽ đến lúc ăn.</div><div><b>- Thực hiện theo từng bước</b>: Không cần thay đổi tất cả mọi thứ cùng một lúc. Bắt đầu bằng việc điều chỉnh kích thước bữa ăn và sau đó tập trung vào việc ăn chậm và lắng nghe cơ thể. Hãy để thói quen ăn no dần dần hình thành.</div><div><b>- Theo dõi tiến độ:</b> Ghi chép về việc điều chỉnh thói quen ăn của bạn. Theo dõi sự tiến bộ và thấy được sự cải thiện trong việc đạt được mục tiêu "7 phần no."</div><div>Ngoài ra, khoảng cách giữa hai bữa ăn chính cũng cần được điều chỉnh. Nên để cách nhau từ 4 đến 6 tiếng đồng hồ giữa các bữa ăn. Việc quá lâu giữa các bữa ăn có thể gây cảm giác đói quá sớm, ảnh hưởng đến hiệu quả làm việc và vận động. Ngược lại, nếu hai bữa ăn cách nhau quá gần, cơ quan tiêu hóa không có đủ thời gian để nghỉ ngơi và quá trình tiêu hóa có thể bị ảnh hưởng. Điều này có thể làm cho bạn cảm thấy kém ngon và khó tiêu hóa thức ăn. Việc duy trì một thời gian hợp lý giữa các bữa ăn giúp cơ thể hoạt động tốt hơn và hấp thụ dưỡng chất một cách hiệu quả.</div><div><br></div><div><i>Tài liệu tham khảo</i></div><div>https://www.eatingwell.com/article/7900720/what-happens-to-your-body-when-you-eat-too-much/</div><div>https://my.clevelandclinic.org/health/diseases/24680-overeating</div><div>https://www.webmd.com/mental-health/eating-disorders/binge-eating-disorder/health-problems-binge-eating</div><div><br></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+											</div>
+	</div>
+	<div id="timhieuthem">
+		<div class="content"></div>
+		<a class="close_timhieuthem">&#215;</a>
+	</div>
+	<div id="play_youtube"></div>
+	<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/jquery.simplePagination.min.js"></script>
+<script src="js/pdf.min.js"></script>
+<br>
+<footer class="container" id="footer">
+	<div class="top_footer clearfix">
+		<a href="index.html"><img src="img/logo_footer.png" alt="" width="100%"></a>
+	</div>
+	<div class="box01">
+		<h2 class="tit_07">FITNESS FOR WOMAN</h2>
+		<div class="txt_01">Start-up giúp cho chị em phái yếu có vóc dáng đẹp & sức khỏe dẻo dai một cách tiện lợi & tiết kiệm.</div><br><br>
+		<h3 class="tit_08">CÔNG TY TNHH SHEFIT</h2>
+		<table class="list_footer">
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Văn phòng</td>
+				<td width="1">:</td>
+				<td>Khu The Sun Avenue, An Phú, Q2, TPHCM</td>
+			</tr>
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Hotline</td>
+				<td width="1">:</td>
+				<td><a href="tel:0906934821">0906934821</a></td>
+			</tr>
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Email</td>
+				<td width="1">:</td>
+				<td><a href="mailto:info@shefit.vn">info@shefit.vn</a></td>
+			</tr>
+		</table><br>
+		<table class="list_footer">
+			<tr>
+				<td width="40"><a href="https://zalo.me/0906934821" target="_blank"><img src="img/zalo_icon.png" alt=""></a></td>
+				<td width="5">&nbsp;</td>
+				<td width="40"><a href="https://www.facebook.com/shefitvn" target="_blank"><img src="img/facebook_icon.png" alt=""></a></td>
+				<td width="5">&nbsp;</td>
+				<td width="40"><a href="https://www.youtube.com/@GluteLab-LoNanDang-zl7td" target="_blank"><img src="img/youtube_icon.png" alt=""></a></td>
+			</tr>
+		</table><br>
+		<div class="copyright">
+			<a href="index.html">&copy; Ngôi Nhà Đầu Bếp 2024</a>
+		</div><br>
+	</div>
+</footer>
+
+	<script>
+		$(document).ready(function() {
+			$(document).on( "click", ".frame_youtube", function(e) {
+				$(this).addClass('active');
+				var youtube_id = $(this).attr('youtube_id');
+                $(this).html('<iframe src="https://www.youtube.com/embed/' + youtube_id + '?autoplay=1&rel=0&showinfo=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>');
+			});
+
+            initializeSlider();
+            function initializeSlider() {
+                $('.slide_blog').slick({
+					infinite: true,
+					slidesToShow: 1,
+					autoplay: true,
+					slidesToScroll: 1,
+					pauseOnHover: true,
+					dots: true,
+					arrows: true,
+					autoplay: true
+                });
+            }
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SHEFIT</title>
+	<link rel="stylesheet" type="text/css" href="css/slick.css@1507">
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css@1100">
+	<link rel="stylesheet" type="text/css" href="css/style_main.css@4843">
+	<body>
+	<div class="container">
+		<header id="header" class="header">
+	<div class="top_header container">
+		<table width="100%" cellspacing="0" cellpadding="0">
+			<tr>
+				<td>
+					<a href="index.html">
+						<span class="home_icon">
+							<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.3103 1.77586C11.6966 1.40805 12.3034 1.40805 12.6897 1.77586L20.6897 9.39491L23.1897 11.7759C23.5896 12.1567 23.605 12.7897 23.2241 13.1897C22.8433 13.5896 22.2103 13.605 21.8103 13.2241L21 12.4524V20C21 21.1046 20.1046 22 19 22H14H10H5C3.89543 22 3 21.1046 3 20V12.4524L2.18966 13.2241C1.78972 13.605 1.15675 13.5896 0.775862 13.1897C0.394976 12.7897 0.410414 12.1567 0.810345 11.7759L3.31034 9.39491L11.3103 1.77586ZM5 10.5476V20H9V15C9 13.3431 10.3431 12 12 12C13.6569 12 15 13.3431 15 15V20H19V10.5476L12 3.88095L5 10.5476ZM13 20V15C13 14.4477 12.5523 14 12 14C11.4477 14 11 14.4477 11 15V20H13Z" fill="#9b5e6e"/></svg>
+						</span> 
+						Home
+					</a>
+				</td>
+				<td style="text-align: right;">
+					<a href="quiz">
+						<span class="home_icon">
+							<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 14V7C20 5.34315 18.6569 4 17 4H7C5.34315 4 4 5.34315 4 7V17C4 18.6569 5.34315 20 7 20H13.5M20 14L13.5 20M20 14H15.5C14.3954 14 13.5 14.8954 13.5 16V20" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 8H16" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 12H12" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+						</span>
+						Body Quiz
+					</a>
+					<span class="ngancach">|</span> 
+												<a href="login">
+								<span class="home_icon">
+									<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M13 3C13 2.44772 12.5523 2 12 2C11.4477 2 11 2.44772 11 3V12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12V3ZM8.6092 5.8744C9.09211 5.60643 9.26636 4.99771 8.99839 4.5148C8.73042 4.03188 8.12171 3.85763 7.63879 4.1256C4.87453 5.65948 3 8.61014 3 12C3 16.9706 7.02944 21 12 21C16.9706 21 21 16.9706 21 12C21 8.66747 19.1882 5.75928 16.5007 4.20465C16.0227 3.92811 15.4109 4.09147 15.1344 4.56953C14.8579 5.04759 15.0212 5.65932 15.4993 5.93586C17.5942 7.14771 19 9.41027 19 12C19 15.866 15.866 19 12 19C8.13401 19 5 15.866 5 12C5 9.3658 6.45462 7.06997 8.6092 5.8744Z" fill="#9b5e6e"/></svg>
+								</span>
+								Đăng nhập
+							</a>
+									</td>
+
+			</tr>
+		</table>
+	</div>
+	<div class="main_header">
+		<ul class="clearfix">
+			<li><a href="khoahoc">Khóa học</a></li>
+			<li><a href="thucdon">Thực đơn</a></li>
+			<li><a href="huanluyenvien">Giáo viên</a></li>
+			<li><a href="sanpham">Dụng cụ</a></li>
+			<li><a href="thucpham">Thực phẩm</a></li>
+			<li><a href="blog">Blog</a></li>
+		</ul>
+	</div>
+</header>
+		<div class="box01">
+														<nav aria-label="breadcrumb" class="breadcrumb">
+							  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							   		&#10070;
+							      <a itemprop="item" href="index.html">
+							        <span itemprop="name">Trang chủ</span>
+							      </a>
+							      <meta itemprop="position" content="1" />
+							    </li>
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							      <a itemprop="item" href="blog.php">
+							        <span itemprop="name">Blog</span>
+							      </a>
+							      <meta itemprop="position" content="2" />
+							    </li>
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							      <a itemprop="item" href="blog.php">
+							        <span itemprop="name">KẸO GIẢM CÂN, THUỐC GIẢM CÂN, TRÀ GIẢM CÂN,...CÓ GIÚP BẠN GIẢM CÂN KHÔNG?</span>
+							      </a>
+							      <meta itemprop="position" content="3" />
+							    </li>
+							  </ol>
+							</nav>
+							<h1 class="tit_01">KẸO GIẢM CÂN, THUỐC GIẢM CÂN, TRÀ GIẢM CÂN,...CÓ GIÚP BẠN GIẢM CÂN KHÔNG?</h1>
+							<div class="blog_meta">
+								<table width="100%" cellpadding="0" cellspacing="0">
+									<tr>
+										<td>
+											<svg width="10%" height="10%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 14C8.13401 14 5 17.134 5 21H19C19 17.134 15.866 14 12 14Z" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Võ Thị Anh Trúc</td>
+										<td class="txt_right">
+											<svg width="10%" height="10%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 10V7C20 5.89543 19.1046 5 18 5H6C4.89543 5 4 5.89543 4 7V10M20 10V19C20 20.1046 19.1046 21 18 21H6C4.89543 21 4 20.1046 4 19V10M20 10H4M8 3V7M16 3V7" stroke="#666666" stroke-width="2" stroke-linecap="round"/><rect x="6" y="12" width="3" height="3" rx="0.5" fill="#666666"/><rect x="10.5" y="12" width="3" height="3" rx="0.5" fill="#666666"/><rect x="15" y="12" width="3" height="3" rx="0.5" fill="#666666"/></svg>
+											2023-11-15										</td>
+									</tr>
+								</table>
+							</div><br>
+							<div class="slide_blog">
+																			<div><img src="img/upload/20241021105048.png"></div>
+																	</div>
+							<div class="blog_noidung"><div>Bạn đã từng nghe nói về các sản phẩm như kẹo giảm cân, thuốc giảm cân, hoặc trà giảm cân … và tự hỏi liệu chúng có thực sự giúp bạn giảm cân hay không? Ngày nay, người ta thường tìm kiếm những giải pháp nhanh chóng để đạt được cân nặng mong muốn. Tuy nhiên, điều quan trọng là bạn phải hiểu rõ về cách mà những sản phẩm này hoạt động và liệu chúng có an toàn cho sức khỏe hay không. Hãy tìm hiểu qua bài viết này nhé. </div><div><br></div><div><b>Thành phần</b></div><div>Hiện nay trên thị trường có rất nhiều sản phẩm giảm cân như: kẹo dứa giảm cân, cà phê giảm cân, trà giảm cân… Nhìn chung, thành phần có trong các sản phẩm đều được quảng cáo là chiết xuất tự nhiên như: Tinh chất từ quả dứa, lá sen, khổ qua, chè vằng, sâm đất, ca cao… Nhưng các bạn biết không? Ở các sản phẩm này có một số thành phần khác mà không được công bố.</div><div><b><i>- Phenolphthalein và Sibutramine:</i></b> Đây là hai chất thường được sử dụng trong các sản phẩm giảm cân như trà giảm cân, cà phê giảm cân, thuốc giảm cân, kẹo dứa giảm cân…Cả hai hoạt chất này đã bị cấm sử dụng bởi Cục Quản lý Dược Bộ Y tế theo công văn số 5149/QLD-CL ngày 14/4/2011 do có tác dụng không mong muốn và nguy cơ cho sức khỏe.</div><div><i><b>- Garcinia Cambogia (GC):</b> </i>Đây là chất có trong một loại trái cây nhiệt đới, họ măng cụt, có hình dạng giống quả bí ngô nhỏ, thường có màu xanh lá; là thành phần thường có trong một số thuốc giảm cân.</div><div><b><i>- Diazepam, Bisacodyl, Fluoxetine:</i></b> Đây là các hoạt chất không liên quan đến giảm cân. Diazepam là một loại thuốc an thần, Bisacodyl là một loại thuốc kích thích tiêu hóa, và Fluoxetine là một loại thuốc chống trầm cảm.</div><div><b><i>- Caffeine:</i></b> Caffeine thường được thêm vào sản phẩm giảm cân để tăng tốc độ trao đổi chất của cơ thể và giảm cảm giác đói.</div><div><i><b>- Chitosan:</b> </i>Là một chất xơ được tìm thấy trong vỏ các loài giáp xác biển (tôm, cua…). Nó được nhiều sản phẩm giảm cân (viên uống giảm cân chitosan…) quảng cáo là có khả năng làm giảm hấp thụ mỡ cơ thể.</div><div><br></div><div><b>Tác động đến sức khoẻ</b></div><div>Những thành phần không được công bố trên các sản phẩm giảm cân chúng thường mang lại rủi ro sức khoẻ lớn cho người dùng. </div><div><b><i>- Ảnh hưởng hệ tiêu hoá</i></b></div><div>Các chất không an toàn trong sản phẩm giảm cân có thể gây ra tình trạng chóng mặt, buồn ngủ, tiêu chảy hoặc làm khô miệng. Điều này ảnh hưởng đến quá trình tiêu hóa và tạo cảm giác không thoải mái cho cơ thể. </div><div>Các tác dụng này có thể là do thành phần không an toàn trong sản phẩm, chẳng hạn như Phenolphthalein, Sibutramine, hoặc Garcinia Cambogia.</div><div><b><i>- Nguy cơ sức khỏe tim mạch</i></b></div><div>Sản phẩm giảm cân chứa các hoạt chất như Phenolphthalein, Sibutramine và Garcinia Cambogia có thể gây tăng nhịp tim và áp lực máu, tăng nguy cơ cho sức khỏe tim mạch bao gồm đau ngực và đột quỵ. Điều này là rất nguy hiểm khi sử dụng các sản phẩm giảm cân không an toàn.</div><div><b><i>- Ảnh hưởng gan, thận</i></b></div><div>Tất cả các sản phẩm giảm cân không an toàn có thể gây rủi ro cho gan và thận, tùy thuộc vào thành phần chính của sản phẩm. </div><div>Một số sản phẩm giảm cân chứa Phenolphthalein, Sibutramine và Garcinia Cambogia, có thể gây tổn thương cho tế bào gan. Điều này có thể dẫn đến suy gan cấp, một tình trạng nguy hiểm cho sức khỏe và có thể ảnh hưởng trực tiếp đến tính mạng.</div><div>Bên cạnh đó, một số sản phẩm giảm cân không tiết lộ hoặc không có thông tin rõ ràng về thành phần, có thể chứa các chất độc hại không biết nguồn gốc, có thể gây hại cho gan và thận của bạn.</div><div><b><i>- Mất nước và rối loạn điện giải</i></b></div><div>Tất cả các sản phẩm giảm cân cấp tốc không an toàn có thể gây mất nước nhanh chóng và rối loạn điện giải. Điều này xảy ra vì chúng thường chứa các chất lợi tiểu hoặc tác động lên cơ chế giữ nước của cơ thể. Khi bạn dùng những sản phẩm này, cơ thể bắt đầu giảm trữ nước qua tiểu tiện một cách nhanh chóng, dẫn đến mất nước.</div><div>Ngoài ra, khi mất nước, cơ thể cũng mất các chất điện giải quan trọng như natri, kali và clorua thông qua tiểu tiện. Rối loạn điện giải xảy ra khi cân bằng các chất này bị đảo lộn, gây ra các vấn đề như suy kiệt cơ thể, hạ huyết áp và nguy cơ đối với sức khỏe tổng thể của bạn.</div><div><b><i>- Ảnh hưởng sức khỏe tâm thần</i></b></div><div>Các sản phẩm giảm cân có chứa Diazepam, Bisacodyl, Fluoxetine. Đây là các hoạt chất không liên quan đến giảm cân. Diazepam là một loại thuốc an thần được sử dụng để giảm căng thẳng, lo âu, và nó có tác động lên hệ thần kinh trung ương. Bisacodyl là một loại thuốc kích thích tiêu hóa được sử dụng để điều trị táo bón hoặc để làm sạch đường tiêu hóa. Fluoxetine là một loại thuốc chống trầm cảm thuộc nhóm chất ức chế tái hấp thụ serotonin (SSRI). Nó được sử dụng để điều trị trầm cảm, rối loạn lo âu.</div><div>Việc sử dụng các sản phẩm giảm cân chứa các chất này ngoài mục đích được chỉ định bởi bác sĩ có thể gây nguy cơ cho sức khỏe tâm thần và cơ thể của người dùng. Chúng không liên quan đến việc giảm cân mà thường được sử dụng để điều trị các vấn đề về tâm thần và tiêu hóa.</div><div><br></div><div><b>Kết luận</b></div><div>“Kẹo giảm cân, thuốc giảm cân, hoặc trà giảm cân … có giúp bạn giảm cân?” Câu trả lời là có; nhưng chúng thường hoạt động bằng cách giảm lượng nước trong cơ thể chứ không phải giảm mỡ thực sự. Thêm vào đó, rủi ro cho sức khỏe lại rất lớn khi dùng các sản phẩm này. Vì vậy, không nên tin dùng các sản phẩm giảm cân như trà giảm cân, kẹo giảm cân… được quảng cáo trên các trang mạng xã hội bạn nhé.</div><div><br></div><div><i>Tài liệu tham khảo</i></div><div>https://suckhoedoisong.vn/uong-thuoc-giam-can-tre-13-tuoi-tang-men-gan-gap-10-lan-16923080716072832.htm</div><div>https://suckhoedoisong.vn/dung-san-pham-giam-can-canh-giac-cac-thanh-phan-an-gay-hai-169146403.htm#:~:text=FDA%20cho%20bi%E1%BA%BFt%2C%20ph%C3%A2n%20t%C3%ADch,nghi%C3%AAm%20tr%E1%BB%8Dng%20cho%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng.</div><div>https://bvquan5.medinet.gov.vn/dinh-duong/ma-tran-giam-can-va-he-luy-chua-thay-gay-da-thay-benh-vien-cmobile16572-56763.aspx</div><div><br></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+											</div>
+	</div>
+	<div id="timhieuthem">
+		<div class="content"></div>
+		<a class="close_timhieuthem">&#215;</a>
+	</div>
+	<div id="play_youtube"></div>
+	<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/jquery.simplePagination.min.js"></script>
+<script src="js/pdf.min.js"></script>
+<br>
+<footer class="container" id="footer">
+	<div class="top_footer clearfix">
+		<a href="index.html"><img src="img/logo_footer.png" alt="" width="100%"></a>
+	</div>
+	<div class="box01">
+		<h2 class="tit_07">FITNESS FOR WOMAN</h2>
+		<div class="txt_01">Start-up giúp cho chị em phái yếu có vóc dáng đẹp & sức khỏe dẻo dai một cách tiện lợi & tiết kiệm.</div><br><br>
+		<h3 class="tit_08">CÔNG TY TNHH SHEFIT</h2>
+		<table class="list_footer">
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Văn phòng</td>
+				<td width="1">:</td>
+				<td>Khu The Sun Avenue, An Phú, Q2, TPHCM</td>
+			</tr>
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Hotline</td>
+				<td width="1">:</td>
+				<td><a href="tel:0906934821">0906934821</a></td>
+			</tr>
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Email</td>
+				<td width="1">:</td>
+				<td><a href="mailto:info@shefit.vn">info@shefit.vn</a></td>
+			</tr>
+		</table><br>
+		<table class="list_footer">
+			<tr>
+				<td width="40"><a href="https://zalo.me/0906934821" target="_blank"><img src="img/zalo_icon.png" alt=""></a></td>
+				<td width="5">&nbsp;</td>
+				<td width="40"><a href="https://www.facebook.com/shefitvn" target="_blank"><img src="img/facebook_icon.png" alt=""></a></td>
+				<td width="5">&nbsp;</td>
+				<td width="40"><a href="https://www.youtube.com/@GluteLab-LoNanDang-zl7td" target="_blank"><img src="img/youtube_icon.png" alt=""></a></td>
+			</tr>
+		</table><br>
+		<div class="copyright">
+			<a href="index.html">&copy; Ngôi Nhà Đầu Bếp 2024</a>
+		</div><br>
+	</div>
+</footer>
+
+	<script>
+		$(document).ready(function() {
+			$(document).on( "click", ".frame_youtube", function(e) {
+				$(this).addClass('active');
+				var youtube_id = $(this).attr('youtube_id');
+                $(this).html('<iframe src="https://www.youtube.com/embed/' + youtube_id + '?autoplay=1&rel=0&showinfo=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>');
+			});
+
+            initializeSlider();
+            function initializeSlider() {
+                $('.slide_blog').slick({
+					infinite: true,
+					slidesToShow: 1,
+					autoplay: true,
+					slidesToScroll: 1,
+					pauseOnHover: true,
+					dots: true,
+					arrows: true,
+					autoplay: true
+                });
+            }
+		});
+	</script>
+</body>
+</html>

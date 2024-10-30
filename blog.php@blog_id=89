@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SHEFIT</title>
+	<link rel="stylesheet" type="text/css" href="css/slick.css@1576">
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css@9876">
+	<link rel="stylesheet" type="text/css" href="css/style_main.css@8199">
+	<body>
+	<div class="container">
+		<header id="header" class="header">
+	<div class="top_header container">
+		<table width="100%" cellspacing="0" cellpadding="0">
+			<tr>
+				<td>
+					<a href="index.html">
+						<span class="home_icon">
+							<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.3103 1.77586C11.6966 1.40805 12.3034 1.40805 12.6897 1.77586L20.6897 9.39491L23.1897 11.7759C23.5896 12.1567 23.605 12.7897 23.2241 13.1897C22.8433 13.5896 22.2103 13.605 21.8103 13.2241L21 12.4524V20C21 21.1046 20.1046 22 19 22H14H10H5C3.89543 22 3 21.1046 3 20V12.4524L2.18966 13.2241C1.78972 13.605 1.15675 13.5896 0.775862 13.1897C0.394976 12.7897 0.410414 12.1567 0.810345 11.7759L3.31034 9.39491L11.3103 1.77586ZM5 10.5476V20H9V15C9 13.3431 10.3431 12 12 12C13.6569 12 15 13.3431 15 15V20H19V10.5476L12 3.88095L5 10.5476ZM13 20V15C13 14.4477 12.5523 14 12 14C11.4477 14 11 14.4477 11 15V20H13Z" fill="#9b5e6e"/></svg>
+						</span> 
+						Home
+					</a>
+				</td>
+				<td style="text-align: right;">
+					<a href="quiz">
+						<span class="home_icon">
+							<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 14V7C20 5.34315 18.6569 4 17 4H7C5.34315 4 4 5.34315 4 7V17C4 18.6569 5.34315 20 7 20H13.5M20 14L13.5 20M20 14H15.5C14.3954 14 13.5 14.8954 13.5 16V20" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 8H16" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 12H12" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+						</span>
+						Body Quiz
+					</a>
+					<span class="ngancach">|</span> 
+												<a href="login">
+								<span class="home_icon">
+									<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M13 3C13 2.44772 12.5523 2 12 2C11.4477 2 11 2.44772 11 3V12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12V3ZM8.6092 5.8744C9.09211 5.60643 9.26636 4.99771 8.99839 4.5148C8.73042 4.03188 8.12171 3.85763 7.63879 4.1256C4.87453 5.65948 3 8.61014 3 12C3 16.9706 7.02944 21 12 21C16.9706 21 21 16.9706 21 12C21 8.66747 19.1882 5.75928 16.5007 4.20465C16.0227 3.92811 15.4109 4.09147 15.1344 4.56953C14.8579 5.04759 15.0212 5.65932 15.4993 5.93586C17.5942 7.14771 19 9.41027 19 12C19 15.866 15.866 19 12 19C8.13401 19 5 15.866 5 12C5 9.3658 6.45462 7.06997 8.6092 5.8744Z" fill="#9b5e6e"/></svg>
+								</span>
+								Đăng nhập
+							</a>
+									</td>
+
+			</tr>
+		</table>
+	</div>
+	<div class="main_header">
+		<ul class="clearfix">
+			<li><a href="khoahoc">Khóa học</a></li>
+			<li><a href="thucdon">Thực đơn</a></li>
+			<li><a href="huanluyenvien">Giáo viên</a></li>
+			<li><a href="sanpham">Dụng cụ</a></li>
+			<li><a href="thucpham">Thực phẩm</a></li>
+			<li><a href="blog">Blog</a></li>
+		</ul>
+	</div>
+</header>
+		<div class="box01">
+														<nav aria-label="breadcrumb" class="breadcrumb">
+							  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							   		&#10070;
+							      <a itemprop="item" href="index.html">
+							        <span itemprop="name">Trang chủ</span>
+							      </a>
+							      <meta itemprop="position" content="1" />
+							    </li>
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							      <a itemprop="item" href="blog.php">
+							        <span itemprop="name">Blog</span>
+							      </a>
+							      <meta itemprop="position" content="2" />
+							    </li>
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							      <a itemprop="item" href="blog.php">
+							        <span itemprop="name">HOÁ CHẤT THỰC VẬT LÀ GÌ?</span>
+							      </a>
+							      <meta itemprop="position" content="3" />
+							    </li>
+							  </ol>
+							</nav>
+							<h1 class="tit_01">HOÁ CHẤT THỰC VẬT LÀ GÌ?</h1>
+							<div class="blog_meta">
+								<table width="100%" cellpadding="0" cellspacing="0">
+									<tr>
+										<td>
+											<svg width="10%" height="10%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 14C8.13401 14 5 17.134 5 21H19C19 17.134 15.866 14 12 14Z" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Trần Lữ Cát Phượng</td>
+										<td class="txt_right">
+											<svg width="10%" height="10%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 10V7C20 5.89543 19.1046 5 18 5H6C4.89543 5 4 5.89543 4 7V10M20 10V19C20 20.1046 19.1046 21 18 21H6C4.89543 21 4 20.1046 4 19V10M20 10H4M8 3V7M16 3V7" stroke="#666666" stroke-width="2" stroke-linecap="round"/><rect x="6" y="12" width="3" height="3" rx="0.5" fill="#666666"/><rect x="10.5" y="12" width="3" height="3" rx="0.5" fill="#666666"/><rect x="15" y="12" width="3" height="3" rx="0.5" fill="#666666"/></svg>
+											2023-11-08										</td>
+									</tr>
+								</table>
+							</div><br>
+							<div class="slide_blog">
+																			<div><img src="img/upload/20241008172533.jpeg"></div>
+																	</div>
+							<div class="blog_noidung"><div>Hóa chất thực vật là khái niệm còn khá mới mẻ đối với nhiều người vì chúng không phải là chất được in trên bao bì thực phẩm đóng gói. Nếu bạn chưa hiểu rõ về chất này hoặc thầm nghĩ đây là một loại hoá chất giúp bảo vệ thực vật. Chắc hẳn bạn cần phải đọc bài viết này để tìm hiểu nguồn thực phẩm chứa nhiều hóa chất thực vật và những lợi ích sức khỏe của chúng.</div><div><br></div><div><b>1. Hóa chất thực vật là gì?</b></div><div>Về mặt kỹ thuật, hóa chất thực vật (phytochemical) là bất kỳ hoá chất nào do thực vật sinh ra, còn dưỡng chất thực vật (phytonutrient) là những hóa chất thực vật đem lại giá trị dinh dưỡng. Tuy nhiên, trong khoa học thực phẩm, hai thuật ngữ này được gộp chung lại để chỉ 1 thứ, đó là các hóa chất thực vật chỉ hiện diện số lượng nhỏ, không có tính thiết yếu một cách trực tiếp như chất đạm, chất bột đường nhưng lại có những tác động lâu dài đến sức khoẻ.</div><div>Hóa chất thực vật là các hợp chất tự nhiên có trong thực vật, có mặt nhiều nhất trong trái cây và rau củ. Ngoài ra các loại ngũ cốc, đậu, trà, cà phê… cũng chứa nhiều hóa chất thực vật. Một số hoá chất thực vật cũng giúp tạo màu đặc trưng cho thực vật nên hẳn bạn đã từng nghe nói đến nhóm chất này thông qua khái niệm màu tự nhiên của thực phẩm.</div><div><br></div><div><b>2. Một số loại hóa chất thực vật phổ biến</b></div><div>Có hàng ngàn hóa chất thực vật khác nhau và chúng được phân loại thành nhiều nhóm. Việc phân loại hóa chất thực vật cũng khá phức tạp, do đó trong phạm vi bài viết này, chúng ta sẽ tìm hiểu về một số hoá chất thực vật phổ biến và có tác dụng như một chất chống oxy hoá.</div><div><b>2.1. Carotenoids</b></div><div>Carotenoids là nhóm hóa chất thực vật bao gồm ꞵ-carotene, ⍺-carotene, lycopene, lutein, zeaxanthin… Nhóm này tạo màu cam, vàng, đỏ và cả xanh lá cho các loại rau củ quả.</div><div>Trong nhóm carotenoids, ꞵ-carotene là hoạt chất phổ biến nhất và thường được biết đến là tiền vitamin A. Ta có thể dễ dàng tìm thấy ꞵ-carotene cũng như vitamin A trong các thực phẩm màu cam, vàng, đỏ và xanh lá như bí đỏ, cà rốt, khoai lang vàng, đu đủ, xoài, bông cải xanh, măng tây, cải bó xôi…</div><div>Ngoài ꞵ-carotene đã quá phổ biến, những năm gần đây các hoạt chất khác trong nhóm này cũng dành được sự quan tâm như lutein, lycopene và zeaxanthin. Lycopene là sắc tố màu đỏ tươi, có nhiều trong cà chua, trái gấc, ổi hồng, đu đủ, dưa hấu, lựu… Trong cơ thể người, lutein và zeaxanthin được tìm thấy chủ yếu trong điểm vàng, giúp lọc ánh sáng xanh và ngăn chặn các phản ứng oxy hóa khử, đồng thời hạn chế nguy cơ thoái hoá điểm vàng do tuổi tác. Nhìn chung, 2 hoạt chất này có công dụng duy trì và nâng cao sức khỏe thị lực, bảo vệ da nhờ khả năng chống oxy hoá. Nguồn thực phẩm chứa nhiều lutein và zeaxanthin cũng tương tự như các carotenoids khác đặc biệt là các loại rau lá xanh. Dù chúng là carotenoids và được xem như một hóa chất thực vật nhưng điều bất ngờ là 2 hoạt chất này còn có nhiều trong lòng đỏ trứng.</div><div><br></div><div><b>2.2. Chlorophyll</b></div><div>Chlorophyll, còn gọi là diệp lục tố là sắc tố quang tổng hợp màu xanh lá có trong hầu hết các loại thực vật màu xanh. Dù hiện tại, trên thị trường rất nhiều sản phẩm bổ sung diệp lục nhưng nguồn chlorophyll tốt nhất vẫn là nguồn thực phẩm. Chất này cũng có tính oxy hoá mạnh nên có khả năng chống viêm nhiễm, bảo vệ tế bào khỏi các gốc tự do. Ngoài các công dụng cơ bản của một hoá chất thực vật, chlorophyll còn có khả năng làm sạch cơ thể thông qua việc đào thải kim loại nặng, thanh lọc và giải độc.</div><div><br></div><div><b>2.3. Flavonoids</b></div><div>Flavonoids là một nhóm nhỏ nhưng bao gồm hơn 4000 hóa chất thực vật khác nhau, nằm trong nhóm lớn polyphenols chứa hơn 8000 chất. Một số hoá chất thực vật phổ biến trong nhóm flavonoids bao gồm quercetin, catechin, anthocyanins, daidzein…</div><div><br></div><div>- Anthocyanins là một chất chống oxy hóa mạnh, quy định sắc tố màu đỏ rượu, tím và xanh dương trong một số loại thực vật như nho, khoai lang tím, cà tím, lựu, hoa đậu biếc, việt quất, bắp cải tím…&nbsp;</div><div><br></div><div>- Quercetin là một hoá chất thực vật có nhiều trong hành (hành tây, hành tím…), cà chua, cải xoăn, bông cải xanh, việt quất, táo, trà xanh… Đây cũng là một chất có tác dụng chống viêm và chống oxy hóa mạnh, thường được biết đến dưới dạng viên uống bổ sung cũng như thực phẩm chức năng, hỗ trợ điều trị các bệnh về tim mạch, bệnh gút, điều hoà đường huyết, hỗ trợ phòng ngừa ung thư…</div><div><br></div><div>- Catechin thường được biết đến như một hoạt chất tạo vị chát trong trà. Ngoài trà xanh, hoá chất thực vật này còn có nhiều trong nho, táo, việt quất, cacao… Catechin cũng là một hoạt chất có tác dụng chống oxy hoá và chống viêm, giúp giảm cholesterol máu, giảm nguy cơ tăng huyết áp và một số bệnh lý về tim mạch, kháng khuẩn, khử mùi…</div><div><br></div><div><b>2.4. Saponin</b></div><div>Saponin là một nhóm hoạt chất thực vật được tìm thấy nhiều trong các loại dược liệu như nhân sâm, cam thảo, rau má, thiên môn, mầm cỏ linh lăng… và các thực phẩm như khoai tây, cà chua, khoai môn, đậu nành, măng tây, đậu Hà Lan… Ngoài ra, saponin còn là một chất hoạt động bề mặt, tạo bọt ổn định trong dung dịch nước và được ứng dụng nhiều trong công nghiệp thực phẩm.</div><div>Về mặt lợi ích sức khỏe, saponin được cho là có khả năng ức chế sự phát triển của tế bào ung thư, làm giảm mỡ máu và chống viêm, khử trùng và kháng nấm. Tuy nhiên, các nghiên cứu về việc ức chế tế bào ung thư và giảm mỡ máu đa phần là nghiên cứu tiền lâm sàng (trong ống nghiệm và trên động vật). Do đó, cần nhiều nghiên cứu lâm sàng hơn để chứng minh những lợi ích tiềm năng tuyệt vời này.</div><div>Về mặt công nghiệp thực phẩm, saponin có vai trò như chất nhũ hoá, chất ổn định và tạo vị đắng trong một số loại bia. Bên cạnh đó, nhờ đặc tính tạo bọt, saponin còn được dùng để tạo bọt cho các sản phẩm xà phòng.</div><div>Nhìn chung, đây là một nhóm hợp chất có công dụng đa dạng, có nhiều lợi ích sức khỏe tiềm năng và cần được nghiên cứu nhiều hơn. Nhưng dù có những lợi ích vượt trội như ức chế tế bào ung thư hay không, thì saponin vẫn có khả năng oxy hoá và chống viêm mạnh mẽ, giúp cải thiện tình trạng sức khỏe một cách đáng kể. Tuy nhiên, đây cũng là hợp chất cần phải thận trọng, đặc biệt là khi bổ sung dưới dạng cô đặc có thể gây một số tác dụng phụ.</div><div><br></div><div><b>2.5. Terpenoids</b></div><div>Terpenoids, hay còn gọi là terpenes, đặc trưng bởi việc phát ra mùi hương giúp bảo vệ các loài thực vật. Về mặt dinh dưỡng và sức khỏe, terpenes có khả năng chống oxy hoá và là đối tượng nghiên cứu trong việc phòng ngừa và điều trị các bệnh suy thoái thần kinh, tim mạch, bệnh về mắt, gan… Chung quy lại cũng nhờ đặc tính kháng khuẩn, chống viêm và chống oxy hóa của hoạt chất này. Terpenes có nhiều trong vỏ các loại quả thuộc họ cam chanh, gia vị thảo mộc như bạc hà, cam thảo, nguyệt quế, kinh giới…</div><div><br></div><div><b>3. Làm thế nào để ăn được nhiều hoá chất thực vật nhất?</b></div><div>- Ăn cả vỏ nếu có thể. Đa phần các hóa chất thực vật nằm ở vỏ của các loại rau củ quả. Tuy nhiên vẫn cần chú ý đến vấn đề vệ sinh an toàn thực phẩm.</div><div>- Kết hợp nhiều màu sắc từ các loại thực vật trong bữa ăn. Để đảm bảo ăn đa dạng các loại thực phẩm, nên ăn thực phẩm có nhiều màu theo quy tắc cầu vồng, bao gồm màu đỏ, cam/vàng, xanh lá, tím/xanh đậm, trắng…</div><div><br></div><div><b>4. Kết luận</b></div><div>Về mặt lợi ích sức khỏe, đa phần các hóa chất thực vật đều có đặc tính chống viêm và chống oxy hoá, nhiều chất có khả năng chống oxy hóa mạnh, từ đó được xem như mang lại nhiều lợi ích sức khỏe cho người tiêu dùng, đặc biệt là trong việc hỗ trợ điều trị bệnh. Tuy nhiên, về mặt nghiên cứu khoa học, nhóm chất này vẫn chưa có nhiều nghiên cứu trên quần thể người đủ sức mạnh để chứng minh những lợi ích sức khỏe mà chúng mang lại vì đa phần các công dụng đều chỉ nằm ở việc hỗ trợ điều trị bệnh và có rất nhiều yếu tố khác tác động. Dù vậy, vẫn khó có thể phủ nhận việc tiêu thụ nhiều rau củ quả cung cấp rất nhiều chất chống oxy hóa, đồng thời là nguồn bổ sung chất xơ, vitamin và khoáng chất cho cơ thể. Vấn đề nằm ở việc lượng chất chống oxy hoá chúng ta sẽ nhận được từ nguồn thực phẩm có đủ để đánh bại rất nhiều gốc tự do hay không. Do đó, việc ăn nhiều rau củ và trái cây nhiều nhất có thể vẫn là lời khuyên hữu ích nếu bạn muốn cải thiện tình trạng sức khỏe của cả cơ thể.</div><div><br></div><div><br></div><div><br></div></div>
+											</div>
+	</div>
+	<div id="timhieuthem">
+		<div class="content"></div>
+		<a class="close_timhieuthem">&#215;</a>
+	</div>
+	<div id="play_youtube"></div>
+	<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/jquery.simplePagination.min.js"></script>
+<script src="js/pdf.min.js"></script>
+<br>
+<footer class="container" id="footer">
+	<div class="top_footer clearfix">
+		<a href="index.html"><img src="img/logo_footer.png" alt="" width="100%"></a>
+	</div>
+	<div class="box01">
+		<h2 class="tit_07">FITNESS FOR WOMAN</h2>
+		<div class="txt_01">Start-up giúp cho chị em phái yếu có vóc dáng đẹp & sức khỏe dẻo dai một cách tiện lợi & tiết kiệm.</div><br><br>
+		<h3 class="tit_08">CÔNG TY TNHH SHEFIT</h2>
+		<table class="list_footer">
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Văn phòng</td>
+				<td width="1">:</td>
+				<td>Khu The Sun Avenue, An Phú, Q2, TPHCM</td>
+			</tr>
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Hotline</td>
+				<td width="1">:</td>
+				<td><a href="tel:0906934821">0906934821</a></td>
+			</tr>
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Email</td>
+				<td width="1">:</td>
+				<td><a href="mailto:info@shefit.vn">info@shefit.vn</a></td>
+			</tr>
+		</table><br>
+		<table class="list_footer">
+			<tr>
+				<td width="40"><a href="https://zalo.me/0906934821" target="_blank"><img src="img/zalo_icon.png" alt=""></a></td>
+				<td width="5">&nbsp;</td>
+				<td width="40"><a href="https://www.facebook.com/shefitvn" target="_blank"><img src="img/facebook_icon.png" alt=""></a></td>
+				<td width="5">&nbsp;</td>
+				<td width="40"><a href="https://www.youtube.com/@GluteLab-LoNanDang-zl7td" target="_blank"><img src="img/youtube_icon.png" alt=""></a></td>
+			</tr>
+		</table><br>
+		<div class="copyright">
+			<a href="index.html">&copy; Ngôi Nhà Đầu Bếp 2024</a>
+		</div><br>
+	</div>
+</footer>
+
+	<script>
+		$(document).ready(function() {
+			$(document).on( "click", ".frame_youtube", function(e) {
+				$(this).addClass('active');
+				var youtube_id = $(this).attr('youtube_id');
+                $(this).html('<iframe src="https://www.youtube.com/embed/' + youtube_id + '?autoplay=1&rel=0&showinfo=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>');
+			});
+
+            initializeSlider();
+            function initializeSlider() {
+                $('.slide_blog').slick({
+					infinite: true,
+					slidesToShow: 1,
+					autoplay: true,
+					slidesToScroll: 1,
+					pauseOnHover: true,
+					dots: true,
+					arrows: true,
+					autoplay: true
+                });
+            }
+		});
+	</script>
+</body>
+</html>

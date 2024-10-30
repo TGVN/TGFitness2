@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SHEFIT</title>
+	<link rel="stylesheet" type="text/css" href="css/slick.css@5425">
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css@5237">
+	<link rel="stylesheet" type="text/css" href="css/style_main.css@9289">
+	<body>
+	<div class="container">
+		<header id="header" class="header">
+	<div class="top_header container">
+		<table width="100%" cellspacing="0" cellpadding="0">
+			<tr>
+				<td>
+					<a href="index.html">
+						<span class="home_icon">
+							<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.3103 1.77586C11.6966 1.40805 12.3034 1.40805 12.6897 1.77586L20.6897 9.39491L23.1897 11.7759C23.5896 12.1567 23.605 12.7897 23.2241 13.1897C22.8433 13.5896 22.2103 13.605 21.8103 13.2241L21 12.4524V20C21 21.1046 20.1046 22 19 22H14H10H5C3.89543 22 3 21.1046 3 20V12.4524L2.18966 13.2241C1.78972 13.605 1.15675 13.5896 0.775862 13.1897C0.394976 12.7897 0.410414 12.1567 0.810345 11.7759L3.31034 9.39491L11.3103 1.77586ZM5 10.5476V20H9V15C9 13.3431 10.3431 12 12 12C13.6569 12 15 13.3431 15 15V20H19V10.5476L12 3.88095L5 10.5476ZM13 20V15C13 14.4477 12.5523 14 12 14C11.4477 14 11 14.4477 11 15V20H13Z" fill="#9b5e6e"/></svg>
+						</span> 
+						Home
+					</a>
+				</td>
+				<td style="text-align: right;">
+					<a href="quiz">
+						<span class="home_icon">
+							<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 14V7C20 5.34315 18.6569 4 17 4H7C5.34315 4 4 5.34315 4 7V17C4 18.6569 5.34315 20 7 20H13.5M20 14L13.5 20M20 14H15.5C14.3954 14 13.5 14.8954 13.5 16V20" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 8H16" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 12H12" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+						</span>
+						Body Quiz
+					</a>
+					<span class="ngancach">|</span> 
+												<a href="login">
+								<span class="home_icon">
+									<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M13 3C13 2.44772 12.5523 2 12 2C11.4477 2 11 2.44772 11 3V12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12V3ZM8.6092 5.8744C9.09211 5.60643 9.26636 4.99771 8.99839 4.5148C8.73042 4.03188 8.12171 3.85763 7.63879 4.1256C4.87453 5.65948 3 8.61014 3 12C3 16.9706 7.02944 21 12 21C16.9706 21 21 16.9706 21 12C21 8.66747 19.1882 5.75928 16.5007 4.20465C16.0227 3.92811 15.4109 4.09147 15.1344 4.56953C14.8579 5.04759 15.0212 5.65932 15.4993 5.93586C17.5942 7.14771 19 9.41027 19 12C19 15.866 15.866 19 12 19C8.13401 19 5 15.866 5 12C5 9.3658 6.45462 7.06997 8.6092 5.8744Z" fill="#9b5e6e"/></svg>
+								</span>
+								Đăng nhập
+							</a>
+									</td>
+
+			</tr>
+		</table>
+	</div>
+	<div class="main_header">
+		<ul class="clearfix">
+			<li><a href="khoahoc">Khóa học</a></li>
+			<li><a href="thucdon">Thực đơn</a></li>
+			<li><a href="huanluyenvien">Giáo viên</a></li>
+			<li><a href="sanpham">Dụng cụ</a></li>
+			<li><a href="thucpham">Thực phẩm</a></li>
+			<li><a href="blog">Blog</a></li>
+		</ul>
+	</div>
+</header>
+		<div class="box01">
+														<nav aria-label="breadcrumb" class="breadcrumb">
+							  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							   		&#10070;
+							      <a itemprop="item" href="index.html">
+							        <span itemprop="name">Trang chủ</span>
+							      </a>
+							      <meta itemprop="position" content="1" />
+							    </li>
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							      <a itemprop="item" href="blog.php">
+							        <span itemprop="name">Blog</span>
+							      </a>
+							      <meta itemprop="position" content="2" />
+							    </li>
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							      <a itemprop="item" href="blog.php">
+							        <span itemprop="name">HƯỚNG DẪN CHẾ ĐỘ ĂN UỐNG CHO BỆNH NHÂN SUY THẬN</span>
+							      </a>
+							      <meta itemprop="position" content="3" />
+							    </li>
+							  </ol>
+							</nav>
+							<h1 class="tit_01">HƯỚNG DẪN CHẾ ĐỘ ĂN UỐNG CHO BỆNH NHÂN SUY THẬN</h1>
+							<div class="blog_meta">
+								<table width="100%" cellpadding="0" cellspacing="0">
+									<tr>
+										<td>
+											<svg width="10%" height="10%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 14C8.13401 14 5 17.134 5 21H19C19 17.134 15.866 14 12 14Z" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Võ Thị Anh Trúc</td>
+										<td class="txt_right">
+											<svg width="10%" height="10%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 10V7C20 5.89543 19.1046 5 18 5H6C4.89543 5 4 5.89543 4 7V10M20 10V19C20 20.1046 19.1046 21 18 21H6C4.89543 21 4 20.1046 4 19V10M20 10H4M8 3V7M16 3V7" stroke="#666666" stroke-width="2" stroke-linecap="round"/><rect x="6" y="12" width="3" height="3" rx="0.5" fill="#666666"/><rect x="10.5" y="12" width="3" height="3" rx="0.5" fill="#666666"/><rect x="15" y="12" width="3" height="3" rx="0.5" fill="#666666"/></svg>
+											2023-11-07										</td>
+									</tr>
+								</table>
+							</div><br>
+							<div class="slide_blog">
+																			<div><img src="img/upload/20241003213602.jpg"></div>
+																	</div>
+							<div class="blog_noidung"><b>CHẾ ĐỘ ĂN SUY THẬN: HƯỚNG DẪN TỪ A ĐẾN Z</b><div><br></div><div>Suy thận là một vấn đề sức khỏe nghiêm trọng, đòi hỏi một chế độ ăn phù hợp với từng giai đoạn của bệnh. Việc kiểm soát chế độ ăn có thể giúp bảo vệ sức khỏe của bệnh nhân suy thận,  ngăn ngừa sự suy giảm chức năng thận và giảm thiểu các biến chứng không mong muốn. Bài viết này sẽ hướng dẫn bạn những lưu ý trong chế độ ăn cho bệnh nhân suy thận. Hãy cùng nhau tìm hiểu nhé. 
+</div><div><br></div><div><b>Đạm
+</b></div><div>Kiểm soát lượng đạm trong khẩu phần ăn của bệnh nhân suy thận là một điều vô cùng quan trọng. Vì sự quá tải đạm có thể làm gia tăng áp lực đối với hệ thống thận, góp phần vào các vấn đề và biến chứng không thể cứu vãn cho bệnh nhân. 
+</div><div>Nên giảm bớt đạm từ:
+</div><div>- Cơm, mì, nui, phở, bún…. 
+</div><div>- Hạn chế đạm động vật: thịt bò, gà, heo, tôm, cá,... trong khẩu phần ăn xuống dưới phân nửa so với lúc chưa suy thận. 
+</div><div>- Hạn chế đạm từ thực vật: rau (rau dền, rau ngót, mồng tơi, rau muống,….), đậu, đỗ, vừng, mè,…
+</div><div>Chế độ ăn hạn chế đạm từ<b><i> 0.6 - 0.8g/kg/ngày</i></b> được khuyến khích kiểm soát bệnh thận mạn chưa lọc thận.&nbsp;</div><div>Ví dụ: Một người suy thận mạn chưa lọc thận có cân nặng 60 kg. Lượng đạm một ngày cho người này là 50g đạm/ngày.</div><div>Đối với bệnh thận mạn có lọc thận cần tăng 1 - 1.2g/kg/ngày. Vì khi một người đã bắt đầu chạy thận nhân tạo thì người đó cần lượng đạm cao hơn trong chế độ ăn uống để giúp duy trì mức đạm trong máu và cải thiện sức khỏe. Việc chạy thận loại bỏ chất thải đạm ra khỏi máu, vì vậy chế độ ăn hạn chế đạm không còn cần thiết nữa.
+</div><div><br></div><div><b>Hạn chế muối
+</b></div><div>Khi tiêu thụ quá nhiều Na (thành phần chính của muối) nó có thể gây tăng huyết áp và khiến cơ thể giữ lại nhiều nước hơn. Điều này làm tăng gánh nặng lên thận. Chính vì vậy, đối với người suy thận nên giảm lượng muối tiêu thụ &lt; 5g/ngày. 
+</div><div>Giảm muối tiêu thụ &lt;5g/ngày bằng cách:
+</div><div><i>- Không sử dụng thực phẩm giàu natri:</i> các loại thực phẩm chế biến sẵn có nhiều muối, như dăm bông, xúc xích, chả lụa, thịt hộp, dưa muối chua, và mắm….
+</div><div><i>- Không chấm các loại nước chấm: </i>nước chấm, nước mắm, nước tương, và nước chấm hải sản,... vì chúng thường chứa nhiều muối.
+</div><div><i>- Món ăn nêm nhạt: </i>nêm nhạt hoặc không nêm muối. Đối với những người suy thận có tiểu ít và phù, cần nấu những món ăn hoàn toàn không nêm muối.
+</div><div>Khi bạn nêm món ăn cho người suy thận, một cách thông minh để ước lượng lượng muối là thông qua việc sử dụng muỗng yaourt. Đây là một cách tiện lợi và hiệu quả để căn chỉnh gia vị mà bạn thêm vào bữa ăn.
+</div><div>Nguyên tắc rất đơn giản: 1 muỗng yaourt gạt ngang tương đương với 1 gram muối. Điều này giúp bạn biết được mức độ gia vị bạn đang sử dụng, và từ đó, bạn có thể điều chỉnh để giữ lượng muối trong bữa ăn ở mức an toàn cho bệnh nhân suy thận.
+</div><div><br></div><div><b>Hạn chế Kali
+</b></div><div>Kali trong máu của người suy thận nên giữ ở mức bình thường. Vì khi bị suy thận, thận không thể loại bỏ kali thừa một cách hiệu quả. Khi kali tích tụ trong cơ thể, nó có thể dẫn đến các vấn đề về tim mạch. Do đó, hạn chế kali trong chế độ ăn giúp giảm tải cho thận và kiểm soát các biến chứng. 
+</div><div><br></div><div>Tránh ăn các loại thức ăn giàu kali như:
+</div><div>- Trái cây: mít, chuối, nho, dâu, dừa, lựu, sầu riêng,...
+</div><div>- Các loại hạt khô như: đậu phộng, nhãn khô, nho khô, hạt điều, hạt dẻ, sô cô la,…
+</div><div>- Cà phê sữa<br></div><div>- Rau củ: bông cải xanh, củ dền, măng chua, rau dền, rau ngót, mồng tơi,... 
+</div><div><br></div><div>Nên ưu tiên chọn các loại rau và trái cây ít kali như: 
+</div><div>- Rau: bí xanh, bầu, dưa chuột, mướp…
+</div><div>- Trái cây: dưa gang, lê, dưa hấu, vải,...
+</div><div>Một mẹo giúp giảm lượng kali trong rau củ, bạn có thể cắt nhỏ rau và đun nấu từ 2-3 lần, sau đó bỏ nước luộc rau đi. Việc này giúp loại bỏ một phần lượng kali trong rau củ và làm cho thức ăn trở nên phù hợp cho người suy thận. 
+</div><div><br></div><div><b>Hạn chế Phosphate
+</b></div><div>Phosphate là một khoáng chất quan trọng có mặt trong hầu hết các loại thực phẩm, đóng vai trò duy trì sức khỏe xương. Thận, khi hoạt động bình thường, sẽ kiểm soát tốt lượng phosphate trong cơ thể. Tuy nhiên, khi thận bị suy giảm chức năng, khả năng loại bỏ phosphate sẽ giảm đi, dẫn đến sự tích tụ quá mức trong máu gây ra hàng loạt vấn đề nguy hiểm như: cường giáp, loãng xương, rối loạn mạch máu,…</div><div>Vì thế, người suy thận cần tránh các loại thực phẩm giàu phosphate: gan, tim, óc, nội tạng, lòng đỏ trứng, các loại trái cây, phô mai, hải sản (hàu, cá mòi,…).</div><div><br></div><div><b>Nước
+</b></div><div>Tùy theo giai đoạn của bệnh thận và phương pháp điều trị, bác sĩ có thể đưa ra yêu cầu hạn chế lượng nước uống hằng ngày đối với các tình huống đặc biệt như phù, tiểu ít hoặc suy tim sung huyết.
+</div><div>Kiểm soát lượng nước uống vào bằng cách:
+</div><div><i>- Hạn chế thực phẩm nước nhiều: </i>Tránh ăn các món canh, súp, kem, đá, thạch rau câu,... vì chúng chứa nhiều nước.
+</div><div><i>- Uống nước từng ngụm, từng cốc nhỏ:</i> Uống nước từng ngụm hoặc từng cốc nhỏ giúp kiểm soát tốt lượng nước uống. Điều này đặc biệt quan trọng khi cần hạn chế nước.
+</div><div><br></div><div><b>Chất bột đường
+</b></div><div>Vì phải giảm lượng đạm từ cơm, mì, nui, bún, phở… nên chúng ta có thể thay bằng các thực phẩm giàu chất bột đường ít đạm như: khoai mì, khoai lang, khoai môn, bột sắn dây, miến dong… 
+</div><div>Ví dụ có thể chế biến thành các món như “cơm độn khoai”. Món cơm độn khoai này giúp giảm lượng cơm và đồng thời bổ sung chất bột đường ít đạm từ các loại khoai . Đây là một cách thông minh để giảm đạm trong chế độ ăn mà vẫn đảm bảo cung cấp đủ năng lượng cho bệnh nhân suy thận.
+</div><div><br></div><div><b>Chất béo
+</b></div><div>Việc tránh ăn thực phẩm giàu chất béo no, như mỡ động vật, da động vật, bơ, và thực phẩm chiên rán ngập dầu, là quan trọng để bảo vệ sức khỏe thận và tim mạch. Thức ăn chứa nhiều chất béo không lành mạnh có thể làm cho tình trạng suy thận trở nên nghiêm trọng hơn, gây tăng cân và tăng nguy cơ mắc các bệnh tim mạch.
+</div><div>Thay vào đó, ưu tiên chọn các loại chất béo lành mạnh như dầu oliu, dầu hạt cải, dầu đậu nành… Các loại chất béo lành mạnh này không chỉ giúp bảo vệ sức khỏe thận mà còn giúp giảm nguy cơ phát triển các vấn đề sức khỏe khác, đặc biệt là các bệnh tim mạch. Việc quản lý chất béo trong chế độ ăn là một bước quan trọng để duy trì sức khỏe toàn diện và giảm nguy cơ các biến chứng liên quan đến suy thận.
+</div><div><br></div><div><b>Kết luận
+</b></div><div>Những lưu ý về chế độ ăn cho bệnh nhân suy thận được đề cập ở đây là hướng dẫn chung. Tuy nhiên, việc thực hiện chế độ dinh dưỡng cho bệnh nhân suy thận cần được cá nhân hoá theo tình trạng dinh dưỡng và bệnh lý cụ thể của từng người.
+</div><div>Vì vậy, việc tư vấn với bác sĩ hoặc chuyên gia dinh dưỡng là quan trọng để tạo ra một chế độ ăn phù hợp với tình trạng cụ thể của người bệnh. Một chế độ ăn được thiết kế riêng cho người bệnh có thể giúp kiểm soát bệnh tốt hơn, giảm nguy cơ biến chứng, và cải thiện chất lượng cuộc sống.
+</div><div><br></div><div><i>Tài liệu tham khảo
+</i></div><div>1. Bộ Y tế. Hướng dẫn chẩn đoán và điều trị các bệnh thận- tiết niệu (Ban hành kèm theo Quyết định số 3931/QĐ-BYT ngày 21 /9/2015 của Bộ trưởng Bộ Y tế). 2015.
+</div><div>2. Sách dinh dưỡng học - TS.BS.Đào thị Yến Phi - Trường Đại học Y khoa Phạm Ngọc Thạch.
+</div><div>3. Sách dinh dưỡng lâm sàng - Viện dinh dưỡng quốc gia.</div><div><br></div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div></div>
+											</div>
+	</div>
+	<div id="timhieuthem">
+		<div class="content"></div>
+		<a class="close_timhieuthem">&#215;</a>
+	</div>
+	<div id="play_youtube"></div>
+	<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/jquery.simplePagination.min.js"></script>
+<script src="js/pdf.min.js"></script>
+<br>
+<footer class="container" id="footer">
+	<div class="top_footer clearfix">
+		<a href="index.html"><img src="img/logo_footer.png" alt="" width="100%"></a>
+	</div>
+	<div class="box01">
+		<h2 class="tit_07">FITNESS FOR WOMAN</h2>
+		<div class="txt_01">Start-up giúp cho chị em phái yếu có vóc dáng đẹp & sức khỏe dẻo dai một cách tiện lợi & tiết kiệm.</div><br><br>
+		<h3 class="tit_08">CÔNG TY TNHH SHEFIT</h2>
+		<table class="list_footer">
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Văn phòng</td>
+				<td width="1">:</td>
+				<td>Khu The Sun Avenue, An Phú, Q2, TPHCM</td>
+			</tr>
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Hotline</td>
+				<td width="1">:</td>
+				<td><a href="tel:0906934821">0906934821</a></td>
+			</tr>
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Email</td>
+				<td width="1">:</td>
+				<td><a href="mailto:info@shefit.vn">info@shefit.vn</a></td>
+			</tr>
+		</table><br>
+		<table class="list_footer">
+			<tr>
+				<td width="40"><a href="https://zalo.me/0906934821" target="_blank"><img src="img/zalo_icon.png" alt=""></a></td>
+				<td width="5">&nbsp;</td>
+				<td width="40"><a href="https://www.facebook.com/shefitvn" target="_blank"><img src="img/facebook_icon.png" alt=""></a></td>
+				<td width="5">&nbsp;</td>
+				<td width="40"><a href="https://www.youtube.com/@GluteLab-LoNanDang-zl7td" target="_blank"><img src="img/youtube_icon.png" alt=""></a></td>
+			</tr>
+		</table><br>
+		<div class="copyright">
+			<a href="index.html">&copy; Ngôi Nhà Đầu Bếp 2024</a>
+		</div><br>
+	</div>
+</footer>
+
+	<script>
+		$(document).ready(function() {
+			$(document).on( "click", ".frame_youtube", function(e) {
+				$(this).addClass('active');
+				var youtube_id = $(this).attr('youtube_id');
+                $(this).html('<iframe src="https://www.youtube.com/embed/' + youtube_id + '?autoplay=1&rel=0&showinfo=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>');
+			});
+
+            initializeSlider();
+            function initializeSlider() {
+                $('.slide_blog').slick({
+					infinite: true,
+					slidesToShow: 1,
+					autoplay: true,
+					slidesToScroll: 1,
+					pauseOnHover: true,
+					dots: true,
+					arrows: true,
+					autoplay: true
+                });
+            }
+		});
+	</script>
+</body>
+</html>

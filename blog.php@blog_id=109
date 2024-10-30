@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SHEFIT</title>
+	<link rel="stylesheet" type="text/css" href="css/slick.css@6856">
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css@5142">
+	<link rel="stylesheet" type="text/css" href="css/style_main.css@5380">
+	<body>
+	<div class="container">
+		<header id="header" class="header">
+	<div class="top_header container">
+		<table width="100%" cellspacing="0" cellpadding="0">
+			<tr>
+				<td>
+					<a href="index.html">
+						<span class="home_icon">
+							<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.3103 1.77586C11.6966 1.40805 12.3034 1.40805 12.6897 1.77586L20.6897 9.39491L23.1897 11.7759C23.5896 12.1567 23.605 12.7897 23.2241 13.1897C22.8433 13.5896 22.2103 13.605 21.8103 13.2241L21 12.4524V20C21 21.1046 20.1046 22 19 22H14H10H5C3.89543 22 3 21.1046 3 20V12.4524L2.18966 13.2241C1.78972 13.605 1.15675 13.5896 0.775862 13.1897C0.394976 12.7897 0.410414 12.1567 0.810345 11.7759L3.31034 9.39491L11.3103 1.77586ZM5 10.5476V20H9V15C9 13.3431 10.3431 12 12 12C13.6569 12 15 13.3431 15 15V20H19V10.5476L12 3.88095L5 10.5476ZM13 20V15C13 14.4477 12.5523 14 12 14C11.4477 14 11 14.4477 11 15V20H13Z" fill="#9b5e6e"/></svg>
+						</span> 
+						Home
+					</a>
+				</td>
+				<td style="text-align: right;">
+					<a href="quiz">
+						<span class="home_icon">
+							<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 14V7C20 5.34315 18.6569 4 17 4H7C5.34315 4 4 5.34315 4 7V17C4 18.6569 5.34315 20 7 20H13.5M20 14L13.5 20M20 14H15.5C14.3954 14 13.5 14.8954 13.5 16V20" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 8H16" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 12H12" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+						</span>
+						Body Quiz
+					</a>
+					<span class="ngancach">|</span> 
+												<a href="login">
+								<span class="home_icon">
+									<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M13 3C13 2.44772 12.5523 2 12 2C11.4477 2 11 2.44772 11 3V12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12V3ZM8.6092 5.8744C9.09211 5.60643 9.26636 4.99771 8.99839 4.5148C8.73042 4.03188 8.12171 3.85763 7.63879 4.1256C4.87453 5.65948 3 8.61014 3 12C3 16.9706 7.02944 21 12 21C16.9706 21 21 16.9706 21 12C21 8.66747 19.1882 5.75928 16.5007 4.20465C16.0227 3.92811 15.4109 4.09147 15.1344 4.56953C14.8579 5.04759 15.0212 5.65932 15.4993 5.93586C17.5942 7.14771 19 9.41027 19 12C19 15.866 15.866 19 12 19C8.13401 19 5 15.866 5 12C5 9.3658 6.45462 7.06997 8.6092 5.8744Z" fill="#9b5e6e"/></svg>
+								</span>
+								Đăng nhập
+							</a>
+									</td>
+
+			</tr>
+		</table>
+	</div>
+	<div class="main_header">
+		<ul class="clearfix">
+			<li><a href="khoahoc">Khóa học</a></li>
+			<li><a href="thucdon">Thực đơn</a></li>
+			<li><a href="huanluyenvien">Giáo viên</a></li>
+			<li><a href="sanpham">Dụng cụ</a></li>
+			<li><a href="thucpham">Thực phẩm</a></li>
+			<li><a href="blog">Blog</a></li>
+		</ul>
+	</div>
+</header>
+		<div class="box01">
+														<nav aria-label="breadcrumb" class="breadcrumb">
+							  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							   		&#10070;
+							      <a itemprop="item" href="index.html">
+							        <span itemprop="name">Trang chủ</span>
+							      </a>
+							      <meta itemprop="position" content="1" />
+							    </li>
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							      <a itemprop="item" href="blog.php">
+							        <span itemprop="name">Blog</span>
+							      </a>
+							      <meta itemprop="position" content="2" />
+							    </li>
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							      <a itemprop="item" href="blog.php">
+							        <span itemprop="name">BCAA HỮU ÍCH CHO LUYỆN TẬP THỂ THAO?</span>
+							      </a>
+							      <meta itemprop="position" content="3" />
+							    </li>
+							  </ol>
+							</nav>
+							<h1 class="tit_01">BCAA HỮU ÍCH CHO LUYỆN TẬP THỂ THAO?</h1>
+							<div class="blog_meta">
+								<table width="100%" cellpadding="0" cellspacing="0">
+									<tr>
+										<td>
+											<svg width="10%" height="10%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 14C8.13401 14 5 17.134 5 21H19C19 17.134 15.866 14 12 14Z" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Trương Thuỷ Thuỳ Giang</td>
+										<td class="txt_right">
+											<svg width="10%" height="10%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 10V7C20 5.89543 19.1046 5 18 5H6C4.89543 5 4 5.89543 4 7V10M20 10V19C20 20.1046 19.1046 21 18 21H6C4.89543 21 4 20.1046 4 19V10M20 10H4M8 3V7M16 3V7" stroke="#666666" stroke-width="2" stroke-linecap="round"/><rect x="6" y="12" width="3" height="3" rx="0.5" fill="#666666"/><rect x="10.5" y="12" width="3" height="3" rx="0.5" fill="#666666"/><rect x="15" y="12" width="3" height="3" rx="0.5" fill="#666666"/></svg>
+											2023-11-21										</td>
+									</tr>
+								</table>
+							</div><br>
+							<div class="slide_blog">
+																			<div><img src="img/upload/20241026220512.png"></div>
+																	</div>
+							<div class="blog_noidung"><div>BCAA - một cụm từ có thể bạn đã hoặc chưa từng nghe qua. BCAA là tập hợp của 3 axit amin thiết yếu, những axit amin này đóng vai trò vô cùng quan trọng trong cơ thể chúng ta.  Nếu bạn là tín đồ của các bộ môn thể thao, hay tập gym, chắc hẳn BCAAs là một thực phẩm chức năng rất quen thuộc vì nó mang lại một số lợi ích đối với việc tập luyện thể thao. Hãy cùng tìm hiểu về BCAA nhé!</div><div><br></div><div><b>1. Axit amin là gì?</b></div><div>Axit amin là những hợp chất hữu cơ cấu tạo nên protein. Khi chúng ta nạp thực phẩm có chứa đạm (protein), các protein này được phân giải và chuyển hoá thành các axit amin. Các axit amin này sẽ được kết hợp để tạo ra các chuỗi axit amin đa dạng khác nhau, thực hiện các chức năng trong cơ thể. Các chuỗi axit amin đóng góp rất nhiều vai trò cho cơ thể chẳng hạn như: enzymes để chuyển hoá phân giải thức ăn, xây dựng cơ bắp, giúp vận chuyển các chất dinh dưỡng. Ngoài ra, axit amin cũng cần thiết để chữa lành vết thương và sửa chữa mô, đặc biệt là ở cơ, da, và xương,...</div><div><br></div><div><b>Axit amin được chia thành ba nhóm:</b></div><div>1. Axit amin thiết yếu (essential amino acids): gồm 9 loại cơ thể không thể tự sản xuất được mà phải tổng hợp từ chế độ dinh dưỡng;</div><div>2. Axit amin không thiết yếu (non-essential amino acids) và 3) Axit amin thiết yếu có điều kiện (Conditionally essential amino acids): gồm 11 loại mà cơ thể có thể tự tổng hợp được.</div><div><br></div><div><b>2. BCAA là gì? </b></div><div>Trong 9 loại axit amin thiết yếu, có một chuỗi 3 axit amin đặc biệt được gọi là BCAA - Branched chain amino acids, bao gồm: leucine, isoleucine, và valine. </div><div>Sở dĩ gọi là BCAA bởi vì đúng như tên gọi của nó - branched chain tức là phân nhánh.  Chúng là 3 axit amin duy nhất trong 9 loại axit amin thiết yếu có cấu trúc phân nhánh “chuỗi bên”, là những axit amin không thể thiếu trong quá trình tổng hợp protein của cơ thể. BCAAs có nhiều trong thực phẩm giàu protein như trứng, thịt và các sản phẩm từ sữa. Bên cạnh đó, BCAAs còn được tổng hợp dưới dạng thực phẩm chức năng “BCAAs” mà chúng ta thường hay thấy những người tập gym hay sử dụng.</div><div>BCAA đóng vai trò điều hòa quá trình tổng hợp và luân chuyển protein cũng như duy trì mức glutamate-glutamine trong cơ thể, và giúp sinh năng lượng. BCAA chiếm 40% nhu cầu hằng ngày của các axit amin thiết yếu mà chúng ta cần. BCAAs tham gia vào quá trình tổng hợp nên protein trong cơ thể. Ngoài ra, BCAAs cũng có thể ức chế sự phân hủy protein tùy thuộc vào bối cảnh.</div><div><br></div><div><b>3. Vai trò của BCAA trong luyện tập thể thao</b></div><div><b>1. Tăng cường phát triển cơ bắp</b></div><div>Một trong những công dụng phổ biến nhất của BCAA là tăng cường hỗ trợ phát triển cơ bắp. Leucine trong BCAA kích hoạt quá trình tổng hợp protein cơ bắp (MPS - muscle protein synthesis), đó là quá trình tạo ra cơ bắp.</div><div>Trong một nghiên cứu, những người uống đồ uống có 5,6 gam (g) BCAA sau khi tập luyện các bài tập kháng lực có mức tổng hợp protein cơ bắp tăng cao hơn 22% so với những người uống đồ uống giả dược.</div><div>Mặc dù BCAA kích thích tổng hợp protein cho cơ bắp, nhưng quá trình tổng hợp protein sẽ không xảy ra một cách tối đa nếu cơ thể không có các axit amin thiết yếu khác, chẳng hạn như những axit có trong các nguồn protein hoàn chỉnh từ thực phẩm hay whey protein. Vậy nên việc đảm bảo một chế độ ăn cân bằng, nạp đầy đủ và đa dạng nguồn đạm là rất cần thiết. </div><div><br></div><div><b>2. Giảm đau nhức cơ bắp</b></div><div>Một số nghiên cứu chứng minh được rằng BCAA có thể giúp giảm đau nhức cơ sau khi tập luyện. Không có gì lạ khi cảm thấy đau một hoặc hai ngày sau khi tập luyện, đặc biệt là khi bạn mới bắt đầu thói quen tập luyện thể thao. Tình trạng đau nhức này được gọi là đau nhức cơ khởi phát muộn (Delayed-onset muscle soreness - DOMS), xuất hiện từ 12 đến 24 giờ sau khi tập thể dục và có thể kéo dài đến 72 giờ.</div><div>BCAA đã được chứng minh là làm giảm tổn thương cơ, điều này có thể giúp giảm thời gian và mức độ nghiêm trọng của DOMS.</div><div>Một số nghiên cứu cho thấy BCAA làm giảm sự phân hủy protein trong khi tập thể dục và giảm mức độ creatine kinase, một dấu hiệu cho thấy tổn thương cơ.</div><div>Do đó,  việc bổ sung BCAA có thể tăng tốc thời gian phục hồi của cơ.</div><div><br></div><div><b>3. Giảm mệt mỏi khi tập luyện thể thao</b></div><div>Mọi người đều cảm thấy mệt mỏi và kiệt sức sau khi tập thể dục vào một lúc nào đó. Bạn cảm thấy mệt mỏi nhanh như thế nào tùy thuộc vào một số yếu tố, bao gồm cường độ và thời gian tập thể dục, điều kiện môi trường cũng như mức độ dinh dưỡng và thể lực của bạn.</div><div>Ngoài những yếu tố như cường độ, thời gian tập luyện, mức độ dinh dưỡng hay loại hình vận động, khi tập luyện, cơ thể sẽ chuyển hoá và sử dụng một lượng nhỏ protein trong cơ làm năng lượng, khiến nồng độ BCAA trong máu giảm xuống. Khi nồng độ BCAA trong máu giảm, nồng độ tryptophan trong não của bạn sẽ tăng lên.</div><div>Trong não của bạn, tryptophan được chuyển đổi thành serotonin, một chất hóa học trong não được cho là góp phần gây ra cảm giác mệt mỏi khi tập thể dục. Do đó, nếu bạn bổ sung thêm BCAA sau khi luyện tập, lượng tryptophan và serotonin chuyển hoá sẽ giảm đi và làm bạn cảm thấy đỡ mệt mỏi hơn.</div><div><br></div><div><b>4. Ngăn ngừa teo cơ, hạn chế sự tổn thương cơ</b></div><div>BCAA có thể giúp ngăn ngừa lãng phí hoặc phân hủy cơ bắp và sự phân hủy cơ bắp chúng ta nói đến ở đây diễn ra khi:&nbsp;</div><div>1. Sự phân hủy protein diễn ra nhiều hơn so với sự tổng hợp protein trong cơ;&nbsp;</div><div>2. Sự suy nhược cơ thể và thiếu chất dinh dưỡng dẫn đến sự teo cơ.  Suy nhược cơ là dấu hiệu của tình trạng suy dinh dưỡng và xảy ra với các bệnh nhiễm trùng mãn tính, ung thư, thời gian nhịn ăn và có thể là quá trình lão hóa.</div><div>Do đó, nếu chúng ta bổ sung đầy đủ thực phẩm giàu BCAA trong bữa ăn hoặc bổ sung thêm thực phẩm bổ sung chứa BCAAs, ta sẽ có đủ lượng axit amin thiết yếu cần thiết để tổng hợp cơ bắp và ngăn ngừa sự teo cơ hay phá hủy cơ. </div><div>Khi tập luyện, các tế bào cơ liên tục bị phá vỡ và được xây dựng lại. Sự cân bằng giữa quá trình phân hủy và tổng hợp protein trong cơ quyết định lượng protein trong cơ. Sự lãng phí hoặc phân hủy cơ xảy ra khi quá trình phân hủy protein vượt quá mức tổng hợp protein trong cơ.</div><div><br></div><div><b>Tóm lại</b></div><div>BCAAs nói riêng và axit amin thiết yếu nói chung đóng vai trò rất quan trọng đối với việc tập luyện thể dục thể thao và sức khỏe tổng quát. BCAAs giúp ta tăng cường sự phát triển cơ bắp, giảm sự đau nhức và mệt mỏi sau khi tập. Vậy nên, để việc tập luyện trở nên hiệu quả hơn, hãy đảm bảo rằng bạn ăn một chế độ ăn cung cấp đầy đủ và đa dạng các loại protein để cơ thể chúng ta không bị thiếu các axit amin thiết yếu nhé.</div><div><br></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+											</div>
+	</div>
+	<div id="timhieuthem">
+		<div class="content"></div>
+		<a class="close_timhieuthem">&#215;</a>
+	</div>
+	<div id="play_youtube"></div>
+	<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/jquery.simplePagination.min.js"></script>
+<script src="js/pdf.min.js"></script>
+<br>
+<footer class="container" id="footer">
+	<div class="top_footer clearfix">
+		<a href="index.html"><img src="img/logo_footer.png" alt="" width="100%"></a>
+	</div>
+	<div class="box01">
+		<h2 class="tit_07">FITNESS FOR WOMAN</h2>
+		<div class="txt_01">Start-up giúp cho chị em phái yếu có vóc dáng đẹp & sức khỏe dẻo dai một cách tiện lợi & tiết kiệm.</div><br><br>
+		<h3 class="tit_08">CÔNG TY TNHH SHEFIT</h2>
+		<table class="list_footer">
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Văn phòng</td>
+				<td width="1">:</td>
+				<td>Khu The Sun Avenue, An Phú, Q2, TPHCM</td>
+			</tr>
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Hotline</td>
+				<td width="1">:</td>
+				<td><a href="tel:0906934821">0906934821</a></td>
+			</tr>
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Email</td>
+				<td width="1">:</td>
+				<td><a href="mailto:info@shefit.vn">info@shefit.vn</a></td>
+			</tr>
+		</table><br>
+		<table class="list_footer">
+			<tr>
+				<td width="40"><a href="https://zalo.me/0906934821" target="_blank"><img src="img/zalo_icon.png" alt=""></a></td>
+				<td width="5">&nbsp;</td>
+				<td width="40"><a href="https://www.facebook.com/shefitvn" target="_blank"><img src="img/facebook_icon.png" alt=""></a></td>
+				<td width="5">&nbsp;</td>
+				<td width="40"><a href="https://www.youtube.com/@GluteLab-LoNanDang-zl7td" target="_blank"><img src="img/youtube_icon.png" alt=""></a></td>
+			</tr>
+		</table><br>
+		<div class="copyright">
+			<a href="index.html">&copy; Ngôi Nhà Đầu Bếp 2024</a>
+		</div><br>
+	</div>
+</footer>
+
+	<script>
+		$(document).ready(function() {
+			$(document).on( "click", ".frame_youtube", function(e) {
+				$(this).addClass('active');
+				var youtube_id = $(this).attr('youtube_id');
+                $(this).html('<iframe src="https://www.youtube.com/embed/' + youtube_id + '?autoplay=1&rel=0&showinfo=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>');
+			});
+
+            initializeSlider();
+            function initializeSlider() {
+                $('.slide_blog').slick({
+					infinite: true,
+					slidesToShow: 1,
+					autoplay: true,
+					slidesToScroll: 1,
+					pauseOnHover: true,
+					dots: true,
+					arrows: true,
+					autoplay: true
+                });
+            }
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SHEFIT</title>
+	<link rel="stylesheet" type="text/css" href="css/slick.css@9133">
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css@4973">
+	<link rel="stylesheet" type="text/css" href="css/style_main.css@8462">
+	<body>
+	<div class="container">
+		<header id="header" class="header">
+	<div class="top_header container">
+		<table width="100%" cellspacing="0" cellpadding="0">
+			<tr>
+				<td>
+					<a href="index.html">
+						<span class="home_icon">
+							<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.3103 1.77586C11.6966 1.40805 12.3034 1.40805 12.6897 1.77586L20.6897 9.39491L23.1897 11.7759C23.5896 12.1567 23.605 12.7897 23.2241 13.1897C22.8433 13.5896 22.2103 13.605 21.8103 13.2241L21 12.4524V20C21 21.1046 20.1046 22 19 22H14H10H5C3.89543 22 3 21.1046 3 20V12.4524L2.18966 13.2241C1.78972 13.605 1.15675 13.5896 0.775862 13.1897C0.394976 12.7897 0.410414 12.1567 0.810345 11.7759L3.31034 9.39491L11.3103 1.77586ZM5 10.5476V20H9V15C9 13.3431 10.3431 12 12 12C13.6569 12 15 13.3431 15 15V20H19V10.5476L12 3.88095L5 10.5476ZM13 20V15C13 14.4477 12.5523 14 12 14C11.4477 14 11 14.4477 11 15V20H13Z" fill="#9b5e6e"/></svg>
+						</span> 
+						Home
+					</a>
+				</td>
+				<td style="text-align: right;">
+					<a href="quiz">
+						<span class="home_icon">
+							<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 14V7C20 5.34315 18.6569 4 17 4H7C5.34315 4 4 5.34315 4 7V17C4 18.6569 5.34315 20 7 20H13.5M20 14L13.5 20M20 14H15.5C14.3954 14 13.5 14.8954 13.5 16V20" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 8H16" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 12H12" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+						</span>
+						Body Quiz
+					</a>
+					<span class="ngancach">|</span> 
+												<a href="login">
+								<span class="home_icon">
+									<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M13 3C13 2.44772 12.5523 2 12 2C11.4477 2 11 2.44772 11 3V12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12V3ZM8.6092 5.8744C9.09211 5.60643 9.26636 4.99771 8.99839 4.5148C8.73042 4.03188 8.12171 3.85763 7.63879 4.1256C4.87453 5.65948 3 8.61014 3 12C3 16.9706 7.02944 21 12 21C16.9706 21 21 16.9706 21 12C21 8.66747 19.1882 5.75928 16.5007 4.20465C16.0227 3.92811 15.4109 4.09147 15.1344 4.56953C14.8579 5.04759 15.0212 5.65932 15.4993 5.93586C17.5942 7.14771 19 9.41027 19 12C19 15.866 15.866 19 12 19C8.13401 19 5 15.866 5 12C5 9.3658 6.45462 7.06997 8.6092 5.8744Z" fill="#9b5e6e"/></svg>
+								</span>
+								Đăng nhập
+							</a>
+									</td>
+
+			</tr>
+		</table>
+	</div>
+	<div class="main_header">
+		<ul class="clearfix">
+			<li><a href="khoahoc">Khóa học</a></li>
+			<li><a href="thucdon">Thực đơn</a></li>
+			<li><a href="huanluyenvien">Giáo viên</a></li>
+			<li><a href="sanpham">Dụng cụ</a></li>
+			<li><a href="thucpham">Thực phẩm</a></li>
+			<li><a href="blog">Blog</a></li>
+		</ul>
+	</div>
+</header>
+		<div class="box01">
+														<nav aria-label="breadcrumb" class="breadcrumb">
+							  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							   		&#10070;
+							      <a itemprop="item" href="index.html">
+							        <span itemprop="name">Trang chủ</span>
+							      </a>
+							      <meta itemprop="position" content="1" />
+							    </li>
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							      <a itemprop="item" href="blog.php">
+							        <span itemprop="name">Blog</span>
+							      </a>
+							      <meta itemprop="position" content="2" />
+							    </li>
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							      <a itemprop="item" href="blog.php">
+							        <span itemprop="name">NHỊN ĂN GIÁN ĐOẠN Ở BỆNH NHÂN ĐÁI THÁO ĐƯỜNG TYPE 2</span>
+							      </a>
+							      <meta itemprop="position" content="3" />
+							    </li>
+							  </ol>
+							</nav>
+							<h1 class="tit_01">NHỊN ĂN GIÁN ĐOẠN Ở BỆNH NHÂN ĐÁI THÁO ĐƯỜNG TYPE 2</h1>
+							<div class="blog_meta">
+								<table width="100%" cellpadding="0" cellspacing="0">
+									<tr>
+										<td>
+											<svg width="10%" height="10%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 14C8.13401 14 5 17.134 5 21H19C19 17.134 15.866 14 12 14Z" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Vũ Thị Quỳnh Trang</td>
+										<td class="txt_right">
+											<svg width="10%" height="10%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 10V7C20 5.89543 19.1046 5 18 5H6C4.89543 5 4 5.89543 4 7V10M20 10V19C20 20.1046 19.1046 21 18 21H6C4.89543 21 4 20.1046 4 19V10M20 10H4M8 3V7M16 3V7" stroke="#666666" stroke-width="2" stroke-linecap="round"/><rect x="6" y="12" width="3" height="3" rx="0.5" fill="#666666"/><rect x="10.5" y="12" width="3" height="3" rx="0.5" fill="#666666"/><rect x="15" y="12" width="3" height="3" rx="0.5" fill="#666666"/></svg>
+											2023-11-07										</td>
+									</tr>
+								</table>
+							</div><br>
+							<div class="slide_blog">
+																			<div><img src="img/upload/20241002155147.jpg"></div>
+																	</div>
+							<div class="blog_noidung"><b>Nhịn ăn gián đoạn với bệnh nhân đái tháo đường?</b><div><div></div><div>Với sự tăng nhanh số lượng người bệnh đái tháo đường, thông tin về phương thức điều trị thuốc cũng như các chế độ dinh dưỡng đặc biệt để cải thiện tình trạng bệnh cũng ngày càng phổ biến trên Internet. Một trong số đó là chế độ ăn “rất hot dạo gần đây” - Nhịn ăn gián đoạn. Vậy liệu nhịn ăn gián đoạn có giúp ích cho bệnh nhân ĐTĐ?
+</div><div><br></div><div><b>Nhịn ăn gián đoạn là gì?
+</b></div><div>Nhịn ăn gián đoạn (IF) được hiểu đơn giản là việc hạn chế lượng thức ăn trong ngày của bạn trong một khoảng nhất định, nghĩa là chỉ ăn trong một khoảng thời gian và nhịn đói trong suốt thời gian còn lại. Nhịn ăn gián đoạn được áp dụng dưới nhiều dạng: chế độ ăn 16:8, chế độ ăn 5:2, chế độ ăn 4:4:12, nhịn ăn cách ngày,…
+</div><div><br></div><div><b>Tác động của nhịn ăn gián đoạn với người bệnh ĐTĐ type 2?</b></div><div><i><b>1. Nhịn ăn gián đoạn có an toàn cho người bị bệnh ĐTĐ?
+</b></i></div><div>Nhịn ăn gián đoạn cũng có thể gây ra một số rủi ro cho người mắc bệnh ĐTĐ, như là:
+</div><div><b>- Có thể gây ra hạ đường huyết:
+</b></div><div>Nếu bệnh nhân đang sử dụng insulin hoặc thuốc và đột nhiên ăn ít hơn nhiều so với bình thường thì lượng đường trong máu có thể bị giảm xuống quá thấp - tình trạng hạ đường huyết. Hạ đường huyết có thể gây ra các triệu chứng: Run rẩy, lú lẫn, cáu gắt, loạn nhịp tim, lo lắng, đổ mồ hôi, chóng mặt, ớn lạnh, năng lượng thấp, mờ mắt, buồn ngủ, buồn nôn,...
+</div><div>Hạ đường huyết nhất là hạ đường huyết ở người cao tuổi là tình trạng thường gặp và nó nguy hiểm hơn so với tăng đường huyết, nếu không xử trí và cấp cứu kịp thời có thể dẫn đến nhiều vấn đề nguy hiểm như: co giật, hôn mê… thậm chí tử vong.
+</div><div>Chính vì vậy, người bệnh cần tham khảo kĩ ý kiến của bác sĩ điều trị cũng như có hiểu biết đầy đủ về triệu chứng cũng như cách xử trí hạ đường huyết trước khi thực hiện bất kì một chế độ nhịn ăn gián đoạn hay ăn kiêng nào đó.</div><div><b>- Có thể gây tăng đường huyết:
+</b></div><div>Một nguy cơ tiềm ẩn khác của việc nhịn ăn gián đoạn với bệnh ĐTĐ chính là lượng đường trong máu cao - tình trạng tăng đường huyết. Tăng đường huyết có thể xảy ra nếu bạn ăn nhiều hơn mức bình thường (khi bạn đặc biệt đói sau một thời gian dài nhịn ăn). Lượng đường trong máu cao có thể làm tăng nguy cơ mắc các biến chứng tiểu đường như: Tổn thương thần kinh (bệnh thần kinh), tổn thương mắt và mù lòa, bệnh tim, bệnh thận, huyết áp cao, đột quỵ,...
+</div><div>Bên cạnh những lợi ích đáng kể thì nhịn ăn gián đoạn ở người đái tháo đường cũng tiềm ẩn nguy cơ. Vì vậy, trước khi bắt đầu bất kỳ một chế độ ăn kiêng hoặc kế hoạch giảm cân nào, người bệnh nên hỏi ý kiến bác sĩ để đảm bảo kế hoạch đó là an toàn cho bản thân.
+</div><div><br></div><div><b><i>2. Lợi ích của chế độ ăn kiêng gián đoạn đối với bệnh nhân ĐTĐ?
+</i></b></div><div>Một số lợi ích tiềm năng gồm: Cải thiện độ nhạy insulin, hạ huyết áp, giảm cảm giác thèm ăn, giảm stress oxy hóa, tăng quá trình oxy hóa chất béo. Theo Hiệp hội Tiểu đường Hoa Kỳ (ADA), cần thực hiện thêm nhiều nghiên cứu để xác định lợi ích lâu dài của chế độ nhịn ăn gián đoạn đối với kiểm soát đường huyết và các biến chứng của ĐTĐ.
+</div><div><br></div><div><b><i>3. Nhịn ăn gián đoạn có giúp thuyên giảm bệnh ĐTĐ hay không?
+</i></b></div><div>Một nghiên cứu vào năm 2018 trên 3 người mắc ĐTĐ type 2 đã sử dụng insulin và nhịn ăn ít nhất 3 lần/tuần. Trong vòng 1 tháng, họ không cần sử dụng insulin nữa. Bên cạnh đó, họ cũng có những cải thiện về chỉ số khối cơ thể (BMI), vòng eo và mức HbA1c. Sau vài tháng, mỗi người đều giảm khoảng 10% trọng lượng cơ thể.
+</div><div>Nghiên cứu này được thực hiện trên phạm vi quá nhỏ nên chưa thể đưa ra kết luận về việc nhịn ăn gián đoạn có ảnh hưởng như thế nào tới phần lớn những người mắc bệnh ĐTĐ. Tuy nhiên, một nghiên cứu lớn hơn vào năm 2018 cho thấy: Gần 50% bệnh nhân ĐTĐ type 2 giảm cân có thể ngừng dùng thuốc điều trị tiểu đường và bệnh đã thuyên giảm.
+</div><div>Vì việc nhịn ăn gián đoạn có thể là một cách để cắt giảm calo nạp vào cơ thể nên nó giúp người mắc bệnh ĐTĐ giảm cân và hỗ trợ thuyên giảm bệnh tình. Tuy nhiên, các phương pháp giảm cân khác cũng có tác dụng đẩy lùi bệnh ĐTĐ. Vì mỗi người đều có những điểm khác biệt nên bệnh nhân tốt nhất vẫn cần phải tham vấn ý kiến của bác sĩ hay chuyên gia dinh dưỡng trước khi chọn phương pháp giảm cân phù hợp.
+</div><div><br></div><div><b>Những chế độ ăn được chứng minh có tác động tích cực với bệnh nhân ĐTĐ hoặc tiền ĐTĐ.
+</b></div><div><b><br></b></div><div><b><i>1. Chế độ ăn Địa Trung Hải (Mediterranean Diet):
+</i></b></div><div>- Chế độ ăn Địa Trung Hải tập trung vào thực phẩm như rau xanh, củ quả, cây lúa mạch, hạt, dầu ô liu và cá.
+</div><div>- Nhiều nghiên cứu đã chứng minh rằng chế độ ăn Địa Trung Hải có thể giảm nguy cơ đái tháo đường loại 2 và cải thiện quản lý đường huyết cho những người đã mắc bệnh này.
+</div><div><b><i>2. Chế độ ăn cân đối và giảm calo (Calorie Restriction):
+</i></b></div><div>- Giảm calo tổng cộng qua chế độ ăn cân đối có thể giúp kiểm soát cân nặng và cải thiện quản lý đường huyết.
+</div><div>- Việc giảm cân thường đi kèm với cải thiện đáng kể về sức khỏe đối với những người có đái tháo đường loại 2.
+</div><div><b><i>3. Chế độ ăn hạn chế carbohydrate (Low-Carb Diet):
+</i></b></div><div>- Chế độ ăn giới hạn carbohydrate giúp kiểm soát đường huyết bằng cách giảm lượng carbohydrate trong khẩu phần thức ăn hàng ngày.
+</div><div>- Các chế độ ăn như Low-Carb Diet hoặc Ketogenic Diet (Chế độ ăn ketogenic) đã được chứng minh giúp cải thiện sự nhạy cảm của cơ thể với insulin.
+</div><div><b><i>4. Chế độ ăn hữu cơ, không chứa chất béo bão hòa và đường (Organic, Low Saturated Fat, Low Sugar Diet):
+</i></b></div><div>- Chế độ ăn này tập trung vào việc ăn thực phẩm hữu cơ và giới hạn chất béo bão hòa và đường.
+</div><div>- Nó có thể giúp cải thiện sức khỏe tim mạch và kiểm soát đường huyết.
+</div><div><b><i>5. Chế độ ăn tập trung vào thức ăn có chỉ số đường huyết thấp (Low Glycemic Index Diet):
+</i></b></div><div>- Chế độ ăn này tập trung vào việc ăn thực phẩm có chỉ số đường huyết thấp, giúp kiểm soát đường huyết ổn định hơn.
+</div><div><br></div><div>Chế độ ăn nhịn ăn gián đoạn không được đề cập trong danh sách các chế độ ăn tốt cho bệnh nhân đái tháo đường không phải vì nó không có lợi ích, mà là do IF là một phương pháp ăn uống đặc biệt và phụ thuộc vào cách thực hiện cụ thể. Có một số lý do tại sao IF không xuất hiện trong danh sách đó:
+</div><div>- Thiếu nghiên cứu lâu dài: Mặc dù có nhiều nghiên cứu về tác động của IF lên sức khỏe, nhưng nhiều trong số đó là nghiên cứu ngắn hạn và cần thêm nghiên cứu lâu dài để hiểu rõ hơn về tác động của IF đối với bệnh nhân đái tháo đường.
+</div><div>- Khả năng tuân thủ: IF yêu cầu sự kiên nhẫn và khả năng tuân thủ với lịch trình ăn uống cụ thể. Không phải tất cả mọi người có thể tuân thủ được với IF, và việc không tuân thủ có thể không đảm bảo sự ổn định của quản lý đường huyết.
+</div><div>- Phụ thuộc cơ địa: Mỗi người có thể phản ứng khác nhau với IF. Trong trường hợp bệnh nhân đái tháo đường, một số người có thể trải qua cải thiện vượt bậc, trong khi người khác có thể gặp khó khăn với việc quản lý đường huyết khi thực hiện IF.
+</div><div><br></div><div><b>Tóm tắt
+</b></div><div>Trên đây là những ảnh hưởng của chế độ nhịn ăn gián đoạn với người bệnh đái tháo đường, mặc dù chưa có những nghiên cứu kéo dài nhưng những thử nghiệm trên thực tế cho thấy chế độ ăn này đem lại nhiều lợi ích cho người bệnh đái tháo đường. 
+</div><div><br></div><div><i>Nguồn thông tin tham khảo:
+</i></div><div>https://www.health.harvard.edu/blog/intermittent-fasting-surprising-update-2018062914156
+</div><div>https://www.healthline.com/health/type-2-diabetes/intermittent-fasting-and-diabetes-safe#intermittent-fasting-benefits
+</div><div>https://www.medicalnewstoday.com/articles/323316#What-is-intermittent-fasting?
+</div><div>https://www.diabetesfoodhub.org/articles/what-is-the-diabetes-plate-method.html
+</div><div><br></div><div>
+</div><div>
+</div><div>
+</div><div>
+</div></div></div>
+											</div>
+	</div>
+	<div id="timhieuthem">
+		<div class="content"></div>
+		<a class="close_timhieuthem">&#215;</a>
+	</div>
+	<div id="play_youtube"></div>
+	<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/jquery.simplePagination.min.js"></script>
+<script src="js/pdf.min.js"></script>
+<br>
+<footer class="container" id="footer">
+	<div class="top_footer clearfix">
+		<a href="index.html"><img src="img/logo_footer.png" alt="" width="100%"></a>
+	</div>
+	<div class="box01">
+		<h2 class="tit_07">FITNESS FOR WOMAN</h2>
+		<div class="txt_01">Start-up giúp cho chị em phái yếu có vóc dáng đẹp & sức khỏe dẻo dai một cách tiện lợi & tiết kiệm.</div><br><br>
+		<h3 class="tit_08">CÔNG TY TNHH SHEFIT</h2>
+		<table class="list_footer">
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Văn phòng</td>
+				<td width="1">:</td>
+				<td>Khu The Sun Avenue, An Phú, Q2, TPHCM</td>
+			</tr>
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Hotline</td>
+				<td width="1">:</td>
+				<td><a href="tel:0906934821">0906934821</a></td>
+			</tr>
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Email</td>
+				<td width="1">:</td>
+				<td><a href="mailto:info@shefit.vn">info@shefit.vn</a></td>
+			</tr>
+		</table><br>
+		<table class="list_footer">
+			<tr>
+				<td width="40"><a href="https://zalo.me/0906934821" target="_blank"><img src="img/zalo_icon.png" alt=""></a></td>
+				<td width="5">&nbsp;</td>
+				<td width="40"><a href="https://www.facebook.com/shefitvn" target="_blank"><img src="img/facebook_icon.png" alt=""></a></td>
+				<td width="5">&nbsp;</td>
+				<td width="40"><a href="https://www.youtube.com/@GluteLab-LoNanDang-zl7td" target="_blank"><img src="img/youtube_icon.png" alt=""></a></td>
+			</tr>
+		</table><br>
+		<div class="copyright">
+			<a href="index.html">&copy; Ngôi Nhà Đầu Bếp 2024</a>
+		</div><br>
+	</div>
+</footer>
+
+	<script>
+		$(document).ready(function() {
+			$(document).on( "click", ".frame_youtube", function(e) {
+				$(this).addClass('active');
+				var youtube_id = $(this).attr('youtube_id');
+                $(this).html('<iframe src="https://www.youtube.com/embed/' + youtube_id + '?autoplay=1&rel=0&showinfo=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>');
+			});
+
+            initializeSlider();
+            function initializeSlider() {
+                $('.slide_blog').slick({
+					infinite: true,
+					slidesToShow: 1,
+					autoplay: true,
+					slidesToScroll: 1,
+					pauseOnHover: true,
+					dots: true,
+					arrows: true,
+					autoplay: true
+                });
+            }
+		});
+	</script>
+</body>
+</html>

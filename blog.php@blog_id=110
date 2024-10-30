@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SHEFIT</title>
+	<link rel="stylesheet" type="text/css" href="css/slick.css@2924">
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css@7176">
+	<link rel="stylesheet" type="text/css" href="css/style_main.css@9332">
+	<body>
+	<div class="container">
+		<header id="header" class="header">
+	<div class="top_header container">
+		<table width="100%" cellspacing="0" cellpadding="0">
+			<tr>
+				<td>
+					<a href="index.html">
+						<span class="home_icon">
+							<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.3103 1.77586C11.6966 1.40805 12.3034 1.40805 12.6897 1.77586L20.6897 9.39491L23.1897 11.7759C23.5896 12.1567 23.605 12.7897 23.2241 13.1897C22.8433 13.5896 22.2103 13.605 21.8103 13.2241L21 12.4524V20C21 21.1046 20.1046 22 19 22H14H10H5C3.89543 22 3 21.1046 3 20V12.4524L2.18966 13.2241C1.78972 13.605 1.15675 13.5896 0.775862 13.1897C0.394976 12.7897 0.410414 12.1567 0.810345 11.7759L3.31034 9.39491L11.3103 1.77586ZM5 10.5476V20H9V15C9 13.3431 10.3431 12 12 12C13.6569 12 15 13.3431 15 15V20H19V10.5476L12 3.88095L5 10.5476ZM13 20V15C13 14.4477 12.5523 14 12 14C11.4477 14 11 14.4477 11 15V20H13Z" fill="#9b5e6e"/></svg>
+						</span> 
+						Home
+					</a>
+				</td>
+				<td style="text-align: right;">
+					<a href="quiz">
+						<span class="home_icon">
+							<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 14V7C20 5.34315 18.6569 4 17 4H7C5.34315 4 4 5.34315 4 7V17C4 18.6569 5.34315 20 7 20H13.5M20 14L13.5 20M20 14H15.5C14.3954 14 13.5 14.8954 13.5 16V20" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 8H16" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 12H12" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+						</span>
+						Body Quiz
+					</a>
+					<span class="ngancach">|</span> 
+												<a href="login">
+								<span class="home_icon">
+									<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M13 3C13 2.44772 12.5523 2 12 2C11.4477 2 11 2.44772 11 3V12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12V3ZM8.6092 5.8744C9.09211 5.60643 9.26636 4.99771 8.99839 4.5148C8.73042 4.03188 8.12171 3.85763 7.63879 4.1256C4.87453 5.65948 3 8.61014 3 12C3 16.9706 7.02944 21 12 21C16.9706 21 21 16.9706 21 12C21 8.66747 19.1882 5.75928 16.5007 4.20465C16.0227 3.92811 15.4109 4.09147 15.1344 4.56953C14.8579 5.04759 15.0212 5.65932 15.4993 5.93586C17.5942 7.14771 19 9.41027 19 12C19 15.866 15.866 19 12 19C8.13401 19 5 15.866 5 12C5 9.3658 6.45462 7.06997 8.6092 5.8744Z" fill="#9b5e6e"/></svg>
+								</span>
+								Đăng nhập
+							</a>
+									</td>
+
+			</tr>
+		</table>
+	</div>
+	<div class="main_header">
+		<ul class="clearfix">
+			<li><a href="khoahoc">Khóa học</a></li>
+			<li><a href="thucdon">Thực đơn</a></li>
+			<li><a href="huanluyenvien">Giáo viên</a></li>
+			<li><a href="sanpham">Dụng cụ</a></li>
+			<li><a href="thucpham">Thực phẩm</a></li>
+			<li><a href="blog">Blog</a></li>
+		</ul>
+	</div>
+</header>
+		<div class="box01">
+														<nav aria-label="breadcrumb" class="breadcrumb">
+							  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							   		&#10070;
+							      <a itemprop="item" href="index.html">
+							        <span itemprop="name">Trang chủ</span>
+							      </a>
+							      <meta itemprop="position" content="1" />
+							    </li>
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							      <a itemprop="item" href="blog.php">
+							        <span itemprop="name">Blog</span>
+							      </a>
+							      <meta itemprop="position" content="2" />
+							    </li>
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							      <a itemprop="item" href="blog.php">
+							        <span itemprop="name">CƠ THỂ BẠN SẼ RA SAO NẾU THỰC HIỆN MỘT CHẾ ĐỘ ĂN KHẮC NGHIỆT</span>
+							      </a>
+							      <meta itemprop="position" content="3" />
+							    </li>
+							  </ol>
+							</nav>
+							<h1 class="tit_01">CƠ THỂ BẠN SẼ RA SAO NẾU THỰC HIỆN MỘT CHẾ ĐỘ ĂN KHẮC NGHIỆT</h1>
+							<div class="blog_meta">
+								<table width="100%" cellpadding="0" cellspacing="0">
+									<tr>
+										<td>
+											<svg width="10%" height="10%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 14C8.13401 14 5 17.134 5 21H19C19 17.134 15.866 14 12 14Z" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Phạm Nguyễn Quỳnh Anh</td>
+										<td class="txt_right">
+											<svg width="10%" height="10%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 10V7C20 5.89543 19.1046 5 18 5H6C4.89543 5 4 5.89543 4 7V10M20 10V19C20 20.1046 19.1046 21 18 21H6C4.89543 21 4 20.1046 4 19V10M20 10H4M8 3V7M16 3V7" stroke="#666666" stroke-width="2" stroke-linecap="round"/><rect x="6" y="12" width="3" height="3" rx="0.5" fill="#666666"/><rect x="10.5" y="12" width="3" height="3" rx="0.5" fill="#666666"/><rect x="15" y="12" width="3" height="3" rx="0.5" fill="#666666"/></svg>
+											2023-11-21										</td>
+									</tr>
+								</table>
+							</div><br>
+							<div class="slide_blog">
+																			<div><img src="img/upload/20241026221224.jpeg"></div>
+																	</div>
+							<div class="blog_noidung"><div>Trong thời gian ngắn hạn, nếu bạn thực hiện một chế độ ăn kiêng nghiêm ngặt, bạn có thể giảm cân. Nhưng đồng thời, bạn cũng có thể trải qua những cảm giác không dễ chịu như mệt mỏi, yếu đuối, buồn nôn và đau đớn. Một số vấn đề này có thể ảnh hưởng đến sức khỏe, tâm trạng của bạn trong thời gian ngắn. Tuy nhiên, nếu duy trì lâu dài, chế độ này có thể khiến bạn tăng cân trở lại. Dưới đây là một bài tổng hợp những thay đổi xảy ra trong cơ thể khi bạn giảm ăn carbohydrate, giảm lượng calo cần thiết hoặc duy trì quá lâu một chế độ ăn kiêng.</div><div><br></div><div><b>1. Bị mất nước</b></div><div>Tiến sĩ Louis J. Aronne, một chuyên gia hàng đầu về nội tiết và béo phì tại Trung tâm Kiểm soát Cân nặng Toàn diện Weill Cornell Medicine ở New York, đã giải thích rằng những kết quả "thành công" nhanh chóng khi bạn thực hiện chế độ ăn kiêng cấp tốc thường chỉ là ảo ảnh. Điều này bởi vì lượng cân giảm ban đầu thường đến từ việc bạn mất nước, không phải từ việc bạn đốt cháy chất béo.</div><div>Ông Aronne lý giải rằng khi bạn hạn chế calo hoặc carbohydrate, thứ đầu tiên cơ thể bạn tiêu thụ để tạo năng lượng là glycogen. Glycogen là một loại carbohydrate được lưu trữ trong gan và cơ bắp, và mỗi gram glycogen đi kèm với khoảng 3 gram nước. Khi bạn tiêu thụ glycogen, lượng nước này cũng bị loại bỏ ra khỏi cơ thể.</div><div>Theo ông Aronne, trong một số chế độ ăn kiêng cấp tốc kéo dài vài ngày, người ta thường mất quá nhiều nước, đến mức có thể gây ra các triệu chứng như đau đầu, mệt mỏi và chóng mặt.</div><div><br></div><div><b>2. Lượng đường huyết trong cơ thể thay đổi liên tục</b></div><div>Có thể nói rằng, tùy thuộc vào loại chế độ ăn kiêng mà bạn tuân theo, bạn có thể không duy trì sự ổn định trong việc cung cấp cho cơ thể các yếu tố quan trọng như carbohydrate, protein, chất béo và chất xơ suốt cả ngày. Điều này có thể dẫn đến biến động trong lượng đường trong máu và mức insulin của bạn. Đặc biệt, nếu bạn đang thực hiện chế độ ăn kiêng giải độc hoặc thanh lọc cơ thể và tiêu thụ nước ép có nhiều đường mà ít chất xơ, lượng đường trong máu của bạn có thể tăng cao sau đó giảm đi rất nhanh. Điều này có thể làm cho bạn cảm thấy cực kỳ đói sau vài giờ.</div><div>Hơn nữa, chế độ ăn kiêng nghiêm ngặt thường đi kèm với tình trạng gọi là "yo-yoing," tức là bạn giảm cân sau đó tăng trở lại nhanh chóng. Có một số nghiên cứu cho thấy biến động trong cân nặng này có thể đóng vai trò trong tạo ra tình trạng kháng insulin, một yếu tố tiềm năng góp phần vào mắc bệnh tiểu đường. </div><div><br></div><div><b>3. Tình trạng mất cơ thay vì mất mỡ</b></div><div>Trong quá trình giảm cân một cách chậm rãi và ổn định - tức là không nhiều hơn 1% trọng lượng cơ thể mỗi tuần - khoảng 75% lượng cân mất đi đến từ việc đốt cháy chất béo, và 25% đến từ việc cơ thể tự điều chỉnh sự kết hợp giữa nước và cơ bắp. Theo ông Aronne, nếu bạn áp dụng một hệ thống giảm calo quá mức, giảm dưới mức 1.000 đến 1.200 calo một ngày, dựa trên nhu cầu cá nhân và cơ thể của bạn, thì cơ thể bạn sẽ phải phân hủy cơ bắp để có đủ năng lượng cho cơ thể hoạt động một ngày.</div><div>Nghiên cứu chỉ ra rằng khi bạn giảm cân một cách nhanh chóng, bạn sẽ mất nhiều cơ bắp hơn khoảng ba lần so với việc giảm cân từ từ. Điều này có nghĩa là ngay cả khi bạn giảm cân, vóc dáng của bạn có thể không cải thiện đáng kể hay sẽ không săn chắc.</div><div>Hơn nữa, giảm cân quá nhanh có thể ảnh hưởng đến cơ tim của bạn. Chẳng hạn, các chế độ ăn kiêng cực kỳ ít calo có thể liên quan đến những vấn đề về nhịp tim và thậm chí có thể gây ra tình trạng nguy hiểm đến tính mạng.</div><div><br></div><div><b>4. Sự trao đổi chất chậm lại</b></div><div>Khi cơ thể mất đi một phần cơ bắp, tốc độ trao đổi chất của bạn, tức là số lượng calo bạn đốt cháy khi nghỉ ngơi, sẽ tự động giảm đi. Điều này dẫn đến việc bạn sẽ đốt cháy ít calo hơn trong các hoạt động hàng ngày như đi bộ, nói chuyện hoặc thậm chí khi bạn tập thể dục. Theo ông Aronne, quá trình trao đổi chất cuối cùng giảm xuống một mức độ thấp đủ để ngừng sự giảm cân. Thậm chí sau khi bạn kết thúc chế độ ăn kiêng, quá trình trao đổi chất của bạn sẽ luôn hoạt động chậm hơn so với trước khi bạn bắt đầu chế độ ăn kiêng cấp tốc.</div><div>Trong khi đó, bộ não của bạn thường hiểu sai rằng cơ thể đang đối mặt với tình trạng thiếu thức ăn. Điều này khiến nó hiểu rằng bạn nên tiết kiệm calo và giữ lại năng lượng để tránh cảm giác đói. Như Kristin Kirkpatrick, một chuyên gia dinh dưỡng tại Phòng khám Cleveland ở Ohio, đã nói, bộ não thường coi việc giữ lại calo là cách để đảm bảo bạn không cảm thấy đói, và điều này có thể làm cho việc duy trì cân nặng sau chế độ ăn kiêng trở nên khó khăn.</div><div><br></div><div><b>5. Có khả năng gây thiếu các chất dinh dưỡng</b></div><div>Trong trường hợp áp dụng chế độ ăn kiêng nghiêm ngặt, việc hạn chế các chất cơ bản trong việc ăn kiêng có thể dẫn đến thiếu hụt nhiều chất dinh dưỡng quan trọng, bao gồm carbohydrate, protein, và nhiều loại vitamin như vitamin A, D, E, và K. Bên cạnh đó, còn có cả sự khan hiếm về các khoáng chất quan trọng như canxi, phốt pho, natri, magie, sắt, kẽm,…và nhiều loại khoáng chất khác. Những chất này đóng vai trò quan trọng trong sức khỏe tổng thể của cơ thể, và thiếu hụt chúng có thể góp phần gây ra nhiều vấn đề về sức khỏe.</div><div>Đặc biệt, việc chuyển từ chế độ ăn kiêng cấp tốc sang chế độ ăn uống bình thường một cách đột ngột có thể gây ra một loạt các vấn đề. Điều này có thể dẫn đến tình trạng suy tim và các vấn đề về tim mạch.</div><div><br></div><div><b>6. Gây ảnh hưởng đến não hoặc tâm trạng của bạn</b></div><div>Dựa theo thông tin mới được công bố trên Tạp chí Khoa học thần kinh, đã được chứng minh rằng chế độ ăn kiêng khắc nghiệt hoặc bất kỳ chế độ ăn kiêng cấp tốc nào, dù có cung cấp đủ lượng carbohydrate, có thể gây ra những tác động có hại cho tâm trạng và sức kháng của con người. Nghiên cứu này đã chỉ ra rằng chế độ ăn kiêng này dẫn đến sự gia tăng đáng kể trong việc tạo ra hormone gây căng thẳng corticosterone trong não, và điều này khiến não dễ bị căng thẳng hơn. Tình trạng căng thẳng gia tăng này lại tạo điều kiện thuận lợi cho sự phát triển của tình trạng trầm cảm. Hơn nữa, các người tham gia nghiên cứu cũng có xu hướng ăn uống vô độ trong tương lai sau khi kết thúc chế độ ăn kiêng cấp tốc, đặc biệt khi họ trải qua giai đoạn giảm cân cực kỳ hạn hẹp. Điều này nói lên mối lo ngại về tác động lâu dài của chế độ ăn kiêng không cân đối và khắc nghiệt đối với tâm trạng và sức kháng của cá nhân.</div><div><br></div><div><b>Kết luận<br></b></div><div>Do vậy, việc tối ưu hóa chế độ ăn uống bằng cách tập trung vào thực phẩm lành mạnh, bao gồm protein, carbohydrate cùng với một phần lớn rau quả và trái cây, và hạn chế tiêu thụ chất béo bão hòa và đường, được coi là biện pháp an toàn và hiệu quả nhất trong việc giảm cân. Một chế độ ăn uống cân đối không chỉ giúp bạn đạt được mục tiêu giảm cân mà còn bảo vệ sức khỏe tổng thể.</div><div>Tuy nhiên, việc duy trì cân nặng lý tưởng không chỉ dựa vào chế độ ăn uống mà còn cần sự hỗ trợ của việc tập thể dục đều đặn. Hoạt động thể chất là yếu tố quan trọng giúp bạn duy trì sức khỏe, tăng cường sức mạnh và sự linh hoạt, cùng với việc kiểm soát cân nặng.</div><div>Nếu bạn đang gặp khó khăn hoặc lo lắng về vấn đề cân nặng, thói quen ăn uống, hoặc cần lời khuyên về cách ăn kiêng và giảm cân một cách an toàn, không ngần ngại hãy tìm sự tư vấn từ một chuyên gia y tế hoặc bác sĩ. Họ sẽ giúp bạn xác định phương pháp tốt nhất dựa trên tình trạng sức khỏe và mục tiêu cá nhân của bạn.</div><div><br></div><div><i>Tài liệu tham khảo</i></div><div>https://www.webmd.com/diet/low-calorie-diets<br></div><div>Louis J. Aronne, MD</div><div>Aronne là bác sĩ nội khoa và chuyên gia béo phì tại Trung tâm Kiểm soát Cân nặng Toàn diện tại Weill Cornell Medicine ở Thành phố New York.</div><div>Kristin Kirkpatrick, MS, RD, LD</div><div>Kirkpatrick là chuyên gia dinh dưỡng và là chủ tịch của KAK Consulting LLC. Cô cũng là chuyên gia dinh dưỡng của khoa chăm sóc sức khỏe và y tế phòng ngừa tại Phòng khám Cleveland.</div><div>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6366252/</div><div><br></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+											</div>
+	</div>
+	<div id="timhieuthem">
+		<div class="content"></div>
+		<a class="close_timhieuthem">&#215;</a>
+	</div>
+	<div id="play_youtube"></div>
+	<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/jquery.simplePagination.min.js"></script>
+<script src="js/pdf.min.js"></script>
+<br>
+<footer class="container" id="footer">
+	<div class="top_footer clearfix">
+		<a href="index.html"><img src="img/logo_footer.png" alt="" width="100%"></a>
+	</div>
+	<div class="box01">
+		<h2 class="tit_07">FITNESS FOR WOMAN</h2>
+		<div class="txt_01">Start-up giúp cho chị em phái yếu có vóc dáng đẹp & sức khỏe dẻo dai một cách tiện lợi & tiết kiệm.</div><br><br>
+		<h3 class="tit_08">CÔNG TY TNHH SHEFIT</h2>
+		<table class="list_footer">
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Văn phòng</td>
+				<td width="1">:</td>
+				<td>Khu The Sun Avenue, An Phú, Q2, TPHCM</td>
+			</tr>
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Hotline</td>
+				<td width="1">:</td>
+				<td><a href="tel:0906934821">0906934821</a></td>
+			</tr>
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Email</td>
+				<td width="1">:</td>
+				<td><a href="mailto:info@shefit.vn">info@shefit.vn</a></td>
+			</tr>
+		</table><br>
+		<table class="list_footer">
+			<tr>
+				<td width="40"><a href="https://zalo.me/0906934821" target="_blank"><img src="img/zalo_icon.png" alt=""></a></td>
+				<td width="5">&nbsp;</td>
+				<td width="40"><a href="https://www.facebook.com/shefitvn" target="_blank"><img src="img/facebook_icon.png" alt=""></a></td>
+				<td width="5">&nbsp;</td>
+				<td width="40"><a href="https://www.youtube.com/@GluteLab-LoNanDang-zl7td" target="_blank"><img src="img/youtube_icon.png" alt=""></a></td>
+			</tr>
+		</table><br>
+		<div class="copyright">
+			<a href="index.html">&copy; Ngôi Nhà Đầu Bếp 2024</a>
+		</div><br>
+	</div>
+</footer>
+
+	<script>
+		$(document).ready(function() {
+			$(document).on( "click", ".frame_youtube", function(e) {
+				$(this).addClass('active');
+				var youtube_id = $(this).attr('youtube_id');
+                $(this).html('<iframe src="https://www.youtube.com/embed/' + youtube_id + '?autoplay=1&rel=0&showinfo=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>');
+			});
+
+            initializeSlider();
+            function initializeSlider() {
+                $('.slide_blog').slick({
+					infinite: true,
+					slidesToShow: 1,
+					autoplay: true,
+					slidesToScroll: 1,
+					pauseOnHover: true,
+					dots: true,
+					arrows: true,
+					autoplay: true
+                });
+            }
+		});
+	</script>
+</body>
+</html>

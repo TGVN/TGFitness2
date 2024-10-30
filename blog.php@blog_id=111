@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SHEFIT</title>
+	<link rel="stylesheet" type="text/css" href="css/slick.css@7109">
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css@6156">
+	<link rel="stylesheet" type="text/css" href="css/style_main.css@8252">
+	<body>
+	<div class="container">
+		<header id="header" class="header">
+	<div class="top_header container">
+		<table width="100%" cellspacing="0" cellpadding="0">
+			<tr>
+				<td>
+					<a href="index.html">
+						<span class="home_icon">
+							<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.3103 1.77586C11.6966 1.40805 12.3034 1.40805 12.6897 1.77586L20.6897 9.39491L23.1897 11.7759C23.5896 12.1567 23.605 12.7897 23.2241 13.1897C22.8433 13.5896 22.2103 13.605 21.8103 13.2241L21 12.4524V20C21 21.1046 20.1046 22 19 22H14H10H5C3.89543 22 3 21.1046 3 20V12.4524L2.18966 13.2241C1.78972 13.605 1.15675 13.5896 0.775862 13.1897C0.394976 12.7897 0.410414 12.1567 0.810345 11.7759L3.31034 9.39491L11.3103 1.77586ZM5 10.5476V20H9V15C9 13.3431 10.3431 12 12 12C13.6569 12 15 13.3431 15 15V20H19V10.5476L12 3.88095L5 10.5476ZM13 20V15C13 14.4477 12.5523 14 12 14C11.4477 14 11 14.4477 11 15V20H13Z" fill="#9b5e6e"/></svg>
+						</span> 
+						Home
+					</a>
+				</td>
+				<td style="text-align: right;">
+					<a href="quiz">
+						<span class="home_icon">
+							<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 14V7C20 5.34315 18.6569 4 17 4H7C5.34315 4 4 5.34315 4 7V17C4 18.6569 5.34315 20 7 20H13.5M20 14L13.5 20M20 14H15.5C14.3954 14 13.5 14.8954 13.5 16V20" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 8H16" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 12H12" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+						</span>
+						Body Quiz
+					</a>
+					<span class="ngancach">|</span> 
+												<a href="login">
+								<span class="home_icon">
+									<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M13 3C13 2.44772 12.5523 2 12 2C11.4477 2 11 2.44772 11 3V12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12V3ZM8.6092 5.8744C9.09211 5.60643 9.26636 4.99771 8.99839 4.5148C8.73042 4.03188 8.12171 3.85763 7.63879 4.1256C4.87453 5.65948 3 8.61014 3 12C3 16.9706 7.02944 21 12 21C16.9706 21 21 16.9706 21 12C21 8.66747 19.1882 5.75928 16.5007 4.20465C16.0227 3.92811 15.4109 4.09147 15.1344 4.56953C14.8579 5.04759 15.0212 5.65932 15.4993 5.93586C17.5942 7.14771 19 9.41027 19 12C19 15.866 15.866 19 12 19C8.13401 19 5 15.866 5 12C5 9.3658 6.45462 7.06997 8.6092 5.8744Z" fill="#9b5e6e"/></svg>
+								</span>
+								Đăng nhập
+							</a>
+									</td>
+
+			</tr>
+		</table>
+	</div>
+	<div class="main_header">
+		<ul class="clearfix">
+			<li><a href="khoahoc">Khóa học</a></li>
+			<li><a href="thucdon">Thực đơn</a></li>
+			<li><a href="huanluyenvien">Giáo viên</a></li>
+			<li><a href="sanpham">Dụng cụ</a></li>
+			<li><a href="thucpham">Thực phẩm</a></li>
+			<li><a href="blog">Blog</a></li>
+		</ul>
+	</div>
+</header>
+		<div class="box01">
+														<nav aria-label="breadcrumb" class="breadcrumb">
+							  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							   		&#10070;
+							      <a itemprop="item" href="index.html">
+							        <span itemprop="name">Trang chủ</span>
+							      </a>
+							      <meta itemprop="position" content="1" />
+							    </li>
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							      <a itemprop="item" href="blog.php">
+							        <span itemprop="name">Blog</span>
+							      </a>
+							      <meta itemprop="position" content="2" />
+							    </li>
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							      <a itemprop="item" href="blog.php">
+							        <span itemprop="name">BẠN NÊN UỐNG WHEY TRƯỚC HAY SAU KHI TẬP LUYỆN?</span>
+							      </a>
+							      <meta itemprop="position" content="3" />
+							    </li>
+							  </ol>
+							</nav>
+							<h1 class="tit_01">BẠN NÊN UỐNG WHEY TRƯỚC HAY SAU KHI TẬP LUYỆN?</h1>
+							<div class="blog_meta">
+								<table width="100%" cellpadding="0" cellspacing="0">
+									<tr>
+										<td>
+											<svg width="10%" height="10%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 14C8.13401 14 5 17.134 5 21H19C19 17.134 15.866 14 12 14Z" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Phạm Nguyễn Quỳnh Anh</td>
+										<td class="txt_right">
+											<svg width="10%" height="10%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 10V7C20 5.89543 19.1046 5 18 5H6C4.89543 5 4 5.89543 4 7V10M20 10V19C20 20.1046 19.1046 21 18 21H6C4.89543 21 4 20.1046 4 19V10M20 10H4M8 3V7M16 3V7" stroke="#666666" stroke-width="2" stroke-linecap="round"/><rect x="6" y="12" width="3" height="3" rx="0.5" fill="#666666"/><rect x="10.5" y="12" width="3" height="3" rx="0.5" fill="#666666"/><rect x="15" y="12" width="3" height="3" rx="0.5" fill="#666666"/></svg>
+											2023-11-21										</td>
+									</tr>
+								</table>
+							</div><br>
+							<div class="slide_blog">
+																			<div><img src="img/upload/20241026222435.jpeg"></div>
+																	</div>
+							<div class="blog_noidung"><div>Các nghiên cứu đã chỉ ra rằng việc bạn tiêu thụ protein lắc trước hoặc sau khi tập luyện không phải là điều quan trọng nhất. Điều quan trọng nhất là lượng tổng protein bạn cung cấp cho cơ thể hàng ngày. Protein là một thành phần quan trọng trong quá trình sửa chữa và phát triển cơ bắp. Chính vì vậy, nhiều người quyết định sử dụng thực phẩm bổ sung protein dưới dạng sữa lắc - whey trong quá trình tập luyện. Tuy nhiên, việc xác định thời điểm tối ưu để tiêu thụ protein lắc là một đề tài đang gây ra nhiều tranh luận. Một số người có quan điểm rằng việc uống protein lắc trước khi bắt đầu tập luyện là lựa chọn tốt nhất. Lý do là protein cung cấp năng lượng cần thiết và giúp chuẩn bị cơ thể cho sự cố gắng vận động. Ngoài ra, protein trước buổi tập cũng có thể giúp tối ưu hóa việc sửa chữa và xây dựng cơ bắp trong quá trình tập luyện.</div><div>Tuy nhiên, có một quan điểm khác cho rằng uống protein lắc sau khi tập luyện mới là phương pháp tối ưu. Đó là vì cơ thể đã tiêu hao một lượng lớn năng lượng và cơ bắp cần được phục hồi nhanh chóng. Protein sau buổi tập cung cấp nguồn cung cấp dưỡng chất trực tiếp cho các cơ bắp đã làm việc, giúp tối ưu hóa quá trình phục hồi và phát triển. Bài viết này sẽ trình bày các quan điểm và chứng cứ khoa học để giúp bạn hiểu rõ hơn về liệu nên uống protein lắc trước hay sau khi tập luyện.</div><div><br></div><div><b>Tại sao thời gian sử dụng whey lại quan trọng?</b></div><div>Thời gian sử dụng whey protein quan trọng vì nó liên quan đến việc cung cấp protein và cung cấp dưỡng chất cho cơ thể trong một khoảng thời gian quyết định để hỗ trợ quá trình phục hồi và phát triển cơ bắp sau khi tập luyện. Dưới đây là một số lý do tại sao thời gian sử dụng whey protein quan trọng:</div><div><b>- Tối ưu hóa quá trình phục hồi:</b> Khi bạn tập luyện, cơ bắp của bạn trải qua sự phá hủy và mòn. Điều quan trọng là cung cấp protein và dưỡng chất cần thiết cho cơ bắp ngay sau buổi tập để giúp họ phục hồi và tái thiết một cách tốt nhất. Whey protein nhanh chóng tiêu hóa và hấp thụ, do đó, việc sử dụng nó ngay sau buổi tập có thể tối ưu hóa quá trình phục hồi cơ bắp.</div><div><b>- Tăng cường tỷ lệ tổng hợp protein: </b>Thời gian sau buổi tập là khi cơ bắp có khả năng cao nhất để tổng hợp protein, tức là xây dựng lại và phát triển. Whey protein cung cấp một lượng lớn acid amin, đặc biệt là acid amin cần thiết để xây dựng cơ bắp, giúp tăng cường tỷ lệ tổng hợp protein.</div><div><b>- Ngăn cản quá trình giảm cơ bắp:</b> Khi cơ bắp không được cung cấp đủ protein và dưỡng chất sau buổi tập, nó có thể bắt đầu giảm tỷ lệ cơ bắp và tăng tỷ lệ mất mỡ. Sử dụng whey protein sau buổi tập có thể giúp ngăn cản quá trình giảm cơ bắp.</div><div><b>- Tối ưu hóa năng suất tập luyện tiếp theo: </b>Phục hồi cơ bắp hiệu quả giúp bạn tăng cường năng suất trong buổi tập tiếp theo. Nếu bạn không cung cấp đủ protein và dưỡng chất sau buổi tập, bạn có thể cảm thấy yếu đuối và không thể tập luyện tốt trong lần sau.</div><div>Vì vậy, việc sử dụng whey protein vào thời điểm thích hợp sau buổi tập có thể giúp tối ưu hóa quá trình phục hồi cơ bắp và phát triển cơ bắp hiệu quả hơn.</div><div><br></div><div><b>Nên uống Whey trước hay sau khi tập luyện</b></div><div>Một nghiên cứu gần đây đã tiến hành để so sánh hiệu quả của việc tiêu thụ protein trước hoặc sau khi tập luyện đối với sức mạnh và kích thước cơ bắp. Nghiên cứu này đã chia 21 người đàn ông thành hai nhóm, và cả hai nhóm đều nhận một loại protein lắc chứa 25 gram protein. Một nhóm tiêu thụ protein này ngay trước khi tập luyện, nhóm còn lại tiêu thụ ngay sau tập. Cả hai nhóm đã hoàn thành bài tập toàn thân 3 lần mỗi tuần trong suốt 10 tuần.</div><div>Kết quả của nghiên cứu đã gây ngạc nhiên khi không tìm thấy sự khác biệt đáng kể nào về sức mạnh hoặc kích thước cơ giữa hai nhóm. Điều này cho thấy rằng, trong ngữ cảnh cụ thể của nghiên cứu này, việc tiêu thụ protein trong quá trình tập luyện không phụ thuộc vào việc bạn làm điều đó trước hay sau buổi tập.</div><div>Những kết quả này đưa ra một điểm quan trọng: <b>bạn có thể linh hoạt trong việc chọn thời gian phù hợp nhất để tiêu thụ protein</b>, dựa trên lịch trình và ưu tiên cá nhân của mình, mà không lo lắng quá nhiều về thời gian cụ thể.</div><div><br></div><div><b>Làm thế nào để đáp ứng nhu cầu protein</b></div><div>Thịt, gia cầm, sữa và cá đều là những nguồn protein động vật chất lượng cao, cung cấp các loại protein dễ hấp thụ và cần thiết cho việc xây dựng cơ bắp. Cùng với đó, các loại hạt, đậu, cây họ đậu và các sản phẩm từ đậu nành là các nguồn protein thực vật tốt. Có nghiên cứu cho thấy rằng protein từ nguồn động vật có lợi ích vượt trội hơn so với protein từ nguồn thực vật trong việc xây dựng cơ bắp. Tuy nhiên, sự kết hợp của cả hai loại có thể mang lại lợi ích tối ưu.</div><div>Ngoài việc tập trung vào thực phẩm, bột protein cũng có thể là một cách thuận tiện để đảm bảo bạn đủ lượng protein cần thiết, đặc biệt khi bạn không thể đáp ứng nhu cầu chỉ thông qua thực phẩm.</div><div><br></div><div>Có một số loại bột protein phổ biến trên thị trường:</div><div><b>- Whey Protein:</b> Whey protein là một loại protein từ sữa mà cơ thể hấp thụ nhanh chóng, là lựa chọn tốt trước hoặc sau khi tập luyện. Nó cũng chứa các protein hoạt tính sinh học có thể mang lại nhiều lợi ích sức khỏe khác.</div><div><b>- Casein Protein:</b> Casein là một loại protein từ sữa khác mà cơ thể tiêu hóa chậm hơn nhiều so với whey, làm cho nó trở nên lý tưởng trong thời gian nhịn ăn như khi bạn ngủ. Hơn nữa, một số nhãn hiệu cung cấp protein casein với lượng canxi lên đến 60% RDA cho mỗi muỗng.</div><div><b>- Protein từ trứng:</b> Protein trứng được làm từ protein lòng trắng trứng nguyên chất, tiêu hóa ở mức trung bình và là một trong những loại bổ sung protein đắt đỏ trên thị trường.</div><div><b>- Protein từ đậu nành:</b> Protein đậu nành là một trong số ít protein thực vật có chứa đầy đủ các axit amin thiết yếu, là nguồn protein hoàn chỉnh phù hợp cho người ăn chay.</div><div><b>- Protein từ gạo và đậu:</b> Protein từ gạo và đậu không chứa tất cả các axit amin thiết yếu, nhưng sự kết hợp giữa chúng tạo nên một loại protein hoàn chỉnh. Chúng ít gây dị ứng, nên hấp dẫn đối với những người bị dị ứng với trứng, sữa hoặc đậu nành.</div><div>Lựa chọn bột protein thích hợp có thể giúp bạn đảm bảo bạn đáp ứng được nhu cầu hàng ngày về protein dễ dàng và hiệu quả.</div><div><br></div><div><i>Tài liệu tham khảo</i></div><div>https://www.menshealth.com/uk/a757228/should-you-drink-a-protein-shake-during-your-gym-session/</div><div>https://www.healthline.com/nutrition/protein-shakes-weight-loss#bottom-line</div><div>https://drugresearch.in/should-i-drink-a-protein-shake-during-my-workout/</div><div><br></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div>	</div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+											</div>
+	</div>
+	<div id="timhieuthem">
+		<div class="content"></div>
+		<a class="close_timhieuthem">&#215;</a>
+	</div>
+	<div id="play_youtube"></div>
+	<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/jquery.simplePagination.min.js"></script>
+<script src="js/pdf.min.js"></script>
+<br>
+<footer class="container" id="footer">
+	<div class="top_footer clearfix">
+		<a href="index.html"><img src="img/logo_footer.png" alt="" width="100%"></a>
+	</div>
+	<div class="box01">
+		<h2 class="tit_07">FITNESS FOR WOMAN</h2>
+		<div class="txt_01">Start-up giúp cho chị em phái yếu có vóc dáng đẹp & sức khỏe dẻo dai một cách tiện lợi & tiết kiệm.</div><br><br>
+		<h3 class="tit_08">CÔNG TY TNHH SHEFIT</h2>
+		<table class="list_footer">
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Văn phòng</td>
+				<td width="1">:</td>
+				<td>Khu The Sun Avenue, An Phú, Q2, TPHCM</td>
+			</tr>
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Hotline</td>
+				<td width="1">:</td>
+				<td><a href="tel:0906934821">0906934821</a></td>
+			</tr>
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Email</td>
+				<td width="1">:</td>
+				<td><a href="mailto:info@shefit.vn">info@shefit.vn</a></td>
+			</tr>
+		</table><br>
+		<table class="list_footer">
+			<tr>
+				<td width="40"><a href="https://zalo.me/0906934821" target="_blank"><img src="img/zalo_icon.png" alt=""></a></td>
+				<td width="5">&nbsp;</td>
+				<td width="40"><a href="https://www.facebook.com/shefitvn" target="_blank"><img src="img/facebook_icon.png" alt=""></a></td>
+				<td width="5">&nbsp;</td>
+				<td width="40"><a href="https://www.youtube.com/@GluteLab-LoNanDang-zl7td" target="_blank"><img src="img/youtube_icon.png" alt=""></a></td>
+			</tr>
+		</table><br>
+		<div class="copyright">
+			<a href="index.html">&copy; Ngôi Nhà Đầu Bếp 2024</a>
+		</div><br>
+	</div>
+</footer>
+
+	<script>
+		$(document).ready(function() {
+			$(document).on( "click", ".frame_youtube", function(e) {
+				$(this).addClass('active');
+				var youtube_id = $(this).attr('youtube_id');
+                $(this).html('<iframe src="https://www.youtube.com/embed/' + youtube_id + '?autoplay=1&rel=0&showinfo=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>');
+			});
+
+            initializeSlider();
+            function initializeSlider() {
+                $('.slide_blog').slick({
+					infinite: true,
+					slidesToShow: 1,
+					autoplay: true,
+					slidesToScroll: 1,
+					pauseOnHover: true,
+					dots: true,
+					arrows: true,
+					autoplay: true
+                });
+            }
+		});
+	</script>
+</body>
+</html>

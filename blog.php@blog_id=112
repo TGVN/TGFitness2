@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SHEFIT</title>
+	<link rel="stylesheet" type="text/css" href="css/slick.css@7577">
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css@6140">
+	<link rel="stylesheet" type="text/css" href="css/style_main.css@1928">
+	<body>
+	<div class="container">
+		<header id="header" class="header">
+	<div class="top_header container">
+		<table width="100%" cellspacing="0" cellpadding="0">
+			<tr>
+				<td>
+					<a href="index.html">
+						<span class="home_icon">
+							<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.3103 1.77586C11.6966 1.40805 12.3034 1.40805 12.6897 1.77586L20.6897 9.39491L23.1897 11.7759C23.5896 12.1567 23.605 12.7897 23.2241 13.1897C22.8433 13.5896 22.2103 13.605 21.8103 13.2241L21 12.4524V20C21 21.1046 20.1046 22 19 22H14H10H5C3.89543 22 3 21.1046 3 20V12.4524L2.18966 13.2241C1.78972 13.605 1.15675 13.5896 0.775862 13.1897C0.394976 12.7897 0.410414 12.1567 0.810345 11.7759L3.31034 9.39491L11.3103 1.77586ZM5 10.5476V20H9V15C9 13.3431 10.3431 12 12 12C13.6569 12 15 13.3431 15 15V20H19V10.5476L12 3.88095L5 10.5476ZM13 20V15C13 14.4477 12.5523 14 12 14C11.4477 14 11 14.4477 11 15V20H13Z" fill="#9b5e6e"/></svg>
+						</span> 
+						Home
+					</a>
+				</td>
+				<td style="text-align: right;">
+					<a href="quiz">
+						<span class="home_icon">
+							<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 14V7C20 5.34315 18.6569 4 17 4H7C5.34315 4 4 5.34315 4 7V17C4 18.6569 5.34315 20 7 20H13.5M20 14L13.5 20M20 14H15.5C14.3954 14 13.5 14.8954 13.5 16V20" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 8H16" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 12H12" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+						</span>
+						Body Quiz
+					</a>
+					<span class="ngancach">|</span> 
+												<a href="login">
+								<span class="home_icon">
+									<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M13 3C13 2.44772 12.5523 2 12 2C11.4477 2 11 2.44772 11 3V12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12V3ZM8.6092 5.8744C9.09211 5.60643 9.26636 4.99771 8.99839 4.5148C8.73042 4.03188 8.12171 3.85763 7.63879 4.1256C4.87453 5.65948 3 8.61014 3 12C3 16.9706 7.02944 21 12 21C16.9706 21 21 16.9706 21 12C21 8.66747 19.1882 5.75928 16.5007 4.20465C16.0227 3.92811 15.4109 4.09147 15.1344 4.56953C14.8579 5.04759 15.0212 5.65932 15.4993 5.93586C17.5942 7.14771 19 9.41027 19 12C19 15.866 15.866 19 12 19C8.13401 19 5 15.866 5 12C5 9.3658 6.45462 7.06997 8.6092 5.8744Z" fill="#9b5e6e"/></svg>
+								</span>
+								Đăng nhập
+							</a>
+									</td>
+
+			</tr>
+		</table>
+	</div>
+	<div class="main_header">
+		<ul class="clearfix">
+			<li><a href="khoahoc">Khóa học</a></li>
+			<li><a href="thucdon">Thực đơn</a></li>
+			<li><a href="huanluyenvien">Giáo viên</a></li>
+			<li><a href="sanpham">Dụng cụ</a></li>
+			<li><a href="thucpham">Thực phẩm</a></li>
+			<li><a href="blog">Blog</a></li>
+		</ul>
+	</div>
+</header>
+		<div class="box01">
+														<nav aria-label="breadcrumb" class="breadcrumb">
+							  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							   		&#10070;
+							      <a itemprop="item" href="index.html">
+							        <span itemprop="name">Trang chủ</span>
+							      </a>
+							      <meta itemprop="position" content="1" />
+							    </li>
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							      <a itemprop="item" href="blog.php">
+							        <span itemprop="name">Blog</span>
+							      </a>
+							      <meta itemprop="position" content="2" />
+							    </li>
+							    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+							      <a itemprop="item" href="blog.php">
+							        <span itemprop="name">PRE - WORKOUT LÀ GÌ? HÃY THẬN TRỌNG KHI SỬ DỤNG NHỮNG THỰC PHẨM BỔ SUNG NÀY</span>
+							      </a>
+							      <meta itemprop="position" content="3" />
+							    </li>
+							  </ol>
+							</nav>
+							<h1 class="tit_01">PRE - WORKOUT LÀ GÌ? HÃY THẬN TRỌNG KHI SỬ DỤNG NHỮNG THỰC PHẨM BỔ SUNG NÀY</h1>
+							<div class="blog_meta">
+								<table width="100%" cellpadding="0" cellspacing="0">
+									<tr>
+										<td>
+											<svg width="10%" height="10%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 14C8.13401 14 5 17.134 5 21H19C19 17.134 15.866 14 12 14Z" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Phạm Nguyễn Quỳnh Anh</td>
+										<td class="txt_right">
+											<svg width="10%" height="10%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 10V7C20 5.89543 19.1046 5 18 5H6C4.89543 5 4 5.89543 4 7V10M20 10V19C20 20.1046 19.1046 21 18 21H6C4.89543 21 4 20.1046 4 19V10M20 10H4M8 3V7M16 3V7" stroke="#666666" stroke-width="2" stroke-linecap="round"/><rect x="6" y="12" width="3" height="3" rx="0.5" fill="#666666"/><rect x="10.5" y="12" width="3" height="3" rx="0.5" fill="#666666"/><rect x="15" y="12" width="3" height="3" rx="0.5" fill="#666666"/></svg>
+											2023-11-21										</td>
+									</tr>
+								</table>
+							</div><br>
+							<div class="slide_blog">
+																			<div><img src="img/upload/20241026223546.jpeg"></div>
+																	</div>
+							<div class="blog_noidung"><div>Khi bước vào quá trình tập luyện, bạn có thể không thể tránh khỏi việc nghe đến một khái niệm gọi là "pre-workout". Pre-workout, như tên gọi ngụ ý, là một loại thực phẩm bổ sung được thiết kế đặc biệt để sử dụng trước khi bạn bắt đầu buổi tập. Mục tiêu của nó là đánh thức năng lượng, tăng cường sự tập trung, và giúp bạn cải thiện hiệu suất tập luyện của mình. Tuy nhiên, sự phổ biến và hấp dẫn của pre-workout không đồng nghĩa với sự an toàn và hiệu quả tuyệt đối. Việc sử dụng những sản phẩm này đòi hỏi sự thận trọng và sự hiểu biết sâu rộng để đảm bảo rằng bạn đang làm điều đúng đắn cho cơ thể và sức khỏe của mình. Hãy cùng chúng tôi khám phá chi tiết về pre-workout và những lưu ý quan trọng trước khi bạn quyết định dùng chúng.<br></div><div><br></div><div><b>1. Pre-workout là gì?</b></div><div>Pre-workout là một trong số rất nhiều sản phẩm bổ sung được đặc chế để cải thiện khả năng thể thao. Như cái tên của chúng đã gợi ý, người ta thường sử dụng pre-workout trước khi bắt đầu buổi tập luyện hoặc hoạt động thể thao. Mục tiêu chính là nâng cao mức năng lượng và tăng cường sức mạnh cũng như sự bền bỉ trong quá trình tập luyện. Có nhiều dạng sản phẩm bổ sung phổ biến có sẵn trên thị trường, bao gồm viên nén, bột và chất lỏng, tùy thuộc vào sở thích và mục tiêu cá nhân của người sử dụng.</div><div><br></div><div><b>2. Những thực phẩm bổ sung trước khi tập luyện</b></div><div>Các thành phần trong thực phẩm bổ sung trước khi tập luyện có thể đa dạng tùy theo nhãn hiệu và loại sản phẩm. Tuy nhiên, một số thành phần chính thường xuất hiện trong nhiều pre-workout, bao gồm:</div><div><b>- Caffeine:</b> Caffeine là một chất kích thích phổ biến trên toàn cầu và thường là thành phần chính trong thực phẩm bổ sung trước khi tập luyện. Nó kích thích hệ thần kinh trung ương, giúp tăng cường năng lượng, sự tập trung, và hiệu suất thể thao. Cafein cũng có khả năng kích hoạt trao đổi chất và hỗ trợ chức năng cơ bắp.</div><div><b>- Beta-alanine:</b> Beta-alanine là một axit amin được tổng hợp trong gan và cũng có trong thực phẩm như thịt gà và thịt bò. Nó có liên quan đến giảm mệt mỏi cơ bắp và cải thiện hiệu suất tập luyện.</div><div><b>- Creatine: </b>Creatine là một axit amin được sản xuất bởi cơ thể ở gan, thận, và tuyến tụy. Nó lưu trữ trong cơ bắp và được sử dụng làm nguồn năng lượng. Creatin đã được chứng minh giúp nâng cao hiệu suất, đặc biệt trong các hoạt động cường độ cao và thời gian ngắn như cử tạ.</div><div><b>- Citrulline:</b> Axit amin này giúp cơ thể sản xuất oxit nitric, một khí thúc đẩy lưu lượng máu bằng cách mở rộng mạch máu. Điều này có thể cải thiện cung cấp oxy và chất dinh dưỡng cho cơ bắp, từ đó tăng hiệu suất. Tuy nhiên, các nghiên cứu vẫn đang trong quá trình xác minh tác dụng của nó.</div><div><b>- Chất điện giải:</b> Những khoáng chất này giúp cân bằng nhiều quá trình trong cơ thể và hỗ trợ sức khỏe cơ bắp. Các ví dụ bao gồm natri, kali, phốt pho, canxi, clorua, và magie. Trong quá trình tập luyện cường độ cao, bạn mất khoáng chất điện giải qua mồ hôi, do đó việc bổ sung chúng là quan trọng.</div><div><b>- Glucose:</b> Glucose, hay còn gọi là đường, là một dạng carbohydrate và là nguồn năng lượng ưa thích của cơ thể. Bạn cần có đủ lượng carbohydrate phức để dễ tiêu hóa đồng thời cung cấp năng lượng trước khi tập luyện. Nếu buổi tập kéo dài hơn 60 phút, bạn cũng cần cung cấp thêm carbohydrate trong quá trình tập luyện.</div><div>Ngoài những thành phần này, thực phẩm bổ sung trước khi tập luyện có thể chứa nhiều thành phần khác, bao gồm betaine, vitamin B, taurine, tyrosine, và -carnitine, … Điều quan trọng là bạn cần hiểu rõ các thành phần này và cân nhắc kỹ trước khi sử dụng sản phẩm bổ sung nào.</div><div><br></div><div><b>3. Ưu điểm của thực phẩm chức năng bổ sung trước khi tập luyện</b></div><div><b>- Khả năng cung cấp dinh dưỡng</b> đặc biệt tốt cho cơ thể, với hàm lượng dưỡng chất cao và dễ tiêu hóa, thường được cung cấp dưới dạng bột, giúp việc sử dụng trở nên đơn giản và hiệu quả hơn.</div><div><b>- Thực phẩm bổ sung đặc biệt phù hợp cho những người tập luyện chuyên nghiệp</b>, đặc biệt là những người thi đấu, nơi cân đối dinh dưỡng hàng ngày trở nên khó khăn và cơ thể cần sự hỗ trợ để đáp ứng nhu cầu tập luyện. Một chế độ ăn thông thường thường không đảm bảo đủ dinh dưỡng cho họ, và thực phẩm bổ sung có thể giúp họ đạt được mục tiêu tập luyện mong muốn.</div><div>- Nếu bạn đang tập gym để tăng cơ, tăng cân, và trong một khoảng thời gian dài chưa đạt được mục tiêu của mình, có thể điều này là do cơ thể bạn gặp khó khăn trong việc hấp thu dưỡng chất. Trong trường hợp này, việc sử dụng thực phẩm bổ sung có thể là một giải pháp hữu ích để cải thiện quá trình tập luyện của bạn.</div><div>Tuy nhiên, nếu bạn ngừng sử dụng thực phẩm bổ sung nhưng vẫn duy trì một chế độ ăn uống cân bằng và tiếp tục tập luyện, bạn vẫn có thể duy trì vóc dáng và sức khỏe tốt. </div><div><br></div><div><b>4. Những nhược điểm khi sử dụng thực phẩm bổ sung</b></div><div>Một số đánh giá cho rằng việc sử dụng các chất bổ sung trước khi tập luyện thường được coi là an toàn, nhưng không thể xem nhẹ những rủi ro liên quan đến việc sử dụng chúng. Một số điểm quan trọng cần xem xét bao gồm:</div><div><b>- FDA không công nhận:</b> Cơ quan Quản lý Thực phẩm và Dược phẩm Hoa Kỳ (FDA) không phê duyệt tính an toàn và hiệu quả của các thành phần bổ sung hoặc lượng thành phần được ghi trên nhãn. Do đó, bạn không thể hoàn toàn tin tưởng về chất lượng và tính an toàn của các thành phần trong sản phẩm bổ sung của mình, vì thông tin trên nhãn có thể không luôn chính xác.</div><div><b>- Vấn đề kinh tế:</b> Hiện nay, các sản phẩm thực phẩm bổ sung, chẳng hạn như Whey Protein, có giá dao động trong khoảng vài triệu đồng cho một hũ. Và để đạt được mục tiêu tập luyện và duy trì cơ bắp, bạn cần sử dụng chúng trong một thời gian đáng kể. Điều này có nghĩa rằng, nếu điều kiện tài chính của bạn không quá ưu việt, thì chi phí này có thể khá lớn so với việc đầu tư vào chế độ ăn uống cân bằng.</div><div><b>- Lơ là việc chăm sóc chế độ ăn uống hàng ngày:</b> Người ta có thể lơ là việc chăm sóc chế độ ăn uống hàng ngày vì họ tin rằng thực phẩm bổ sung có thể "bù đắp" cho việc ăn không cân đối. Điều này có thể dẫn đến việc không cung cấp đủ các dưỡng chất từ thực phẩm tự nhiên, mà là nguồn chính để đảm bảo sức khỏe.</div><div><b>- Gây hại cho hệ tiêu hóa:</b> Sử dụng thực phẩm bổ sung, đặc biệt là trong lượng lớn, có thể gây áp lực lên hệ tiêu hóa. Bạn có thể gặp vấn đề trong việc tiêu hóa và hấp thụ các dưỡng chất từ thực phẩm bổ sung, và điều này có thể gây ra vấn đề như tiêu chảy, đầy bụng, hoặc tiêu hóa kém.</div><div><b>- Nguy cơ phụ thuộc quá mức:</b> Khi người ta dựa quá nhiều vào thực phẩm bổ sung, họ có thể trở nên quá phụ thuộc vào chúng. Điều này có thể dẫn đến việc họ bỏ lơ là việc tìm hiểu và thực hiện chế độ ăn uống hàng ngày. Thay vì ăn một chế độ đa dạng và cân đối, họ có thể đặt hết niềm tin vào việc thực hiện thực phẩm bổ sung để đảm bảo họ nhận đủ dinh dưỡng.</div><div><b>- Sự ảnh hưởng của caffeine:</b> Hàm lượng caffeine trong các sản phẩm bổ sung trước khi tập luyện có thể khác nhau đáng kể. Một số sản phẩm có thể chứa đến 387 mg caffeine mỗi lần sử dụng, tương đương với 2 đến 4 tách cà phê thông thường, tùy thuộc vào độ mạnh của sản phẩm. Quá nhiều caffeine có thể gây ra nhiều tác dụng phụ như kích thích quá mức như:</div><div>- Lo lắng</div><div>- Mất nước</div><div>- Nhức đầu</div><div>- Tăng huyết áp</div><div>- Mệt mỏi</div><div>- Mất ngủ và sự phụ thuộc vào caffeine.</div><div><b>- Ảnh hưởng đến chức năng thận và gan:</b> Mặc dù không có sự thống nhất trong nghiên cứu, một số nghiên cứu đã gợi ý rằng sử dụng thực phẩm bổ sung trước khi tập luyện có thể gây suy giảm chức năng thận và gan.</div><div><b>- Cần xem xét kỹ lưỡng:</b> Các vận động viên cần đặc biệt thận trọng khi sử dụng chất bổ sung trước khi tập luyện, vì một số sản phẩm có thể chứa các chất bị cấm bởi các tổ chức thể thao, chẳng hạn như các loại steroid. Sử dụng các sản phẩm này có thể dẫn đến việc thử nghiệm doping dương tính và bị loại hoặc mất danh hiệu đã đạt được.</div><div>Việc sử dụng các chất bổ sung trước khi tập luyện là một quá trình cần được xem xét cẩn thận, và nên được thảo luận với các chuyên gia y tế hoặc huấn luyện viên chuyên nghiệp trước khi quyết định sử dụng chúng.</div><div><br></div><div><i>Tài liệu tham khảo<br></i></div><div>https://www.everydayhealth.com/fitness/workout-supplements-do-they-really-boost-performance/</div><div>https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/</div><div>https://www.hsph.harvard.edu/nutritionsource/workout-supplements/</div><div>https://www.health.harvard.edu/blog/using-weight-loss-or-sports-supplements-exercise-caution-202106242511</div><div><br></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+											</div>
+	</div>
+	<div id="timhieuthem">
+		<div class="content"></div>
+		<a class="close_timhieuthem">&#215;</a>
+	</div>
+	<div id="play_youtube"></div>
+	<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/jquery.simplePagination.min.js"></script>
+<script src="js/pdf.min.js"></script>
+<br>
+<footer class="container" id="footer">
+	<div class="top_footer clearfix">
+		<a href="index.html"><img src="img/logo_footer.png" alt="" width="100%"></a>
+	</div>
+	<div class="box01">
+		<h2 class="tit_07">FITNESS FOR WOMAN</h2>
+		<div class="txt_01">Start-up giúp cho chị em phái yếu có vóc dáng đẹp & sức khỏe dẻo dai một cách tiện lợi & tiết kiệm.</div><br><br>
+		<h3 class="tit_08">CÔNG TY TNHH SHEFIT</h2>
+		<table class="list_footer">
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Văn phòng</td>
+				<td width="1">:</td>
+				<td>Khu The Sun Avenue, An Phú, Q2, TPHCM</td>
+			</tr>
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Hotline</td>
+				<td width="1">:</td>
+				<td><a href="tel:0906934821">0906934821</a></td>
+			</tr>
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Email</td>
+				<td width="1">:</td>
+				<td><a href="mailto:info@shefit.vn">info@shefit.vn</a></td>
+			</tr>
+		</table><br>
+		<table class="list_footer">
+			<tr>
+				<td width="40"><a href="https://zalo.me/0906934821" target="_blank"><img src="img/zalo_icon.png" alt=""></a></td>
+				<td width="5">&nbsp;</td>
+				<td width="40"><a href="https://www.facebook.com/shefitvn" target="_blank"><img src="img/facebook_icon.png" alt=""></a></td>
+				<td width="5">&nbsp;</td>
+				<td width="40"><a href="https://www.youtube.com/@GluteLab-LoNanDang-zl7td" target="_blank"><img src="img/youtube_icon.png" alt=""></a></td>
+			</tr>
+		</table><br>
+		<div class="copyright">
+			<a href="index.html">&copy; Ngôi Nhà Đầu Bếp 2024</a>
+		</div><br>
+	</div>
+</footer>
+
+	<script>
+		$(document).ready(function() {
+			$(document).on( "click", ".frame_youtube", function(e) {
+				$(this).addClass('active');
+				var youtube_id = $(this).attr('youtube_id');
+                $(this).html('<iframe src="https://www.youtube.com/embed/' + youtube_id + '?autoplay=1&rel=0&showinfo=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>');
+			});
+
+            initializeSlider();
+            function initializeSlider() {
+                $('.slide_blog').slick({
+					infinite: true,
+					slidesToShow: 1,
+					autoplay: true,
+					slidesToScroll: 1,
+					pauseOnHover: true,
+					dots: true,
+					arrows: true,
+					autoplay: true
+                });
+            }
+		});
+	</script>
+</body>
+</html>
